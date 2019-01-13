@@ -1,20 +1,26 @@
-# Site settings
+# Site Settings
 title: Intro-Web-Dev
-email: justine.evans@umontana.edu
+email: admin@media-ed-online.com
 description: >
   Course content for an introductory look at building and designing for the web.
 lang: en-US
 
-baseurl: "" # the subpath of your site, e.g. /blog/
-url: https://intro-web-dev.media-ed-online.com # the base hostname & protocol for your site
-git_address: https://github.com/aksakalli/jekyll-doc-theme
-git_edit_address: https://github.com/aksakalli/jekyll-doc-theme/blob/gh-pages
+apex: https://media-ed-online.com
+author:
+  name: Justine Evans
+  email: justine.evans@umontana.edu
+  slack: https://ummediaarts.slack.com/team/U6T476W7Q
 
-# theme options from https://bootswatch.com/
-# comment out this to use default Bootstrap
+baseurl: ""
+url: https://intro-web-dev.media-ed-online.com
+git_address: https://github.com/media-ed-online/intro-web-dev
+git_edit_address: https://github.com/media-ed-online/intro-web-dev/blob/gh-pages
+
+# Theme options from https://bootswatch.com/
+# Comment out this to use default Bootstrap
 bootwatch: united
 
-# Build settings
+# Build Settings
 markdown: kramdown
 highlighter: rouge
 plugins:

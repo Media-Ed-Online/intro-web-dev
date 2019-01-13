@@ -42,7 +42,7 @@ body {
 
 .header-container {
   background-color: black;
-  background: url('../img/bg.jpg') no-repeat 50% 0;
+  background: url('../img/site-bg.jpg') no-repeat 50% 0;
   color: #fff;
 
   h1 {
@@ -84,3 +84,11 @@ body {
 .navbar-form .has-feedback .form-control-feedback{
   top:10px
 }
+
+
+
+//Justine's theme edits:
+
+@import
+  "edits"
+;

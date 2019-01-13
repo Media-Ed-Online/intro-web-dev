@@ -1,9 +1,11 @@
 source "https://rubygems.org"
-ruby RUBY_VERSION
+#Previous: ruby "RUBY_VERSION"
+#To fix error:
+ruby "2.6.0"
 
 gem "jekyll", "3.8.4"
 
-# to use GitHub Pages
+# To use GitHub Pages
 # gem "github-pages", group: :jekyll_plugins
 
 # If you have any plugins, put them here!
