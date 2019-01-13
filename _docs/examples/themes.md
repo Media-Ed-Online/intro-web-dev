@@ -1,6 +1,9 @@
 ---
 title: Themes
-permalink: /docs/themes/
+module: examples
+permalink: /examples/themes/
+categories: uncategorized
+tags:
 ---
 
 By default, this website uses `paper` theme, but you can change it to another [bootwatch theme](https://bootswatch.com/3/) by setting

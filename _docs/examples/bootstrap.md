@@ -1,8 +1,10 @@
 ---
 title: Bootstrap Features
-permalink: /docs/bootstrap/
+module: examples
+permalink: /examples/bootstrap/
+categories: uncategorized
+tags:
 ---
-
 
 ## Buttons
 <p>
