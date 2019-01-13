@@ -1,7 +1,7 @@
 /*--------------------
 | Justine's Additions |
  --------------------*/
-// found in:  /_sass/bootswatch/united/_variables.scss
+// VARIABLES found in:  /_sass/bootswatch/united/_variables.scss
   //$gray-base:              #000;
   //$gray-darker:            #222;
   //$gray-dark:              #333;
@@ -15,3 +15,258 @@
   //$brand-warning:          #EFB73E;
   //$brand-danger:           #DF382C;
   //$font-size-base:          15px !default;
+
+
+
+// SITEWIDE
+p, ul, ol, li, a, .img-caption {
+  font-family: Helvetica, Arial, sans-serif !important;
+}
+h3 {
+  //margin-top: ($line-height-computed * 2);
+}
+.page-styling h2:nth-child(n+2) {
+  margin-top: ($line-height-computed * 2)
+}
+
+
+
+// INDEX
+  // overwrites:  /css/main.scss
+  //              /_sass/bootstrap/_jumbotron.scss
+.jumbotron {
+  padding-top:    ($jumbotron-padding * 1.6);
+}
+
+.header-container {
+  background-position: center 18%;
+
+  .header-text {
+    background-color: rgba(255, 255, 255, .9);
+    color: #333;
+    padding: 10px 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  h1 {
+    color: #333;
+    margin-top: 10px;
+  }
+  .btn {
+    text-transform: uppercase;
+  }
+}
+
+.footer {
+  height: auto;
+}
+
+
+
+// _dropdowns.scss
+.dropdown-menu {
+  padding: 5px;
+}
+.dropdown-menu > li:last-child > a {
+  &:hover,
+  &:focus {
+    border-radius: 0 0 $border-radius-base $border-radius-base;
+  }
+}
+
+
+// Transforms
+@mixin transform($transforms) {
+   -moz-transform: $transforms;
+   -o-transform: $transforms;
+   -ms-transform: $transforms;
+   -webkit-transform: $transforms;
+   transform: $transforms;
+}
+@mixin animation-delay($delays) {
+   -webkit-animation-delay: $delays;
+   -moz-animation-delay: $delays;
+   animation-delay: $delays;
+}
+
+
+// Variables, Mixins
+$default:               #222;
+$blue:                  #20B5E9;
+$green:                 #38B44A;
+$orange:                #FFA500;
+$purple:                #772953;
+$red:                   #DF382C;
+$yellow:                #EFB73E;
+$gray:                  #D3D3D3;
+$animate:               1.5s ease-in-out 0s infinite;
+$text-shadow-deep:      4px 1px darken($gray, 50%);
+$text-shadow-shallow:   1px 0px darken($gray, 50%);
+
+//small screen adjustment
+@mixin screen-xs {
+   @media only screen and (max-width: 480px) {
+      @content;
+   }
+}
+//styling
+@mixin drop-shadow {
+   -webkit-filter: drop-shadow(15px 8px 0px #999);
+   filter: drop-shadow(15px 8px 0px #999);
+}
+
+// Transforms
+@mixin transform($transforms) {
+   -moz-transform: $transforms;
+   -o-transform: $transforms;
+   -ms-transform: $transforms;
+   -webkit-transform: $transforms;
+   transform: $transforms;
+}
+@mixin animation-delay($delays) {
+   -webkit-animation-delay: $delays;
+   -moz-animation-delay: $delays;
+   animation-delay: $delays;
+}
+
+
+
+
+section.bubble {
+  display: block;
+
+   max-width: 80%;
+   margin: 2rem auto 3rem;
+   padding: 1rem;
+   position: relative;
+   border: 1px solid $gray;
+   background: #FFF;
+   @include drop-shadow;
+
+
+}
+//2 columns
+.icon {
+   //will align FontAwesome icons to center
+   display: grid;
+   justify-items: center;
+   position: relative;
+   float: left;
+   width: 100px;
+   height: 100px;
+   //template FontAwesome icons below burst
+   i {
+      margin-top: 20%;
+   }
+}
+.info {
+   h3 {
+      margin: 0 0 0.5em 0;
+      font-family: 'Ubuntu', sans-serif;
+      font-size: 1.5em;
+   }
+}
+
+
+
+// Bursts Animation
+ul.bursts {
+   list-style-type: none;
+   width: 65px;
+   height: 65px;
+   margin: 0;
+   padding: 0;
+   position: absolute;
+   left: calc(50% - (.5 * 2px)); //override position in sections
+   top: 0px;
+   // individual light bursts
+   li {
+      width: 3px;
+      height: 100%;
+      background: transparent;
+      position: absolute;
+      &::after {
+         content: '';
+         width: 3px;
+         height: 50%;
+         background: $default; //re-color in sections
+         position: absolute;
+         bottom: 50%;
+         animation: lightBursts $animate;
+      }
+      //Draw 10 light bursts - use class name to include
+      &.deg0   {@include transform(rotate(0deg));}
+      &.deg36  {@include transform(rotate(36deg));}
+      &.deg72  {@include transform(rotate(72deg));}
+      &.deg108 {@include transform(rotate(108deg));}
+      &.deg144 {@include transform(rotate(144deg));}
+      &.deg180 {@include transform(rotate(180deg));}
+      &.deg216 {@include transform(rotate(216deg));}
+      &.deg252 {@include transform(rotate(252deg));}
+      &.deg288 {@include transform(rotate(288deg));}
+      &.deg324 {@include transform(rotate(324deg));}
+   }
+   @keyframes lightBursts {
+      10% {
+         height: 0%;
+         bottom: 80%;
+      }
+      35% {
+         height: 20%;
+         bottom: 80%;
+      }
+      0%, 90%, 100% {
+         height: 0%;
+         bottom: 100%;
+      }
+   }
+}
+.bubble i {
+   font-size: 2.5em;
+   position: absolute;
+   color: $default; //re-color in sections
+}
+
+
+
+//Lightbulb - Facts, Ideas
+section#lightbulb {
+   .bursts {
+      li::after {
+         background: $yellow;
+      }
+   }
+   i:nth-of-type(n) {
+      color: $yellow;
+      &.lightglow {
+         animation: lightGlow $animate;
+         @keyframes lightGlow {
+            0%, 15%, 90%, 100% {
+               opacity: .2;
+            }
+            35%, 45% {
+               opacity: 1;
+            }
+         }
+      }
+   }
+}
+
+//Basic Statuses
+//Questions
+section#status-question {
+   .bursts {
+      top: 3%;
+      li::after {
+         background: $blue;
+      }
+   }
+   i:nth-of-type(n) {
+      color: $blue;
+      font-size: 2em;
+   }
+   .info p:first-letter {
+      color: $blue;
+      font-weight: bolder;
+   }
+}
