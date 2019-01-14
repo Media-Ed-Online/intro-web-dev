@@ -19,7 +19,7 @@ slack: https://ummediaarts.slack.com/team/U6T476W7Q
 
 # Theme options from https://bootswatch.com/
 # Comment out this to use default Bootstrap
-bootwatch: united
+bootwatch: custom
 
 # Build Settings
 markdown: kramdown

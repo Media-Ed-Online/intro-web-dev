@@ -17,19 +17,16 @@
     //$brand-danger:              #DF382C;
     //$font-size-base:            16px !default;
   // >>> found in: /_sass/bootswatch/united/_bootswatch.scss
-    //“Ubuntu” is default font
-    $web-font-path-alt: "https://fonts.googleapis.com/css?family=Roboto+Condensed:400|Roboto:400,700'";
-    @import url($web-font-path-alt);
-    $font-family-roboto:    'Roboto', sans-serif;
-    $font-family-roboto-cond:    'Roboto Condensed', sans-serif;
+    //“Roboto” is default font
+    //“Ubunto” for headings
 
 
 
 
 
 // SITE-WIDE
-p, ul, ol, li, a, .img-caption {
-  font-family: $font-family-roboto;
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Ubuntu", Tahoma, "Helvetica Neue", Helvetica, Arial, sans-serif
 }
 iframe {
   margin: $line-height-computed auto;
@@ -188,7 +185,7 @@ iframe {
   }
   #my-name-is {
   	font-size: 20px;
-    font-family: $font-family-roboto;
+    font-family: $font-family-sans-serif;
   	font-weight: 400;
   	letter-spacing: 1px;
     margin-top: -83px;
@@ -208,7 +205,7 @@ iframe {
   		background: $brand-danger;
       padding-top: 13px;
   		text-align: center;
-      font-family: $font-family-roboto;
+      font-family: $font-family-sans-serif;
   		color: #fff;
   		font-weight: 400;
       font-size: 12px;
@@ -253,7 +250,7 @@ iframe {
 // TOP NAVIGATION
   // >>> overwrites:  /_sass/bootstrap/_navbar.scss
 .navbar-brand {
-  font-family: $font-family-sans-serif;
+  font-family: "Ubuntu", Tahoma, "Helvetica Neue", Helvetica, Arial, sans-serif;
   vertical-align: middle;
  img {
     margin-right: .25rem;
@@ -261,7 +258,7 @@ iframe {
 }
 .navbar-nav {
   > li > a {
-    font-family: $font-family-roboto-cond !important;
+    font-family: $font-family-sans-serif-alt !important;
     text-transform: uppercase;
     font-size: $font-size-small;
   }
@@ -284,15 +281,16 @@ iframe {
 .dropdown-menu {
   padding: 5px;
   span {
+    display: inline-block;
     padding: 3px 10px;
     text-transform: uppercase;
-    font-family: $font-family-sans-serif;
+    font-family: "Ubuntu", Tahoma, "Helvetica Neue", Helvetica, Arial, sans-serif;
     color: $brand-info;
     font-size: $font-size-base;
     font-weight: bold;
   }
   > li > a {
-    font-family: $font-family-roboto-cond;
+    font-family: $font-family-sans-serif-alt;
   }
   > li:last-child > a {
     &:hover,
@@ -313,7 +311,7 @@ iframe {
 // LABELS
   // >>> overwrites:  /_sass/bootstrap/_labels.scss
 .label {
-  font-family: $font-family-roboto-cond;
+  font-family: $font-family-sans-serif-alt;
   text-transform: uppercase;
   letter-spacing: 2px;
   padding: .25em .5em;
@@ -336,11 +334,11 @@ iframe {
 // PANELS
   // >>> overwrites:  /_sass/bootstrap/_panels.scss
 .panel-heading a {
-  font-family: $font-family-roboto;
+  font-family: $font-family-sans-serif;
   text-transform: uppercase;
 }
 .panel-body {
-  font-family: $font-family-roboto;
+  font-family: $font-family-sans-serif;
 }
 
 
@@ -390,7 +388,7 @@ iframe {
     padding: 0.5rem 0.75rem;
     border-radius: $border-radius-base $border-radius-base 0 0;
     color: #fff;
-    font-family: $font-family-roboto-cond;
+    font-family: $font-family-sans-serif-alt;
     font-size: .75em;
     font-weight: bold;
     text-transform: uppercase;
