@@ -3,10 +3,15 @@ title: Trial Tree View
 module: examples
 permalink: /examples/trial-tree-view/
 categories: uncategorized
-tags: 
+tags:
 ---
 
-<div id="code-heading">Directory Tree</div>
+<p>I am text above. I am text above. I am text above. I am text above. I am text above. I am text above. I am text above. I am text above. I am text above.</p>
+
+
+<div class="code-heading">
+  <span>Directory Tree</span>
+</div>
 <pre id="bash">
 .
 ├── index.html
@@ -25,7 +30,7 @@ tags:
 │   └── <i class="far fa-image"></i> profile.jpg
 ├── <i class="far fa-folder-open"></i> media/
 │   ├── <i class="far fa-folder-open"></i> audio/
-│       └── <i class="fas fa-music"></i> song.mp3
+│   │   └── <i class="fas fa-music"></i> song.mp3
 │   ├── <i class="far fa-folder"></i> documents/
 │   └── <i class="far fa-folder-open"></i> video/
 │       └── <i class="fas fa-video"></i> movie.mp4
@@ -34,4 +39,28 @@ tags:
 │   ├── <i class="fab fa-html5"></i> contact.html
 │   └── <i class="fab fa-html5"></i> services.html
 └── <i class="far fa-folder"></i> scripts/
+    └── <i class="fab fa-js"></i> main.js
 </pre>
+
+
+<p>I am text below and above.</p>
+
+
+<div class="code-heading">
+  <span class="html">HTML</span>
+</div>
+```html
+<p>I am text in a code block</p>
+```
+
+<p>I am text below and above. I am text below and above. I am text below and above. I am text below and above. I am text below and above. I am text below and above. I am text below and above. I am text below and above.</p>
+
+
+<div class="code-heading">
+  <span class="css">CSS</span>
+</div>
+```css
+p {
+  color: pink;
+}
+```

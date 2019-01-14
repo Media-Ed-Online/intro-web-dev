@@ -15,6 +15,7 @@ baseurl: ""
 url: https://intro-web-dev.media-ed-online.com
 git_address: https://github.com/media-ed-online/intro-web-dev
 git_edit_address: https://github.com/media-ed-online/intro-web-dev/blob/gh-pages
+slack: https://ummediaarts.slack.com/team/U6T476W7Q
 
 # Theme options from https://bootswatch.com/
 # Comment out this to use default Bootstrap

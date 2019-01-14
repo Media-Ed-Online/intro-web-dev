@@ -18,7 +18,7 @@
     //$font-size-base:            16px !default;
   // >>> found in: /_sass/bootswatch/united/_bootswatch.scss
     //“Ubuntu” is default font
-    $web-font-path-alt: "https://fonts.googleapis.com/css?family=Roboto+Condensed:400,700|Roboto:400,700'";
+    $web-font-path-alt: "https://fonts.googleapis.com/css?family=Roboto+Condensed:400|Roboto:400,700'";
     @import url($web-font-path-alt);
     $font-family-roboto:    'Roboto', sans-serif;
     $font-family-roboto-cond:    'Roboto Condensed', sans-serif;
@@ -31,8 +31,8 @@
 p, ul, ol, li, a, .img-caption {
   font-family: $font-family-roboto;
 }
-.page-styling h2:nth-child(n+2) {
-  margin-top: ($line-height-computed * 2)
+iframe {
+  margin: $line-height-computed auto;
 }
 
 
@@ -71,6 +71,44 @@ p, ul, ol, li, a, .img-caption {
 
 
 
+// DOC & POST LAYOUTS
+  // >>> overwrites:  /css/main.scss
+.page-styling {
+  padding-top: $navbar-margin-bottom;
+
+  #markdown-content-container {
+    // margin between all h2 other than under main h1
+    h2:nth-child(n+2) {
+      margin-top: ($line-height-computed * 2)
+    }
+    // no margin between h2 and first h3 subheading
+    h2+h3 {
+      margin-top: $line-height-computed;
+    }
+    // all other h3 subheadings with margin until next h2
+    h3, h4 {
+      margin-top: ($line-height-computed * 3)
+    }
+
+    .container-row {
+    margin: 0;
+    display: inline-block;
+    width: 100%;
+    }
+    .overview-img {
+    margin: 2em auto 3em;
+    max-width: 200px;
+    }
+    img {
+    margin: 20px auto;
+    }
+  }
+}
+
+
+
+
+
 // “ABOUT” PAGE
   // >>> added to:    /_layouts/page.html
   // >>> structure
@@ -86,7 +124,7 @@ p, ul, ol, li, a, .img-caption {
   h3 {
     margin-top: 0;
   }
-  .fab, .far, .fas {
+  .fab, .far, .fas, .fa {
     margin-right: .75rem;
     background-color: $brand-primary;
     padding: .75rem;
@@ -214,8 +252,27 @@ p, ul, ol, li, a, .img-caption {
 
 // TOP NAVIGATION
   // >>> overwrites:  /_sass/bootstrap/_navbar.scss
-.navbar-brand, .navbar-nav a {
-  font-family: $font-family-roboto-cond !important;
+.navbar-brand {
+  font-family: $font-family-sans-serif;
+  vertical-align: middle;
+ img {
+    margin-right: .25rem;
+  }
+}
+.navbar-nav {
+  > li > a {
+    font-family: $font-family-roboto-cond !important;
+    text-transform: uppercase;
+    font-size: $font-size-small;
+  }
+  @media (max-width: $grid-float-breakpoint-max) {
+    // Dropdowns get custom display when collapsed
+    .open .dropdown-menu {
+      span, hr {
+        display: none;
+      }
+    }
+  }
 }
 
 
@@ -226,11 +283,26 @@ p, ul, ol, li, a, .img-caption {
   // >>> overwrites:  /_sass/bootstrap/_dropdowns.scss
 .dropdown-menu {
   padding: 5px;
-}
-.dropdown-menu > li:last-child > a {
-  &:hover,
-  &:focus {
+  span {
+    padding: 3px 10px;
+    text-transform: uppercase;
+    font-family: $font-family-sans-serif;
+    color: $brand-info;
+    font-size: $font-size-base;
+    font-weight: bold;
+  }
+  > li > a {
+    font-family: $font-family-roboto-cond;
+  }
+  > li:last-child > a {
+    &:hover,
+    &:focus {
     border-radius: 0 0 $border-radius-base $border-radius-base;
+    }
+  }
+  hr {
+    margin: 5px;
+    padding: 0;
   }
 }
 
@@ -261,6 +333,20 @@ p, ul, ol, li, a, .img-caption {
 
 
 
+// PANELS
+  // >>> overwrites:  /_sass/bootstrap/_panels.scss
+.panel-heading a {
+  font-family: $font-family-roboto;
+  text-transform: uppercase;
+}
+.panel-body {
+  font-family: $font-family-roboto;
+}
+
+
+
+
+
 // DIVIDERS
 .divider-pg {
   width: 50%;
@@ -281,4 +367,88 @@ p, ul, ol, li, a, .img-caption {
   border: 1px solid $brand-warning;
   border-radius: 30px;
   margin: $line-height-computed auto;
+}
+
+
+
+
+
+// CODEBLOCK DISPLAY
+  // >>> overwrites:  /_sass/bootstrap/_code.scss
+.code-heading {
+  display: block;
+  position: relative;
+  margin-top: ($line-height-computed * 2);
+  span {
+    display: inline-block;
+    height: 2em;
+    width: auto;
+    position: absolute;
+    right: 0;
+    top: -2em;
+    background: $state-warning-text;
+    padding: 0.5rem 0.75rem;
+    border-radius: $border-radius-base $border-radius-base 0 0;
+    color: #fff;
+    font-family: $font-family-roboto-cond;
+    font-size: .75em;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    z-index: 1;
+    &::after {
+      content: '';
+      width: 0;
+      height: 0;
+      border-left: 10px solid transparent;
+      border-right: 10px solid transparent;
+      border-top: 10px solid $state-warning-text;
+
+      position: absolute;
+      left: 50%;
+      bottom: -8px;
+      @include translate(-50%, 0);
+    }
+    .fab, .far, .fas, .fa {
+      color: #fff;
+    }
+    &.html {
+      background: $brand-primary;
+      &::after {
+        border-top-color: $brand-primary;
+      }
+    }
+    &.css {
+      background: $brand-secondary;
+      &::after {
+        border-top-color: $brand-secondary;
+      }
+    }
+  }
+}
+pre {
+  padding: $line-height-computed (($line-height-computed - 1) / 2);
+  margin: ($line-height-computed * 2) auto $line-height-computed;
+  word-break: normal;
+  word-wrap: normal;
+  position: relative;
+  border-radius: $border-radius-base 0 $border-radius-base $border-radius-base;
+}
+.fab, .far, .fas, .fa {
+  font-size: 1.1em;
+}
+.fa-html5 {
+  color: $brand-primary;
+}
+.fa-css3-alt {
+  color: $brand-secondary;
+}
+.fa-js {
+  color: $brand-warning;
+}
+.fa-font {
+  color: $brand-success;
+}
+.fa-image, .fa-music, .fa-video {
+  color: $brand-info;
 }
