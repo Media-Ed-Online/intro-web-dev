@@ -6,8 +6,6 @@ categories: uncategorized
 tags:
 ---
 
-<span class="icon-danger"></span><span class="icon-warning"></span><span class="icon-info"></span><span class="icon-interest"></span>
-
 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed dapibus interdum lectus quis convallis. Pellentesque vehicula pulvinar odio eu dapibus. Aliquam erat volutpat. Aenean quam est, rutrum eu purus nec, bibendum egestas erat. Integer sit amet tempor dui, ut finibus dui. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ut mauris nec tortor malesuada sodales. Sed finibus lorem quis laoreet egestas. Cras quis est venenatis, cursus orci eu, semper purus. In facilisis erat libero, cursus mollis libero scelerisque vel.</p>
 
 <div style="clear:both;">

@@ -1,29 +1,35 @@
 /*--------------------
 | Justine's Additions |
  --------------------*/
-// VARIABLES found in:  /_sass/bootswatch/united/_variables.scss
-  //$gray-base:              #000;
-  //$gray-darker:            #222;
-  //$gray-dark:              #333;
-  //$gray:                   #777;
-  //$gray-light:             #AEA79F;
-  //$gray-lighter:           #eee;
-  //$brand-primary:          #E95420;
-  $brand-secondary:          #20B5E9;
-  //$brand-success:          #38B44A;
-  //$brand-info:             #772953;
-  //$brand-warning:          #EFB73E;
-  //$brand-danger:           #DF382C;
-  //$font-size-base:          15px !default;
+// VARIABLES
+  // >>> found in:  /_sass/bootswatch/united/_variables.scss
+    //$gray-base:                 #000;
+    //$gray-darker:               #222;
+    //$gray-dark:                 #333;
+    //$gray:                      #777;
+    //$gray-light:                #AEA79F;
+    //$gray-lighter:              #eee;
+    //$brand-primary:             #E95420;
+    $brand-secondary:             #20B5E9;
+    //$brand-success:             #38B44A;
+    //$brand-info:                #772953;
+    //$brand-warning:             #EFB73E;
+    //$brand-danger:              #DF382C;
+    //$font-size-base:            16px !default;
+  // >>> found in: /_sass/bootswatch/united/_bootswatch.scss
+    //“Ubuntu” is default font
+    $web-font-path-alt: "https://fonts.googleapis.com/css?family=Roboto+Condensed:400,700|Roboto:400,700'";
+    @import url($web-font-path-alt);
+    $font-family-roboto:    'Roboto', sans-serif;
+    $font-family-roboto-cond:    'Roboto Condensed', sans-serif;
 
 
 
-// SITEWIDE
+
+
+// SITE-WIDE
 p, ul, ol, li, a, .img-caption {
-  font-family: Helvetica, Arial, sans-serif !important;
-}
-h3 {
-  //margin-top: ($line-height-computed * 2);
+  font-family: $font-family-roboto;
 }
 .page-styling h2:nth-child(n+2) {
   margin-top: ($line-height-computed * 2)
@@ -31,13 +37,14 @@ h3 {
 
 
 
+
+
 // INDEX
-  // overwrites:  /css/main.scss
-  //              /_sass/bootstrap/_jumbotron.scss
+  // >>> overwrites:  /css/main.scss
+  // >>>              /_sass/bootstrap/_jumbotron.scss
 .jumbotron {
   padding-top:    ($jumbotron-padding * 1.6);
 }
-
 .header-container {
   background-position: center 18%;
 
@@ -56,14 +63,167 @@ h3 {
     text-transform: uppercase;
   }
 }
-
 .footer {
   height: auto;
 }
 
 
 
-// _dropdowns.scss
+
+
+// “ABOUT” PAGE
+  // >>> added to:    /_layouts/page.html
+  // >>> structure
+.page-design {
+  background-color: rgba(255, 255, 255, .7);
+  padding: 2rem;
+}
+.row-people {
+  display: block;
+  width: 100%;
+  margin: 2em auto;
+  @include clearfix;
+  h3 {
+    margin-top: 0;
+  }
+  .fab, .far, .fas {
+    margin-right: .75rem;
+    background-color: $brand-primary;
+    padding: .75rem;
+    color: white;
+    border-radius: 15%;
+  }
+  .profile-img {
+    object-fit: cover;
+    border-radius: 5%;
+    width: 150px;
+    height: 150px;
+  }
+  div {
+    img {
+      float: left;
+      margin-right: 1.8rem;
+      margin-bottom: .5rem;
+    }
+  }
+}
+.name-tag-display {
+  width: 90%;
+  min-width: 275px;
+  margin: 5rem auto;
+  font-size: $font-size-large;
+
+  @media (max-width: $grid-float-breakpoint) {
+    text-align: justify;
+  }
+}
+  // >>> name tag
+.name-tag {
+  float: right;
+  margin: 1rem -6rem 3rem 3rem;
+	height: 175px;
+	width: 250px;
+	background: $gray-lighter;
+	border-radius: 10px;
+	transform: rotate(10deg);
+  box-shadow: 5px 5px 3px rgba(0, 0, 0, .3);
+
+  @media (max-width: $grid-float-breakpoint) {
+    float: none;
+    margin: 5rem auto;
+  }
+  .hello-header {
+    height: 70px;
+  	width: 250px;
+  	background: $brand-danger;
+  	text-align: center;
+  	color: #fff;
+  	border: 5px solid $gray-lighter;
+  	border-top-left-radius: 10px;
+  	border-top-right-radius: 10px;
+  }
+  #hello {
+    text-transform: uppercase;
+  	font-weight: 600;
+  	font-size: 26px;
+  	letter-spacing: 10px;
+  }
+  #my-name-is {
+  	font-size: 20px;
+    font-family: $font-family-roboto;
+  	font-weight: 400;
+  	letter-spacing: 1px;
+    margin-top: -83px;
+  }
+  form {
+    display: flex;
+  	flex-direction: column;
+  	justify-content: center;
+  	align-items: center;
+  	margin: 7px 0 0 0;
+    span {
+  		position: absolute;
+  		top: 130px;
+  		left: 5px;
+  		height: 40px;
+  		width: 240px;
+  		background: $brand-danger;
+      padding-top: 13px;
+  		text-align: center;
+      font-family: $font-family-roboto;
+  		color: #fff;
+  		font-weight: 400;
+      font-size: 12px;
+      letter-spacing: 1px;
+  		border-bottom-left-radius: 6px;
+  		border-bottom-right-radius: 6px;
+  		border: 0;
+      }
+  	output[type="text"] {
+  		width: 250px;
+      background-color: $gray-lighter;
+  		margin-top: -9px;
+  		font-family: 'Gochi Hand', cursive;
+  		text-align: center;
+      font-size: 32px;
+  		border: 0;
+  		outline: none;
+  		&:valid, &:focus {
+  			border: 0;
+      }
+    }
+  }
+}
+.page-design {
+  input[type="text"] {
+  text-align: center;
+  color: $gray;
+  border: 0;
+  border-bottom: 1px solid $gray-light;
+  outline: none;
+    &:valid, &:focus {
+    border: 0;
+    border-bottom: 1px solid $gray-light;
+    }
+  }
+}
+
+
+
+
+
+// TOP NAVIGATION
+  // >>> overwrites:  /_sass/bootstrap/_navbar.scss
+.navbar-brand, .navbar-nav a {
+  font-family: $font-family-roboto-cond !important;
+}
+
+
+
+
+
+// DROPDOWN MENUS
+  // >>> overwrites:  /_sass/bootstrap/_dropdowns.scss
 .dropdown-menu {
   padding: 5px;
 }
@@ -75,198 +235,50 @@ h3 {
 }
 
 
-// Transforms
-@mixin transform($transforms) {
-   -moz-transform: $transforms;
-   -o-transform: $transforms;
-   -ms-transform: $transforms;
-   -webkit-transform: $transforms;
-   transform: $transforms;
-}
-@mixin animation-delay($delays) {
-   -webkit-animation-delay: $delays;
-   -moz-animation-delay: $delays;
-   animation-delay: $delays;
-}
 
 
-// Variables, Mixins
-$default:               #222;
-$blue:                  #20B5E9;
-$green:                 #38B44A;
-$orange:                #FFA500;
-$purple:                #772953;
-$red:                   #DF382C;
-$yellow:                #EFB73E;
-$gray:                  #D3D3D3;
-$animate:               1.5s ease-in-out 0s infinite;
-$text-shadow-deep:      4px 1px darken($gray, 50%);
-$text-shadow-shallow:   1px 0px darken($gray, 50%);
 
-//small screen adjustment
-@mixin screen-xs {
-   @media only screen and (max-width: 480px) {
-      @content;
-   }
+// LABELS
+  // >>> overwrites:  /_sass/bootstrap/_labels.scss
+.label {
+  font-family: $font-family-roboto-cond;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  padding: .25em .5em;
+  margin-right: .3em;
 }
-//styling
-@mixin drop-shadow {
-   -webkit-filter: drop-shadow(15px 8px 0px #999);
-   filter: drop-shadow(15px 8px 0px #999);
+  // >>> tags and categories
+.label-tags {
+  color: $gray-light;
+  background-color: $gray-lighter;
 }
-
-// Transforms
-@mixin transform($transforms) {
-   -moz-transform: $transforms;
-   -o-transform: $transforms;
-   -ms-transform: $transforms;
-   -webkit-transform: $transforms;
-   transform: $transforms;
-}
-@mixin animation-delay($delays) {
-   -webkit-animation-delay: $delays;
-   -moz-animation-delay: $delays;
-   animation-delay: $delays;
+.label-categories {
+  color: $gray-lighter;
+  background-color: $gray-light;
 }
 
 
 
 
-section.bubble {
-  display: block;
 
-   max-width: 80%;
-   margin: 2rem auto 3rem;
-   padding: 1rem;
-   position: relative;
-   border: 1px solid $gray;
-   background: #FFF;
-   @include drop-shadow;
-
-
+// DIVIDERS
+.divider-pg {
+  width: 50%;
+  height: 2px;
+  border: 1px solid $brand-info;
+  border-radius: 30px;
+  margin: 4rem auto;
 }
-//2 columns
-.icon {
-   //will align FontAwesome icons to center
-   display: grid;
-   justify-items: center;
-   position: relative;
-   float: left;
-   width: 100px;
-   height: 100px;
-   //template FontAwesome icons below burst
-   i {
-      margin-top: 20%;
-   }
+.divider-heading {
+  width: 50%;
+  height: 4px;
+  border: 2px solid $brand-warning;
+  border-radius: 30px;
+  margin-bottom: 20px;
 }
-.info {
-   h3 {
-      margin: 0 0 0.5em 0;
-      font-family: 'Ubuntu', sans-serif;
-      font-size: 1.5em;
-   }
-}
-
-
-
-// Bursts Animation
-ul.bursts {
-   list-style-type: none;
-   width: 65px;
-   height: 65px;
-   margin: 0;
-   padding: 0;
-   position: absolute;
-   left: calc(50% - (.5 * 2px)); //override position in sections
-   top: 0px;
-   // individual light bursts
-   li {
-      width: 3px;
-      height: 100%;
-      background: transparent;
-      position: absolute;
-      &::after {
-         content: '';
-         width: 3px;
-         height: 50%;
-         background: $default; //re-color in sections
-         position: absolute;
-         bottom: 50%;
-         animation: lightBursts $animate;
-      }
-      //Draw 10 light bursts - use class name to include
-      &.deg0   {@include transform(rotate(0deg));}
-      &.deg36  {@include transform(rotate(36deg));}
-      &.deg72  {@include transform(rotate(72deg));}
-      &.deg108 {@include transform(rotate(108deg));}
-      &.deg144 {@include transform(rotate(144deg));}
-      &.deg180 {@include transform(rotate(180deg));}
-      &.deg216 {@include transform(rotate(216deg));}
-      &.deg252 {@include transform(rotate(252deg));}
-      &.deg288 {@include transform(rotate(288deg));}
-      &.deg324 {@include transform(rotate(324deg));}
-   }
-   @keyframes lightBursts {
-      10% {
-         height: 0%;
-         bottom: 80%;
-      }
-      35% {
-         height: 20%;
-         bottom: 80%;
-      }
-      0%, 90%, 100% {
-         height: 0%;
-         bottom: 100%;
-      }
-   }
-}
-.bubble i {
-   font-size: 2.5em;
-   position: absolute;
-   color: $default; //re-color in sections
-}
-
-
-
-//Lightbulb - Facts, Ideas
-section#lightbulb {
-   .bursts {
-      li::after {
-         background: $yellow;
-      }
-   }
-   i:nth-of-type(n) {
-      color: $yellow;
-      &.lightglow {
-         animation: lightGlow $animate;
-         @keyframes lightGlow {
-            0%, 15%, 90%, 100% {
-               opacity: .2;
-            }
-            35%, 45% {
-               opacity: 1;
-            }
-         }
-      }
-   }
-}
-
-//Basic Statuses
-//Questions
-section#status-question {
-   .bursts {
-      top: 3%;
-      li::after {
-         background: $blue;
-      }
-   }
-   i:nth-of-type(n) {
-      color: $blue;
-      font-size: 2em;
-   }
-   .info p:first-letter {
-      color: $blue;
-      font-weight: bolder;
-   }
+.divider-hw {
+  width: 90%;
+  border: 1px solid $brand-warning;
+  border-radius: 30px;
+  margin: $line-height-computed auto;
 }
