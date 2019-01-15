@@ -87,14 +87,27 @@ iframe {
       margin-top: ($line-height-computed * 3)
     }
 
+    .section-title {
+      img {
+        margin: 2em auto 3em;
+        max-width: 150px;
+      }
+      h2 {
+        text-align: center;
+      }
+      &::after {
+        content: '\00B7 \00B7 \00B7';
+        font-family: $font-family-sans-serif;
+        font-size: 4em;
+        color: $brand-info;
+        display: block;
+        text-align: center;
+      }
+    }
     .container-row {
     margin: 0;
     display: inline-block;
     width: 100%;
-    }
-    .overview-img {
-    margin: 2em auto 3em;
-    max-width: 200px;
     }
     img {
     margin: 20px auto;
@@ -373,67 +386,82 @@ iframe {
 
 // CODEBLOCK DISPLAY
   // >>> overwrites:  /_sass/bootstrap/_code.scss
+@mixin tab($tab-color) {
+  background: $tab-color;
+  &::after {
+    border-top-color: $tab-color;
+  }
+}
 .code-heading {
   display: block;
   position: relative;
   margin-top: ($line-height-computed * 2);
   span {
     display: inline-block;
-    height: 2em;
     width: auto;
+    height: 2em;
+
     position: absolute;
     right: 0;
     top: -2em;
+    z-index: 1;
+
     background: $state-warning-text;
-    padding: 0.5rem 0.75rem;
     border-radius: $border-radius-base $border-radius-base 0 0;
+    padding: 0.5rem 0.75rem;
+
     color: #fff;
     font-family: $font-family-sans-serif-alt;
     font-size: .75em;
     font-weight: bold;
     text-transform: uppercase;
     letter-spacing: 2px;
-    z-index: 1;
+
     &::after {
       content: '';
       width: 0;
       height: 0;
-      border-left: 10px solid transparent;
-      border-right: 10px solid transparent;
-      border-top: 10px solid $state-warning-text;
 
       position: absolute;
       left: 50%;
       bottom: -8px;
       @include translate(-50%, 0);
-    }
-    .fab, .far, .fas, .fa {
-      color: #fff;
+
+      border-left: 10px solid transparent;
+      border-right: 10px solid transparent;
+      border-top: 10px solid $state-warning-text;
     }
     &.html {
-      background: $brand-primary;
-      &::after {
-        border-top-color: $brand-primary;
-      }
+      @include tab($brand-primary)
     }
     &.css {
-      background: $brand-secondary;
-      &::after {
-        border-top-color: $brand-secondary;
-      }
+      @include tab($brand-secondary)
+    }
+    &.js {
+      @include tab($brand-warning)
     }
   }
 }
 pre {
+  position: relative;
   padding: $line-height-computed (($line-height-computed - 1) / 2);
-  margin: ($line-height-computed * 2) auto $line-height-computed;
+  margin: ($line-height-computed * 2) auto; //$line-height-computed;
+  border-radius: $border-radius-base 0 $border-radius-base $border-radius-base;
   word-break: normal;
   word-wrap: normal;
-  position: relative;
-  border-radius: $border-radius-base 0 $border-radius-base $border-radius-base;
+
+  .fab, .far, .fas, .fa {
+    font-size: 1.1em;
+  }
 }
-.fab, .far, .fas, .fa {
-  font-size: 1.1em;
+
+
+
+
+
+// FONTAWESOME ICONS
+.fa-tags, .fa-sitemap {
+  color: $label-default-bg;
 }
 .fa-html5 {
   color: $brand-primary;

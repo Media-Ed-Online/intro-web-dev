@@ -1,7 +1,7 @@
 # Assignments Per Topic
 
 examples: ["None"]
-topic-00: ["<i>Assignments for the active topic will be listed here:</i><br /><br />Student Contract"]
+topic-00: ["(Assignments for the active topic will be listed here)<br /><br />Student Contract"]
 topic-01: ["Assignment 1: Repositories"]
 topic-02: ["Assignment 2: READMEs"]
 topic-03: ["Assignment 3: Pages"]

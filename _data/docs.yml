@@ -1,16 +1,19 @@
 # Page Listings for Modules
 
 examples:
+
   - title: Getting Started
     docs:
     - home
     - themes
     - customization
+
   - title: Examples
     docs:
     - cheatsheet
     - font-awesome
     - bootstrap
+    
   - title: Justine's Trials
     docs:
     - trial-labels
@@ -18,3 +21,29 @@ examples:
     - trial-tree-view
 
 ##################################################
+
+topic-00:
+
+  - title: “Getting Started”
+    docs:
+    - overview
+
+  - title: Learning Resources
+    docs:
+    - moodle
+    - website
+    - services
+
+##################################################
+
+topic-01:
+  - title: “Repositories”
+    docs:
+    - overview
+
+  - title: Q & A with “the Internet”
+    docs:
+    - what-is-the-net
+    - what-is-the-web
+    - how-the-net-works
+    - todo-net
