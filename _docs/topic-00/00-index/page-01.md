@@ -3,12 +3,13 @@ title: Introductory Overview
 module: topic-00
 permalink: /topic-00/overview/
 redirect_from: /get-started.html
+redirect_from: /topic-00/
 categories: uncategorized
 tags:
 ---
 
 <div class="section-title">
-  <img src="../img/assignment-00.svg" alt="finger pressing power button" title="Let's get started!" />
+  <img src="./../img/assignment-00.svg" alt="finger pressing power button" title="Let's get started!" />
   <h2 style="text-align: center;">“Welcome to the Course!”</h2>
 </div>
 
