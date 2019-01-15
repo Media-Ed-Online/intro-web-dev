@@ -1,5 +1,5 @@
 ---
-title: Introductory Overview
+title: Introduction
 module: topic-00
 permalink: /topic-00/overview/
 redirect_from: /get-started.html

@@ -104,25 +104,14 @@ iframe {
         text-align: center;
       }
     }
+
     .container-row {
-    margin: 0;
-    display: inline-block;
-    width: 100%;
+      margin: 0;
+      display: inline-block;
+      width: 100%;
     }
     img {
-    margin: 20px auto;
-    }
-  }
-  pre {
-    position: relative;
-    padding: $line-height-computed (($line-height-computed - 1) / 2);
-    margin: ($line-height-computed * 2) auto;
-    border-radius: $border-radius-base 0 $border-radius-base $border-radius-base;
-    word-break: normal;
-    word-wrap: normal;
-
-    .fab, .far, .fas, .fa {
-      font-size: 1.1em;
+      margin: 20px auto;
     }
   }
 }
@@ -137,134 +126,133 @@ iframe {
 .page-design {
   background-color: rgba(255, 255, 255, .7);
   padding: 2rem;
-}
-.row-people {
-  display: block;
-  width: 100%;
-  margin: 2em auto;
-  @include clearfix;
-  h3 {
-    margin-top: 0;
-  }
-  .fab, .far, .fas, .fa {
-    margin-right: .75rem;
-    background-color: $brand-primary;
-    padding: .75rem;
-    color: white;
-    border-radius: 15%;
-  }
-  .profile-img {
-    object-fit: cover;
-    border-radius: 5%;
-    width: 150px;
-    height: auto;
-  }
-  div {
-    img {
-      float: left;
-      margin-right: 1.8rem;
-      margin-bottom: .5rem;
+
+  .row-people {
+    display: block;
+    width: 100%;
+    margin: 2em auto;
+    @include clearfix;
+    h3 {
+      margin-top: 0;
+    }
+    .fab, .far, .fas, .fa {
+      margin-right: .75rem;
+      background-color: $brand-primary;
+      padding: .75rem;
+      color: white;
+      border-radius: 15%;
+    }
+    .profile-img {
+      object-fit: cover;
+      border-radius: 5%;
+      width: 150px;
+      height: auto;
+    }
+    div {
+      img {
+        float: left;
+        margin-right: 1.8rem;
+        margin-bottom: .5rem;
+      }
     }
   }
-}
-.name-tag-display {
-  width: 90%;
-  min-width: 275px;
-  margin: 5rem auto;
-  font-size: $font-size-large;
-
-  @media (max-width: $grid-float-breakpoint) {
-    text-align: justify;
-  }
-}
-  // >>> name tag
-.name-tag {
-  float: right;
-  margin: 1rem -6rem 3rem 3rem;
-	height: 175px;
-	width: 250px;
-	background: $gray-lighter;
-	border-radius: 10px;
-	@include rotate(10deg);
-  box-shadow: 5px 5px 3px rgba(0, 0, 0, .3);
-
-  @media (max-width: $grid-float-breakpoint) {
-    float: none;
+  .name-tag-display {
+    width: 90%;
+    min-width: 275px;
     margin: 5rem auto;
+    font-size: $font-size-large;
+
+    @media (max-width: $grid-float-breakpoint) {
+      text-align: justify;
+    }
   }
-  .hello-header {
-    height: 70px;
+  // >>> name tag
+  .name-tag {
+    float: right;
+    margin: 1rem -6rem 3rem 3rem;
+  	height: 175px;
   	width: 250px;
-  	background: $brand-danger;
-  	text-align: center;
-  	color: #fff;
-  	border: 5px solid $gray-lighter;
-  	border-top-left-radius: 10px;
-  	border-top-right-radius: 10px;
-  }
-  #hello {
-    text-transform: uppercase;
-  	font-weight: 600;
-  	font-size: 26px;
-  	letter-spacing: 10px;
-  }
-  #my-name-is {
-  	font-size: 20px;
-    font-family: $font-family-sans-serif;
-  	font-weight: 400;
-  	letter-spacing: 1px;
-    margin-top: -83px;
-  }
-  form {
-    display: flex;
-  	flex-direction: column;
-  	justify-content: center;
-  	align-items: center;
-  	margin: 7px 0 0 0;
-    span {
-  		position: absolute;
-  		top: 130px;
-  		left: 5px;
-  		height: 40px;
-  		width: 240px;
-  		background: $brand-danger;
-      padding-top: 13px;
-  		text-align: center;
+  	background: $gray-lighter;
+  	border-radius: 10px;
+  	@include rotate(10deg);
+    box-shadow: 5px 5px 3px rgba(0, 0, 0, .3);
+
+    @media (max-width: $grid-float-breakpoint) {
+      float: none;
+      margin: 5rem auto;
+    }
+    .hello-header {
+      height: 70px;
+    	width: 250px;
+    	background: $brand-danger;
+    	text-align: center;
+    	color: #fff;
+    	border: 5px solid $gray-lighter;
+    	border-top-left-radius: 10px;
+    	border-top-right-radius: 10px;
+    }
+    #hello {
+      text-transform: uppercase;
+    	font-weight: 600;
+    	font-size: 26px;
+    	letter-spacing: 10px;
+    }
+    #my-name-is {
+    	font-size: 20px;
       font-family: $font-family-sans-serif;
-  		color: #fff;
-  		font-weight: 400;
-      font-size: 12px;
-      letter-spacing: 1px;
-  		border-bottom-left-radius: 6px;
-  		border-bottom-right-radius: 6px;
-  		border: 0;
-      }
-  	output[type="text"] {
-  		width: 250px;
-      background-color: $gray-lighter;
-  		margin-top: -9px;
-  		font-family: 'Gochi Hand', cursive;
-  		text-align: center;
-      font-size: 32px;
-  		border: 0;
-  		outline: none;
-  		&:valid, &:focus {
-  			border: 0;
+    	font-weight: 400;
+    	letter-spacing: 1px;
+      margin-top: -83px;
+    }
+    form {
+      display: flex;
+    	flex-direction: column;
+    	justify-content: center;
+    	align-items: center;
+    	margin: 7px 0 0 0;
+      span {
+    		position: absolute;
+    		top: 130px;
+    		left: 5px;
+    		height: 40px;
+    		width: 240px;
+    		background: $brand-danger;
+        padding-top: 13px;
+    		text-align: center;
+        font-family: $font-family-sans-serif;
+    		color: #fff;
+    		font-weight: 400;
+        font-size: 12px;
+        letter-spacing: 1px;
+    		border-bottom-left-radius: 6px;
+    		border-bottom-right-radius: 6px;
+    		border: 0;
+        }
+    	output[type="text"] {
+    		width: 250px;
+        background-color: $gray-lighter;
+    		margin-top: -9px;
+    		font-family: 'Gochi Hand', cursive;
+    		text-align: center;
+        font-size: 32px;
+    		border: 0;
+    		outline: none;
+    		&:valid, &:focus {
+    			border: 0;
+        }
       }
     }
   }
-}
-.page-design {
   input[type="text"] {
-  text-align: center;
-  color: $gray;
-  border: 0;
-  border-bottom: 1px solid $gray-light;
-  outline: none;
-    &:valid, &:focus {
+    text-align: center;
+    color: $gray;
     border: 0;
     border-bottom: 1px solid $gray-light;
-    }
+    outline: none;
+      &:valid, &:focus {
+      border: 0;
+      border-bottom: 1px solid $gray-light;
+      }
   }
 }
 
@@ -345,21 +333,23 @@ iframe {
 
 // LABELS
   // >>> overwrites:  /_sass/bootstrap/_labels.scss
-.label {
-  font-family: $font-family-sans-serif-alt;
-  text-transform: uppercase;
-  letter-spacing: 2px;
-  padding: .25em .5em;
-  margin-right: .3em;
-}
+.page-styling {
+  .label {
+    font-family: $font-family-sans-serif-alt;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    padding: .25em .5em;
+    margin-right: .3em;
+  }
   // >>> tags and categories
-.label-tags {
-  color: $gray-light;
-  background-color: $gray-lighter;
-}
-.label-categories {
-  color: $gray-lighter;
-  background-color: $gray-light;
+  .label-tags {
+    color: $gray-light;
+    background-color: $gray-lighter;
+  }
+  .label-categories {
+    color: $gray-lighter;
+    background-color: $gray-light;
+  }
 }
 
 
@@ -380,10 +370,70 @@ iframe {
 
 
 
+
+// LIST GROUPS
+  // >>> overwrites:  /_sass/bootstrap/_list-group.scss
+.page-styling {
+  .list-group-item {
+    padding-left: 30px;
+  }
+  .list-group-item-heading {
+    margin-top: 0 !important;
+    margin-bottom: 5px;
+  }
+  .list-group-item-text {
+    margin-bottom: 0;
+    line-height: 1.3;
+    font-size: $font-size-small;
+    margin: 5px auto;
+    color: $btn-link-disabled-color;
+  }
+  .hw-item-disabled {
+    background-color: #F5F5F5
+  }
+}
+
+
+
+
+
+// NAV GROUPS (TABS)
+  // >>> overwrites:  /_sass/bootstrap/__navs.scss
+.page-styling {
+  .nav-tabs {
+    > li {
+      &.active > a {
+        &,
+        &:hover,
+        &:focus {
+          background-color: #F5F5F5;
+        }
+      }
+    }
+  }
+  .tab-content {
+    > .tab-pane {
+      border-left: 1px solid $nav-tabs-justified-link-border-color;
+      border-bottom: 1px solid $nav-tabs-justified-link-border-color;
+      border-right: 1px solid $nav-tabs-justified-link-border-color;
+      border-radius: 0 0 $border-radius-base $border-radius-base;
+      background-color: #F5F5F5;
+    }
+    > .active {
+      padding: 20px;
+    }
+  }
+}
+
+
+
+
+
 // DIVIDERS
 .divider-pg {
   width: 50%;
   height: 2px;
+  background: $brand-info;
   border: 1px solid $brand-info;
   border-radius: 30px;
   margin: 4rem auto;
@@ -391,12 +441,14 @@ iframe {
 .divider-heading {
   width: 50%;
   height: 4px;
+  background: $brand-warning;
   border: 2px solid $brand-warning;
   border-radius: 30px;
   margin-bottom: 20px;
 }
 .divider-hw {
   width: 90%;
+  background: $brand-warning;
   border: 1px solid $brand-warning;
   border-radius: 30px;
   margin: $line-height-computed auto;
@@ -406,8 +458,8 @@ iframe {
 
 
 
+
 // CODEBLOCK DISPLAY
-  //See 'pre' styling in PAGE STYLING above. Effects mobile nav if not nested. Why?
   // >>> overwrites:  /_sass/bootstrap/_code.scss
 @mixin tab($tab-color) {
   background: $tab-color;
@@ -415,53 +467,67 @@ iframe {
     border-top-color: $tab-color;
   }
 }
-.code-heading {
-  display: block;
-  position: relative;
-  margin-top: ($line-height-computed * 2);
-  span {
-    display: inline-block;
-    width: auto;
-    height: 2em;
-
-    position: absolute;
-    right: 0;
-    top: -2em;
-    z-index: 1;
-
-    background: $state-warning-text;
-    border-radius: $border-radius-base $border-radius-base 0 0;
-    padding: 0.5rem 0.75rem;
-
-    color: #fff;
-    font-family: $font-family-sans-serif-alt;
-    font-size: .75em;
-    font-weight: bold;
-    text-transform: uppercase;
-    letter-spacing: 2px;
-
-    &::after {
-      content: '';
-      width: 0;
-      height: 0;
+.page-styling {
+  .code-heading {
+    display: block;
+    position: relative;
+    margin-top: ($line-height-computed * 2);
+    span {
+      display: inline-block;
+      width: auto;
+      height: 2em;
 
       position: absolute;
-      left: 50%;
-      bottom: -8px;
-      @include translate(-50%, 0);
+      right: 0;
+      top: -2em;
+      z-index: 1;
 
-      border-left: 10px solid transparent;
-      border-right: 10px solid transparent;
-      border-top: 10px solid $state-warning-text;
+      background: $state-warning-text;
+      border-radius: $border-radius-base $border-radius-base 0 0;
+      padding: 0.5rem 0.75rem;
+
+      color: #fff;
+      font-family: $font-family-sans-serif-alt;
+      font-size: .75em;
+      font-weight: bold;
+      text-transform: uppercase;
+      letter-spacing: 2px;
+
+      &::after {
+        content: '';
+        width: 0;
+        height: 0;
+
+        position: absolute;
+        left: 50%;
+        bottom: -8px;
+        @include translate(-50%, 0);
+
+        border-left: 10px solid transparent;
+        border-right: 10px solid transparent;
+        border-top: 10px solid $state-warning-text;
+      }
+      &.html {
+        @include tab($brand-primary)
+      }
+      &.css {
+        @include tab($brand-secondary)
+      }
+      &.js {
+        @include tab($brand-warning)
+      }
     }
-    &.html {
-      @include tab($brand-primary)
-    }
-    &.css {
-      @include tab($brand-secondary)
-    }
-    &.js {
-      @include tab($brand-warning)
+  }
+  pre {
+    position: relative;
+    padding: $line-height-computed (($line-height-computed - 1) / 2);
+    margin: ($line-height-computed * 2) auto;
+    border-radius: $border-radius-base 0 $border-radius-base $border-radius-base;
+    word-break: normal;
+    word-wrap: normal;
+
+    .fab, .far, .fas, .fa {
+      font-size: 1.1em;
     }
   }
 }
@@ -492,4 +558,10 @@ iframe {
 }
 .fa-thumbtack {
   @include rotate(270deg);
+}
+.icon-hw {
+  margin: 10px auto 30px !important;
+  color: $panel-info-text;
+  height: 90px;
+  font-size: 6em;
 }

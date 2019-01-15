@@ -13,7 +13,7 @@ examples:
     - cheatsheet
     - font-awesome
     - bootstrap
-    
+
   - title: Justine's Trials
     docs:
     - trial-labels
@@ -33,6 +33,18 @@ topic-00:
     - moodle
     - website
     - services
+
+  - title: Homework
+    docs:
+    - homework
+    - todo-homework
+
+  - title: Submitting
+    docs:
+    - gh-overview
+    - gh-registration
+    - gh-issues
+    - todo-github
 
 ##################################################
 
