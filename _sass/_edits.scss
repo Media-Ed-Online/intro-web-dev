@@ -113,6 +113,18 @@ iframe {
     margin: 20px auto;
     }
   }
+  pre {
+    position: relative;
+    padding: $line-height-computed (($line-height-computed - 1) / 2);
+    margin: ($line-height-computed * 2) auto;
+    border-radius: $border-radius-base 0 $border-radius-base $border-radius-base;
+    word-break: normal;
+    word-wrap: normal;
+
+    .fab, .far, .fas, .fa {
+      font-size: 1.1em;
+    }
+  }
 }
 
 
@@ -145,7 +157,7 @@ iframe {
     object-fit: cover;
     border-radius: 5%;
     width: 150px;
-    height: 150px;
+    height: auto;
   }
   div {
     img {
@@ -276,12 +288,22 @@ iframe {
     font-size: $font-size-small;
   }
   @media (max-width: $grid-float-breakpoint-max) {
+    margin-bottom: 0;
     // Dropdowns get custom display when collapsed
     .open .dropdown-menu {
       span, hr {
         display: none;
       }
     }
+  }
+}
+@media (max-width: $grid-float-breakpoint-max) {
+  .navbar-right li > a {
+    display: inline-block;
+    float: left;
+  }
+  .fa-search {
+    visibility: hidden;
   }
 }
 
@@ -385,6 +407,7 @@ iframe {
 
 
 // CODEBLOCK DISPLAY
+  //See 'pre' styling in PAGE STYLING above. Effects mobile nav if not nested. Why?
   // >>> overwrites:  /_sass/bootstrap/_code.scss
 @mixin tab($tab-color) {
   background: $tab-color;
@@ -442,18 +465,7 @@ iframe {
     }
   }
 }
-pre {
-  position: relative;
-  padding: $line-height-computed (($line-height-computed - 1) / 2);
-  margin: ($line-height-computed * 2) auto; //$line-height-computed;
-  border-radius: $border-radius-base 0 $border-radius-base $border-radius-base;
-  word-break: normal;
-  word-wrap: normal;
 
-  .fab, .far, .fas, .fa {
-    font-size: 1.1em;
-  }
-}
 
 
 
@@ -477,4 +489,7 @@ pre {
 }
 .fa-image, .fa-music, .fa-video {
   color: $brand-info;
+}
+.fa-thumbtack {
+  @include rotate(270deg);
 }
