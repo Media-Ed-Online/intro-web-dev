@@ -17,6 +17,9 @@ Let’s watch some videos to better understand what “the internet” is. Part 
 </div>
 
 
+<div class="divider-pg"></div>
+
+
 ## Andrew Blum: What is the Internet, really?
 <div class="embed-responsive embed-responsive-16by9">
   <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/XE_FPEFpHt4?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>

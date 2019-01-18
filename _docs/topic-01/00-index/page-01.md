@@ -2,6 +2,7 @@
 title: Topic Overview
 module: topic-01
 permalink: /topic-01/overview/
+redirect_from: /topic-01/
 categories: uncategorized
 tags:
 ---

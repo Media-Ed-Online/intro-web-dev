@@ -28,8 +28,8 @@
 h1, h2, h3, h4, h5, h6 {
   font-family: "Ubuntu", Tahoma, "Helvetica Neue", Helvetica, Arial, sans-serif
 }
-iframe {
-  margin: $line-height-computed auto;
+iframe:not(.embed-responsive-item) {
+    margin: $line-height-computed auto;
 }
 
 
@@ -531,7 +531,6 @@ iframe {
     }
   }
 }
-
 
 
 
