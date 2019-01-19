@@ -2,8 +2,8 @@
 
 examples: ["None"]
 topic-00: ["(Assignments for the active topic will be listed here)<br /><br />Student Contract"]
-topic-01: ["Assignment 1: Repositories"]
-topic-02: ["Assignment 2: READMEs"]
+topic-01: ["Assignment 1: READMEs"]
+topic-02: ["Assignment 2: Repositories"]
 topic-03: ["Assignment 3: Pages"]
 topic-04: ["Quiz 1: GIT Module<br />Assignment 4: GIT Website"]
 topic-05: ["Assignment 5: Markup"]
