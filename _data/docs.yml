@@ -60,12 +60,21 @@ topic-01:
     - how-the-net-works
     - todo-net
 
-  - title: Files and Directories
+  - title: Files
     docs:
-    - web-files
-    - web-directories
+    - web-files-pages
+    - web-files-images
+    - web-files-audio-video
+    - web-files-scripts
+    - web-files-text
+    - todo-files
+
+  - title: Directories
+    docs:
+    - directories-web
+    - directories-structure
     - naming-practices
-    - todo-file-management
+    - todo-directories
 
   - title: Documentation
     docs:

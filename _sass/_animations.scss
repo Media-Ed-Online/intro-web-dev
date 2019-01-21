@@ -1,0 +1,51 @@
+// CODEBLOCK DISPLAY
+  // >>> Bounce fa-long-arrow-alt-left
+@keyframes bounce-x {
+  0%, 20%, 50%, 80%, 100% {
+    @include translate(0, 0);
+  }
+  40% {
+    @include translate(10px, 0);
+  }
+  60% {
+    @include translate(5px, 0);
+  }
+}
+.bounce-x {
+  @include animation(bounce-x 2s infinite);
+  @include animation-name(bounce-x);
+  @include animation-duration(2s);
+  @include animation-iteration-count(infinite);
+}
+
+  // >>> Bounce fa-long-arrow-alt-up
+@keyframes bounce-y-up {
+  0%, 20%, 50%, 80%, 100% {
+    @include translate(0, 0);
+  }
+  40% {
+    @include translate(0, 10px);
+  }
+  60% {
+    @include translate(0, 5px);
+  }
+}
+.bounce-y-up {
+  @include animation(bounce-y-up 2s infinite);
+  text-align: center;
+}
+@keyframes bounce-y-down {
+  0%, 20%, 50%, 80%, 100% {
+    @include translate(0, 0);
+  }
+  40% {
+    @include translate(0, -10px);
+  }
+  60% {
+    @include translate(0, -5px);
+  }
+}
+.bounce-y-down {
+  @include animation(bounce-y-down 2s infinite);
+  text-align: center;
+}

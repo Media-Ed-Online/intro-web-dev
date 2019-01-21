@@ -2,7 +2,7 @@
 title: TODO
 module: topic-01
 todo: <i class="fas fa-check-square" aria-hidden="true"></i>
-permalink: /topic-01/todo-file-management/
+permalink: /topic-01/todo-directories/
 categories: uncategorized
 ---
 

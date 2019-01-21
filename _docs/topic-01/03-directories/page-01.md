@@ -1,7 +1,7 @@
 ---
 title: Web Directories (“Folders”)
 module: topic-01
-permalink: /topic-01/web-directories/
+permalink: /topic-01/directories-web/
 categories: development
 tags: directory, file, folder, organize, path
 ---
@@ -29,7 +29,8 @@ The **path** (or “directions”) for this image, `/content/dam/usa/logo/` actu
 └── <i class="far fa-folder-open"></i> content/
     └── <i class="far fa-folder-open"></i> dam/
         └── <i class="far fa-folder-open"></i> usa/
-            └── <i class="far fa-image"></i> profile.jpg
+            └── <i class="far fa-folder-open"></i> logo/
+                └── <i class="far fa-image"></i> m_logo.png
 
 </pre>
 
