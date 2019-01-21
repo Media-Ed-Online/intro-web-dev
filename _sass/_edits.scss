@@ -111,8 +111,15 @@ iframe:not(.embed-responsive-item) {
       width: 100%;
     }
     img {
-      margin: 20px auto;
+      margin: ($line-height-computed * 2) auto;
+      max-width: 700px;
     }
+  }
+
+  // >>> Pros and Cons List
+  .pros-and-cons {
+    list-style: none;
+    margin-bottom: $line-height-computed * 2;
   }
 }
 
@@ -423,6 +430,11 @@ iframe:not(.embed-responsive-item) {
       padding: 20px;
     }
   }
+  #web-file-types {
+    img, h4 {
+      margin-top: 0 !important;
+    }
+  }
 }
 
 
@@ -507,6 +519,9 @@ iframe:not(.embed-responsive-item) {
         border-right: 10px solid transparent;
         border-top: 10px solid $state-warning-text;
       }
+      &.md {
+        @include tab($gray)
+      }
       &.html {
         @include tab($brand-primary)
       }
@@ -540,6 +555,9 @@ iframe:not(.embed-responsive-item) {
 .fa-tags, .fa-sitemap {
   color: $label-default-bg;
 }
+.fa-markdown {
+  color: $gray;
+}
 .fa-html5 {
   color: $brand-primary;
 }
@@ -558,9 +576,36 @@ iframe:not(.embed-responsive-item) {
 .fa-thumbtack {
   @include rotate(270deg);
 }
+  // >>> TODO icons
 .icon-hw {
   margin: 10px auto 30px !important;
   color: $panel-info-text;
   height: 90px;
   font-size: 6em;
+}
+  // >>> List Items (x, ✓)
+.icon-pro, .icon-con {
+  position: relative;
+}
+.icon-pro::before {
+  content: "\f00c";
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  color: $brand-success;
+  font-size: inherit;
+  font-style: normal;
+  margin-right: 5px;
+  position: absolute;
+  left: -25px;
+}
+.icon-con::before {
+  content: "\f00d";
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  color: $brand-danger;
+  font-size: inherit;
+  font-style: normal;
+  margin-right: 8px;
+  position: absolute;
+  left: -25px;
 }

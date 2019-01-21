@@ -60,9 +60,75 @@ topic-01:
     - how-the-net-works
     - todo-net
 
+  - title: Files and Directories
+    docs:
+    - web-files
+    - web-directories
+    - naming-practices
+    - todo-file-management
+
+  - title: Documentation
+    docs:
+    - text-files
+    - markdown-files
+    - readme-files
+    - todo-editors
+
+  - title: Repositories and GitHub.com
+    docs:
+    - git-vcs
+    - git-new-repo
+    - git-new-file
+    - git-add-file
+    - todo-git
+
 ##################################################
 
 topic-02:
   - title: “READMEs”
     docs:
     - overview
+
+  - title: The Flow of Information
+    docs:
+    - infrastructure
+    - protocols
+    - todo-flow-info
+
+  - title: The Internet's Address Book
+    docs:
+    - web-addresses
+    - urls-absolute
+    - urls-relative
+    - todo-urls
+
+  - title: Developing with a Text Editor
+    docs:
+    - atom-intro
+    - atom-base-install
+    - atom-optional-install
+    - create-readme
+    - todo-readme
+    - todo-atom
+
+  - title: GitHub GUI
+    docs:
+    - github-desktop-intro
+    - github-desktop-install
+    - todo-github-desktop
+
+  - title: Developing with Git
+    docs:
+    - dev-part-1
+    - dev-part-2
+    - dev-part-3
+    - dev-part-4
+    - dev-part-5
+    - todo-setup
+
+  - title: Intro to Linking
+    docs:
+    - link-internal
+    - link-same
+    - link-deeper
+    - todo-linking
