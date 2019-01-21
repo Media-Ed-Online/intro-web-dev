@@ -10,13 +10,11 @@ tags: directory, github, markdown, readme
 
 **README files** are text files that simply contain information about their directory. They explain why the project is useful, what kinds of files it may have, its history, or any other relevant points worth elaborating.
 
-[GitHub.com](https://github.com/) uses markdown extensively within its ecosystem for documentation; README files and Issues postings are written using Markdown.
+[GitHub.com](https://github.com/) uses **Markdown** extensively within its ecosystem for documentation; README files and Issues postings are written using Markdown.
 
 
 ## Files and Directories
-<span class="label label-danger">Important</span> Markdown README files are <u>only</u> ever named `README.md` or `readme.md`!
-
-If you put your `README.md` file in your repository's root directory, GitHub will recognize and automatically surface your README to repository visitors - meaning it's the first thing they'll see, with no extra clicking.
+If a `README.md` file is put in a repository's root directory, GitHub will recognize and automatically surface your README to repository visitors - meaning it's the first thing they'll see, with no extra clicking.
 
 <div class="code-heading">
   <span>Directory Tree</span>
@@ -35,7 +33,7 @@ Don't worry if this doesn't quite make sense yet: we can provide an example! Go 
 
 
 ## For Our Purposes
-**For every project you submit, you will also write a short report in markdown.** This report is the `README.md` for that directory, and may discuss a number of things every week:
+**For every assignment you submit, you will also write a short report in a plain-text file.** For most, this report is the `README.md` for that directory, and may discuss a number of things every week:
 
 - Questions regarding your understanding of the Topic's materials.
 - Summarizing the work you did this cycle, paying particular attention to the individual choices you made.

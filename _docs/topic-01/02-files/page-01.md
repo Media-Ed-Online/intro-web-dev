@@ -25,7 +25,7 @@ Web designers use all types of files to create sites, from `.html` to `.css` to 
     <h4>Hypertext Markup Language (<b>HTML</b> or <b>HTM</b>)</h4>
     <p>HTML is the standard language known by all web designers and developers. HTML provides the structure of the page, using <i>elements</i> to create headings, paragraphs, lists, tables, links, etc. Properly-laid-out HTML is designed to enhance accessibility, and provide structured content outside of decorative styling.</p>
     <h4>Pros and Cons of Use:</h4>
-    <ul style="list-style-type: none">
+    <ul class="pros-and-cons">
       <li class="icon-pro">Easy-to-learn, free or low-cost.</li>
       <li class="icon-pro">Widely-used; standard practice.</li>
       <li class="icon-pro">Extensive; has a large library and support community.</li>
@@ -44,7 +44,7 @@ Web designers use all types of files to create sites, from `.html` to `.css` to 
     <h4>Cascading Style Sheet (<b>CSS</b>)</h4>
     <p>CSS is used to control how the page looks and functions. CSS is used to “decorate” the site; this is, provide layout, color, interactive elements, fonts, and other formatting. While HTML provides the contents of the page, CSS specifies to the browser how the site will look. Using a stylesheet greatly speeds up development time, as a single sheet can affect all pages in the site.</p>
     <h4>Pros and Cons of Use:</h4>
-    <ul style="list-style-type: none">
+    <ul class="pros-and-cons">
       <li class="icon-pro">Speed and consistency in styling pages site-wide.</li>
       <li class="icon-pro">Supported by nearly all browsers.</li>
       <li class="icon-pro">Extensive; has a large library and support community.</li>
@@ -63,7 +63,7 @@ Web designers use all types of files to create sites, from `.html` to `.css` to 
     <h4>Hypertext Preprocessor (<b>PHP</b>)</h4>
     <p>While we won't get into PHP, you've likely seen or heard of PHP files. PHP is a widely-used, open-source scripting language which is well-suited for use in web design as it can be combined with HTML. A server-side language, PHP can generate dynamic pages, modify databases, encrypt data, and many other processes HTML cannot do alone. In fact, it is the core of many services, such as <a href="http://blog.teamtreehouse.com/php-for-wordpress-1" target="_blank">WordPress</a> and <A href="https://developers.facebook.com/docs/reference/php/" target="_blank">Facebook</a>.</p>
     <h4>Pros and Cons of Use:</h4>
-    <ul style="list-style-type: none">
+    <ul class="pros-and-cons">
       <li class="icon-pro">Moderately easy-to-learn, free or low-cost.</li>
       <li class="icon-pro">Can collect data, like from site forms.</li>
       <li class="icon-pro">Can control user-access.</li>

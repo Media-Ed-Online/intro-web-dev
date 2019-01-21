@@ -1,25 +1,19 @@
 ---
-title: Creating a Repository
+title: Create a New Repository
 module: topic-01
 permalink: /topic-01/git-new-repo/
 categories: development
-tags: github, guide, new, repository
+tags: github, guide, repository
 ---
 
 <div class="divider-heading"></div>
 
-Since GitHub Desktop is nearly identical between Mac and PC, I will only be including one set of instructions for this section. If you get confused, please email your instructor.
-
 <span class="label label-warning">Load Time</span> This page contains embedded interactive content. In may take 3-10 seconds to completely load.
 
-<span class="label label-danger">Important</span> Take your time, and please follow these directions closely.
+We don't even need additional programs to begin using a VCS like [GitHub.com](https://github.com/). We can begin creating and tracking files directly within the browser, as long as we create a new repository.
 
+**Repositories** (or _repo_ for short) are the bookbags of websites, and contain all of the files, folders, and related content for that site. A `README.md` file is placed at the highest level of the working directory (the “main folder” or directory) to provide information about that repo.
 
-<br>
+<span class="label label-danger">Important</span> You will only use **one repository** for this class. This is the only time you will complete this process.
 
-
-## Create a New Repository:
-Repositories (or **repo** for short) are the bookbags of your sites, and contain all of the files, folders, and related content. A `readme.md` file is placed at the highest level of the working directory (the "main" folder) to provide information about that repo.
-
-<iframe src="https://h5p.org/h5p/embed/176947" width="1090" height="794" frameborder="0" allowfullscreen="allowfullscreen"></iframe>
-<a href="https://h5p.org/node/176947" class="btn btn-default btn-xs" target="_blank">View Larger</a>
+<iframe src="https://h5p.org/h5p/embed/412442" width="1090" height="794" frameborder="0" allowfullscreen="allowfullscreen"></iframe>

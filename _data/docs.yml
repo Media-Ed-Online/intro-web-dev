@@ -87,6 +87,7 @@ topic-01:
     docs:
     - git-vcs
     - git-new-repo
+    - git-edit-file
     - git-new-file
     - git-add-file
     - todo-git

@@ -19,7 +19,7 @@ Our course is broken up into 4 modules, at 3-to-4 topics a piece. These topics w
 
 By the end of this Topic, we hope you:
 
-<ul style="list-style-type: none">
+<ul class="pros-and-cons">
   <li class="icon-pro">Have some idea what the internet is and is not, and be able to articulate these opinions.</li>
   <li class="icon-pro">Understand what web development is and is not, and keep it in mind going forward.</li>
   <li class="icon-pro">Explored the distinction between text editors and word processors, and why we use the former for web development.</li>

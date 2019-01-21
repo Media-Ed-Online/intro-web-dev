@@ -115,12 +115,6 @@ iframe:not(.embed-responsive-item) {
       max-width: 700px;
     }
   }
-
-  // >>> Pros and Cons List
-  .pros-and-cons {
-    list-style: none;
-    margin-bottom: $line-height-computed * 2;
-  }
 }
 
 
@@ -430,20 +424,6 @@ iframe:not(.embed-responsive-item) {
       padding: 20px;
     }
   }
-  .web-files-types {
-    margin: 2rem auto !important;
-    h4 {
-      margin-top: 0 !important;
-      margin-bottom: 10px;
-    }
-    img {
-      margin: 0 0 1rem 0 !important;
-    }
-    span {
-      color: $brand-info;
-      font-weight: bold;
-    }
-  }
 }
 
 
@@ -556,35 +536,61 @@ iframe:not(.embed-responsive-item) {
         font-family: $font-family-sans-serif-alt;
         text-transform: uppercase;
         letter-spacing: 2px;
-        font-size: 75%;
+        font-size: 8pt;
         vertical-align: middle;
         margin: auto 0.5em;
       }
     }
     .line {
       width: auto;
-      height: 20px;
+      height: 23px;
       display: inline-block;
-      position: relative;
+      position: absolute;
 
       &.horizontal-down {
         position: absolute;
         margin-top: 8px;
         border-top: 3px solid $brand-danger;
         border-right: 3px solid $brand-danger;
+        z-index: 1;
       }
       &.horizontal-up {
         position: absolute;
-        margin-top: -10px;
+        margin-top: -12px;
         border-bottom: 3px solid $brand-danger;
         border-right: 3px solid $brand-danger;
-      }
-      &.vertical {
-        position: absolute;
-        margin: 0;
-        border-right: 3px solid $brand-danger;
+        z-index: 0;
       }
     }
+  }
+}
+
+
+
+
+
+// LISTS
+  // >>> Pros and Cons List
+.page-styling {
+  ul.pros-and-cons {
+    list-style: none;
+    margin-bottom: ($line-height-computed * 2);
+  }
+}
+
+  // >>> 2-column Img + Text
+.web-files-types {
+  margin: 1rem auto !important;
+  h4 {
+    margin-top: 0 !important;
+    margin-bottom: 10px;
+  }
+  img {
+    margin: 0 0 1rem 0 !important;
+  }
+  span {
+    color: $brand-info;
+    font-weight: bold;
   }
 }
 

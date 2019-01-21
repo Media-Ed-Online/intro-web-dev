@@ -23,7 +23,7 @@ tags: design, file, image
     <h4>Joint Photographic Experts Group (<b>JPEG</b> or <b>JPG</b>)</h4>
     <p>The JPEG is the most-utilized image format in digital publishing. JPEGs can be compressed to low-, medium, and high-quality and, because of this, can showcase images on screens at relatively small file sizes without sacrificing the integrity of the image. File types like JPG, PNG, and GIF are “rastered” and have defined dimensions. This means the image will lose quality when resized, and should not be manipulated beyond its original dimensions (width and height).</p>
     <h4>Pros and Cons of Use:</h4>
-    <ul style="list-style-type: none">
+    <ul class="pros-and-cons">
       <li class="icon-pro">Good for photographs, artwork, or other detailed images.</li>
         <li class="icon-pro">When the image has many colors.</li>
         <li class="icon-pro">Medium to small file size.</li>
@@ -41,7 +41,7 @@ tags: design, file, image
     <h4>Portable Network Graphics (<b>PNG</b>)</h4>
     <p>PNGs allow for transparency, an important tool in graphic and web design. Unlike JPGs, there is no compression with PNGs; these files will not lose quality when saved. However, this means PNGs are a rather large file type, and should be used sparingly or on small images.</p>
     <h4>Pros and Cons of Use:</h4>
-    <ul style="list-style-type: none">
+    <ul class="pros-and-cons">
       <li class="icon-pro">Good for graphics like logos and icons.</li>
       <li class="icon-pro">When the image has areas of full- or partial-transparency (like drop shadows).</li>
       <li class="icon-con">Large file size.</li>
@@ -59,7 +59,7 @@ tags: design, file, image
     <h4>Graphics Interchange Format (<b>GIF</b>)</h4>
     <p>Similar to PNGs, GIFs have certain properties that allow for image effects. This format is most-often attributed to animated files, as it allows for several consecutive frames to be included in a single image file. Due to this, GIFs can be quite large, and may require heavy compression to be feasible in site design.</p>
     <h4>Pros and Cons of Use:</h4>
-    <ul style="list-style-type: none">
+    <ul class="pros-and-cons">
       <li class="icon-pro">Required for animated images.</li>
       <li class="icon-pro">Good for simple icons with low-color density (few colors).</li>
       <li class="icon-con">Large file size.</li>
@@ -77,7 +77,7 @@ tags: design, file, image
     <h4>Scalable Vector Graphics (<b>SVG</b>)</h4>
     <p>SVGs are an integral component of web design. SVGs, as stated in their name, are scaleable and can be manipulated and styled without sacrificing quality or file size. SVGs are, in effect, “drawn” by the browser in that they are actually packets of coordinates written in a markup language (XML, or Extensible Markup Language). This code is editable, and SVGs can have colors, effects, and animations applied to them.</p>
     <h4>Pros and Cons of Use:</h4>
-    <ul style="list-style-type: none">
+    <ul class="pros-and-cons">
       <li class="icon-pro">Good for vector graphics like logos and icons.</li>
       <li class="icon-pro">Resolution-independent.</li>
       <li class="icon-pro">Manipulating does not change file size.</li>

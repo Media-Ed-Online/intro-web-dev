@@ -23,7 +23,7 @@ tags: design, file, text
     <h4>Text (<b>TXT</b>)</h4>
     <p>Plain text files are the simplest way of creating and storing information. Everything is stored as text, even numeric values. This is great for lightweight documentation, but excludes the use of rich content, like style or images.</p>
     <h4>Pros and Cons of Use:</h4>
-    <ul style="list-style-type: none">
+    <ul class="pros-and-cons">
       <li class="icon-pro">Widely available.</li>
       <li class="icon-pro">Flexible format; do not need special software to open.</li>
       <li class="icon-pro">Content will always look the same.</li>
@@ -41,7 +41,7 @@ tags: design, file, text
     <h4>Markdown (<b>MD</b>)</h4>
     <p>Markdown is a text-to-HTML conversion tool for web writers. Markdown allows you to write using an easy-to-read, easy-to-write plain text format, then convert it to structurally valid XHTML (or HTML). This means that Markdown files write quickly, and render stylistically with no additional directions from the writer.</p>
     <h4>Pros and Cons of Use:</h4>
-    <ul style="list-style-type: none">
+    <ul class="pros-and-cons">
       <li class="icon-pro">Has simply syntax; easy-to-learn and implement.</li>
       <li class="icon-pro">More intuitive than HTML.</li>
       <li class="icon-pro">Can be written quickly, providing formatting without interrupting workflow.</li>
