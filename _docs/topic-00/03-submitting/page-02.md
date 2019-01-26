@@ -14,50 +14,29 @@ We will discuss [GitHub.com](https://www.github.com) more in the future, but in 
 
 
 ## Create a GitHub.com Account
-<ul class="nav nav-tabs">
-  <li class="active"><a href="#step1" data-toggle="tab">Step 1</a></li>
-  <li><a href="#step2" data-toggle="tab">Step 2</a></li>
-  <li><a href="#step3" data-toggle="tab">Step 3</a></li>
-  <li><a href="#step4" data-toggle="tab">Step 4</a></li>
-  <li><a href="#step5" data-toggle="tab">Step 5</a></li>
-  <li><a href="#step6" data-toggle="tab">Step 6</a></li>
-  <li><a href="#step7" data-toggle="tab">Step 7</a></li>
+To begin, you need to register with [GitHub.com](https://www.github.com).
+
+<span class="label label-info">Note</span> Please choose a username that you are comfortable with being part of your publicly-visible URL. For grading purposes, this should be a derivative of your name (make it easy on us, please).
+
+<ul class="pros-and-cons">
+  <li class="icon-pro">JustineEvansMT</li>
+  <li class="icon-pro">JNEvans</li>
+  <li class="icon-pro">J-Evans-Filmographer</li>
+  <li class="icon-con">digitalDJ</li>
+  <li class="icon-con">7sb00-dkns_42</li>
 </ul>
-<div id="myTabContent" class="tab-content">
-  <div class="tab-pane fade active in" id="step1">
-    <p>Step 1: Visit <a href="https://github.com/" target="_blank">GitHub.com</a> and create a new user account.</p>
-    <p><span class="label label-info">Note</span> Please choose a username that you are comfortable with being part of your publicly-visible URL. For grading purposes, this should be a derivative of your name (make it easy on us, please). Your username will be publicly available and used often for many things throughout this course (ie. homework and projects) and your entire time on GitHub. Examples:
-      <ul>
-        <li>JustineEvansMT</li>
-        <li>JNEvans</li>
-        <li>J-Evans-Designer</li>
-        <li>Just-Justine-Evans</li>
-        <li>etc...</li>
-      </ul>
-      <img src="../img/gh-signup.jpg" alt="GitHub sign-up page" />
-    </p>
-  </div>
-  <div class="tab-pane fade" id="step2">
-    <p>Step 2: Fix any problems the signup engine informs you about.</p>
-  </div>
-  <div class="tab-pane fade" id="step3">
-    <p>Step 3: Keep “unlimited public repositories for free” selected. Then select “continue."</p>
-  </div>
-  <div class="tab-pane fade" id="step4">
-    <p>Step 4: Go to the e-mail account you used during account creation and verify your e-mail address.</p>
-  </div>
-  <div class="tab-pane fade" id="step5">
-    <p>Step 5: After your account is created, select the avatar in the upper-right hand corner. This should produce a dropdown menu. From there select the “settings” option.</p>
-    <img src="../img/gh-settings.jpg" alt="GitHub profile set-up" />
-  </div>
-  <div class="tab-pane fade" id="step6">
-    <p>Step 6: Fill out your <b>full name</b> for us to track for grading purposes.</p>
-  </div>
-  <div class="tab-pane fade" id="step6">
-    <p>Step 6: Fill out your <b>full name</b> for us to track for grading purposes.</p>
-  </div>
-  <div class="tab-pane fade" id="step7">
-    <p>Step 7: From here feel free to fill in as much or little of the public profile information as you want.</p>
-    <p><span class="label label-info">Note</span> Uploading a <b>profile picture</b> is encouraged.</p>
-  </div>
-</div>
+
+Your username will be publicly available and used often for many things throughout this course (ie. homework) and your entire time on GitHub.
+
+<iframe src="https://h5p.org/h5p/embed/413707" width="1090" height="794" frameborder="0" allowfullscreen="allowfullscreen"></iframe>
+<a href="https://h5p.org/node/413707" class="btn btn-default btn-xs" target="_blank">View Larger</a>
+
+
+<div class="divider-pg"></div>
+
+
+## Edit Your Profile
+After registering, you need to update your profile to include your **full name** for grading purposes.
+
+<iframe src="https://h5p.org/h5p/embed/416489" width="1090" height="794" frameborder="0" allowfullscreen="allowfullscreen"></iframe>
+<a href="https://h5p.org/node/416489" class="btn btn-default btn-xs" target="_blank">View Larger</a>
