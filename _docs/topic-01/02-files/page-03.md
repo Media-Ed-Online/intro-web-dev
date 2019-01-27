@@ -14,15 +14,15 @@ You will come across _many_ types of **media** files in websites. Below are just
 <div class="divider-pg"></div>
 
 
-<div class="container-row web-files-types">
-  <div class="col-lg-2 text-center">
-    <img src="../img/web-av-mp3.svg" title="MP3" alt="mp3 icon" width="100"/>
+<div class="row img-text-columns">
+  <div class="col-lg-2">
+    <img src="../img/web-av-mp3.svg" title="MP3" alt="mp3 icon" />
     <span>file.mp3</span>
   </div>
   <div class="col-lg-10">
-    <h4>MPEG-1 Audio Layer 3 (<b>MP3</b>)</h4>
+    <h3>MPEG-1 Audio Layer 3 (<b>MP3</b>)</h3>
     <p>MP3 technology has been around for decades, and revolutionized how music was stored and shared during the 1990's. MP3s offer an accessible ratio of playback quality to file size, although it is still subject to patents, meaning users must have MP3-ready software in order to play the file.</p>
-    <h4>Pros and Cons of Use:</h4>
+
     <ul class="pros-and-cons">
       <li class="icon-pro">Small file size.</li>
       <li class="icon-pro">Widely-used; standard practice.</li>
@@ -31,15 +31,15 @@ You will come across _many_ types of **media** files in websites. Below are just
   </div>
 </div>
 
-<div class="container-row web-files-types">
-  <div class="col-lg-2 text-center">
-    <img src="../img/web-av-ogg.svg" title="OGG" alt="ogg icon" width="100"/>
+<div class="row img-text-columns">
+  <div class="col-lg-2">
+    <img class="x-small" src="../img/web-av-ogg.svg" title="OGG" alt="ogg icon" />
     <span>file.ogg</span>
   </div>
   <div class="col-lg-10">
-    <h4>Ogg Vorbis (<b>OGG</b>)</h4>
+    <h3>Ogg Vorbis (<b>OGG</b>)</h3>
     <p>An OGG file is even more compressed than an MP3, but not necessarily at any lower quality. This compression is at a varying bit rate, meaning moments of silence, for example, will have less storage weight than those in an MP3, as MP3s compress at a constant bit rate. The OGG is open-source and free-to-all.</p>
-    <h4>Pros and Cons of Use:</h4>
+
     <ul class="pros-and-cons">
       <li class="icon-pro">Good for internet streaming.</li>
       <li class="icon-pro">In the public domain, free-for-use.</li>
@@ -49,15 +49,15 @@ You will come across _many_ types of **media** files in websites. Below are just
   </div>
 </div>
 
-<div class="container-row web-files-types">
-  <div class="col-lg-2 text-center">
-    <img src="../img/web-av-mp4.svg" title="MP4" alt="mp4 icon" width="100"/>
+<div class="row img-text-columns">
+  <div class="col-lg-2">
+    <img src="../img/web-av-mp4.svg" title="MP4" alt="mp4 icon" />
     <span>file.mp4</span>
   </div>
   <div class="col-lg-10">
-    <h4>MPEG-4 Part 14 (<b>MP4</b>)</h4>
+    <h3>MPEG-4 Part 14 (<b>MP4</b>)</h3>
     <p>Like MP3, MP4 is a granddaddy file type with a rich history. A multimedia container used to store video and audio, MP4 supports a variety of video coding formats, like H.264. MP4s are usable on most devices, platforms, and browsers.</p>
-    <h4>Pros and Cons of Use:</h4>
+
     <ul class="pros-and-cons">
       <li class="icon-pro">Good video quality.</li>
       <li class="icon-pro">Widely-used; standard practice.</li>
@@ -67,15 +67,15 @@ You will come across _many_ types of **media** files in websites. Below are just
   </div>
 </div>
 
-<div class="container-row web-files-types">
-  <div class="col-lg-2 text-center">
-    <img src="../img/web-av-webm.svg" title="WebM" alt="webm icon" width="100"/>
+<div class="row img-text-columns">
+  <div class="col-lg-2">
+    <img src="../img/web-av-webm.svg" title="WebM" alt="webm icon" />
     <span>file.webm</span>
   </div>
   <div class="col-lg-10">
-    <h4>Web Media (<b>WebM</b>)</h4>
+    <h3>Web Media (<b>WebM</b>)</h3>
     <p>A relatively new format, WebM is a container created especially for internet streaming by Google as a standard supported format in HTML5. It is less high-quality than MP4, but this allows for quicker access and download speeds. Unlike MP4, WebM is open-source and free-to-all.</p>
-    <h4>Pros and Cons of Use:</h4>
+
     <ul class="pros-and-cons">
       <li class="icon-pro">Designed for internet streaming.</li>
       <li class="icon-pro">Open-source, free-for-use.</li>

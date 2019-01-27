@@ -24,9 +24,11 @@ tags: internet, web
 
 
 ## What is web development?
-<div class="row">
+<div class="row img-text-columns">
   <div class="col-lg-2">
-    <img src="../img/web-dev-hammer.svg" alt="hammer" title="The Build" style="margin: 0 auto;" />
+    <div class="col-img">
+      <img src="../img/web-dev-hammer.svg" alt="hammer" title="The Build" />
+    </div>
   </div>
   <div class="col-lg-10">
     <p><i>Web Development</i> is broad term that is intended to cover the technical process of creating, building, and maintaining a website for the internet. As such, this course will take a technical approach, with the goal of assisting you in gaining comfort and skill in the technologies and concepts of modern web development.</p>
@@ -37,9 +39,9 @@ tags: internet, web
 
 
 ## What _isn't_ web development?
-<div class="row">
+<div class="row img-text-columns">
   <div class="col-lg-2">
-    <img src="../img/web-dev-brush.svg" alt="paint brush" title="The Design" style="margin: 0 auto;" />
+    <img src="../img/web-dev-brush.svg" alt="paint brush" title="The Design" />
   </div>
   <div class="col-lg-10">
     <p>Web development is not necessarily <i>web design</i>, although web design is an aspect of development. Web design is focused on creating the aesthetic feel/look, user experience, and flow of content (although the last of these could actually be considered <i>content development</i>).</p>

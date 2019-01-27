@@ -14,15 +14,15 @@ tags: design, file, script
 <div class="divider-pg"></div>
 
 
-<div class="container-row web-files-types">
-  <div class="col-lg-2 text-center">
-    <img src="../img/web-scripts-js.svg" title="JavaScript" alt="js icon" width="100"/>
+<div class="row img-text-columns">
+  <div class="col-lg-2">
+    <img src="../img/web-scripts-js.svg" title="JavaScript" alt="js icon" />
     <span>script.js</span>
   </div>
   <div class="col-lg-10">
-    <h4>JavaScript (<b>JS</b>)</h4>
+    <h3>JavaScript (<b>JS</b>)</h3>
     <p>JavaScript is the third leg of the Web-Dev triad, along with HTML and CSS. These three languages work exceptionally well together to provide structured, styled, and interactive sites. JavaScript is ubiquitous; anytime you open up a page that does more than offer static information like animations or timely updates, JavaScript is most-likely the culprit. </p>
-    <h4>Pros and Cons of Use:</h4>
+
     <ul class="pros-and-cons">
       <li class="icon-pro">Easy-to-learn, free or low-cost.</li>
       <li class="icon-pro">Incredibly popular; wide-usage with community knowledgebase.</li>
@@ -33,15 +33,15 @@ tags: design, file, script
   </div>
 </div>
 
-<div class="container-row web-files-types">
-  <div class="col-lg-2 text-center">
-    <img src="../img/web-scripts-cgi.svg" title="CGI" alt="cgi icon" width="100"/>
+<div class="row img-text-columns">
+  <div class="col-lg-2">
+    <img src="../img/web-scripts-cgi.svg" title="CGI" alt="cgi icon" />
     <span>script.cgi</span>
   </div>
   <div class="col-lg-10">
-    <h4>Common Gateway Interface (<b>CGI</b>)</h4>
+    <h3>Common Gateway Interface (<b>CGI</b>)</h3>
     <p>Another way to add dynamic content to a site is through a CGI. CGI programs (or scripts) are the most common way for web servers to interact with users. These files are good for processing data sets, for example, like those used in forms and counters. CGIs can be made using many programming languages like Python, PERL, or Java.</p>
-    <h4>Pros and Cons of Use:</h4>
+
     <ul class="pros-and-cons">
       <li class="icon-pro">Work on a variety of servers.</li>
       <li class="icon-pro">Can be written in nearly any language.</li>
