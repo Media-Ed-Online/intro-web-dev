@@ -79,21 +79,26 @@
     }
   }
   .line {
-    width: auto;
+    width: 400px !important;
     height: 23px;
     display: inline-block;
     position: absolute;
+    left: 0;
     @include bounce-x;
 
-    &.horizontal-down {
+    .horizontal-down {
+      height: 23px;
       position: absolute;
+      right: 0;
       margin-top: 8px;
       border-top: 3px solid $brand-danger;
       border-right: 3px solid $brand-danger;
       z-index: 1;
     }
-    &.horizontal-up {
+    .horizontal-up {
+      height: 23px;
       position: absolute;
+      right: 0;
       margin-top: -12px;
       border-bottom: 3px solid $brand-danger;
       border-right: 3px solid $brand-danger;

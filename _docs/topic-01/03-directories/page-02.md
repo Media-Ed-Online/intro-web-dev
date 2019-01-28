@@ -39,8 +39,8 @@ The web also use familial terms to describe content relationships, such as “gr
 </div>
 <pre id="bash">
 .
-└── <i class="far fa-folder-open"></i> my-site/ <i class="fas fa-arrows-alt-h bounce-x"><span>parent to</span></i><div class="line horizontal-down bounce-x" style="width: 75px"></div>
-    └── <i class="far fa-folder-open"></i> content/ <i class="fas fa-arrows-alt-h bounce-x"><span>child of</span></i><div class="line horizontal-up bounce-x" style="width: 47px"></div>
+└── <i class="far fa-folder-open"></i> my-site/ <i class="fas fa-arrows-alt-h bounce-x"><span>parent to</span></i><div class="line bounce-x"><div class="horizontal-down" style="width: 140px"></div></div>
+    └── <i class="far fa-folder-open"></i> content/ <i class="fas fa-arrows-alt-h bounce-x"><span>child of</span></i><div class="line bounce-x"><div class="horizontal-up" style="width: 115px"></div></div>
         └── <i class="far fa-folder-open"></i> images/
             └── <i class="far fa-image"></i> logo.png
 </pre>
@@ -58,8 +58,8 @@ This can also describe the location of files. The file `logo.png` is found in it
 .
 └── <i class="far fa-folder-open"></i> my-site/
     └── <i class="far fa-folder-open"></i> content/
-        └── <i class="far fa-folder-open"></i> images/ <i class="fas fa-long-arrow-alt-left bounce-x"><span>parent</span></i><div class="line horizontal-down bounce-x" style="width: 75px"></div>
-            └── <i class="far fa-image"></i> logo.png  <div class="line horizontal-up bounce-x" style="width: 99px"></div>
+        └── <i class="far fa-folder-open"></i> images/ <i class="fas fa-long-arrow-alt-left bounce-x"><span>parent directory</span></i><div class="line bounce-x"><div class="horizontal-down" style="width: 20px"></div></div>
+            └── <i class="far fa-image"></i> logo.png  <div class="line bounce-x"><div class="horizontal-up" style="width: 135px"></div></div>
 </pre>
 
 
@@ -72,9 +72,9 @@ This familial titling can go deeper as well.
 </div>
 <pre id="bash">
 .
-└── <i class="far fa-folder-open"></i> my-site/ <i class="fas fa-arrows-alt-h bounce-x"><span>grandparent to</span></i><div class="line horizontal-down bounce-x" style="width: 75px"></div>
+└── <i class="far fa-folder-open"></i> my-site/ <i class="fas fa-arrows-alt-h bounce-x"><span>grandparent to</span></i><div class="line bounce-x"><div class="horizontal-down" style="width: 95px"></div></div>
     └── <i class="far fa-folder-open"></i> content/
-        └── <i class="far fa-folder-open"></i> images/ <i class="fas fa-arrows-alt-h bounce-x"><span>grandchild of</span></i><div class="line horizontal-up bounce-x" style="width: 20.5px"></div>
+        └── <i class="far fa-folder-open"></i> images/ <i class="fas fa-arrows-alt-h bounce-x"><span>grandchild of</span></i><div class="line bounce-x"><div class="horizontal-up" style="width: 45px"></div></div>
             └── <i class="far fa-image"></i> logo.png
 </pre>
 
