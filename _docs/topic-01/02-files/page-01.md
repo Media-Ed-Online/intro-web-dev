@@ -24,7 +24,7 @@ Web designers use all types of files to create sites, from `.html` to `.css` to 
   <div class="col-lg-10">
     <h3>Hypertext Markup Language (<b>HTML</b> or <b>HTM</b>)</h3>
     <p>HTML is the standard language known by all web designers and developers. HTML provides the structure of the page, using <i>elements</i> to create headings, paragraphs, lists, tables, links, etc. Properly-laid-out HTML is designed to enhance accessibility, and provide structured content outside of decorative styling.</p>
-    
+
     <ul class="pros-and-cons">
       <li class="icon-pro">Easy-to-learn, free or low-cost.</li>
       <li class="icon-pro">Widely-used; standard practice.</li>

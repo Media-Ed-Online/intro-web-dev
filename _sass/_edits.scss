@@ -114,7 +114,7 @@ iframe:not(.embed-responsive-item) {
 
   img {
     margin: ($line-height-computed * 2) auto;
-    max-width: 700px;
+    @include img-responsive;
   }
 }
 
@@ -589,6 +589,7 @@ iframe:not(.embed-responsive-item) {
   //margin: 1rem auto !important;
   .col-lg-2 {
     text-align: center;
+    padding-bottom: $line-height-computed;
     img {
       width: 100%;
       margin: 0 auto 1rem;
