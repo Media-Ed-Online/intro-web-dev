@@ -530,6 +530,10 @@ iframe:not(.embed-responsive-item) {
     border-radius: $border-radius-base 0 $border-radius-base $border-radius-base;
     word-break: normal;
     word-wrap: normal;
+
+    .fab, .far, .fas, .fa {
+      font-size: 1.1em;
+    }
   }
 }
 
@@ -601,13 +605,6 @@ iframe:not(.embed-responsive-item) {
 }
 .fa-image, .fa-music, .fa-video {
   color: $brand-info;
-}
-.fa-long-arrow-alt-left,
-.fa-long-arrow-alt-right,
-.fa-long-arrow-alt-up,
-.fa-long-arrow-alt-down,
-.fa-arrows-alt-h {
-    color: $brand-danger;
 }
 .fa-thumbtack {
   @include rotate(270deg);

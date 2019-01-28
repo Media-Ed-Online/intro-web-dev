@@ -1,8 +1,74 @@
+// ANIMATIONS
+  // >>> overwrites:  /_sass/bootstrap/mixins/_vendor-prefixes.scss
+@mixin animate($name, $duration, $delay, $iteration-count, $direction) {
+  -webkit-animation-name: $name;
+     -moz-animation-name: $name;
+       -o-animation-name: $name;
+          animation-name: $name;
+
+	-webkit-animation-duration: $duration;
+	   -moz-animation-duration: $duration;
+	     -o-animation-duration: $duration;
+		    animation-duration: $duration;
+
+    -webkit-animation-delay: $delay;
+  	   -moz-animation-delay: $delay;
+  	     -o-animation-delay: $delay;
+  	        animation-delay: $delay;
+
+	-webkit-animation-iteration-count: $iteration-count;
+	   -moz-animation-iteration-count: $iteration-count;
+	     -o-animation-iteration-count: $iteration-count;
+	        animation-iteration-count: $iteration-count;
+
+	-webkit-animation-direction: $direction;
+	   -moz-animation-direction: $direction;
+	     -o-animation-direction: $direction;
+		    animation-direction: $direction;
+}
+@mixin keyframes($animationName) {
+    @-webkit-keyframes #{$animationName} {
+        @content;
+    }
+    @-moz-keyframes #{$animationName} {
+        @content;
+    }
+    @-o-keyframes #{$animationName} {
+        @content;
+    }
+    @keyframes #{$animationName} {
+        @content;
+    }
+}
+
+
+
+
 // CODEBLOCK DISPLAY
   // >>> Bounce fa-long-arrow-alt-left
+@include keyframes(bounce-x) {
+  0%, 20%, 50%, 80%, 100% {
+    @include translate(0, 0);
+  }
+  40% {
+    @include translate(10px, 0);
+  }
+  60% {
+    @include translate(5px, 0);
+  }
+}
+@mixin bounce-x {
+  @include animate(bounce-x, 2s, 0s, infinite, normal);
+}
 .page-styling pre {
-  .fab, .far, .fas, .fa {
-    font-size: 1.1em;
+    .fa-long-arrow-alt-left,
+    .fa-long-arrow-alt-right,
+    .fa-long-arrow-alt-up,
+    .fa-long-arrow-alt-down,
+    .fa-arrows-alt-h {
+        color: $brand-danger;
+        @include bounce-x;
+
     span {
       font-family: $font-family-monospace;
       text-transform: uppercase;
@@ -17,6 +83,7 @@
     height: 23px;
     display: inline-block;
     position: absolute;
+    @include bounce-x;
 
     &.horizontal-down {
       position: absolute;
@@ -33,53 +100,4 @@
       z-index: 0;
     }
   }
-}
-@keyframes bounce-x {
-  0%, 20%, 50%, 80%, 100% {
-    @include translate(0, 0);
-  }
-  40% {
-    @include translate(10px, 0);
-  }
-  60% {
-    @include translate(5px, 0);
-  }
-}
-.bounce-x {
-  @include animation(bounce-x 2s infinite);
-  @include animation-name(bounce-x);
-  @include animation-duration(2s);
-  @include animation-iteration-count(infinite);
-}
-
-  // >>> Bounce fa-long-arrow-alt-up
-@keyframes bounce-y-up {
-  0%, 20%, 50%, 80%, 100% {
-    @include translate(0, 0);
-  }
-  40% {
-    @include translate(0, 10px);
-  }
-  60% {
-    @include translate(0, 5px);
-  }
-}
-.bounce-y-up {
-  @include animation(bounce-y-up 2s infinite);
-  text-align: center;
-}
-@keyframes bounce-y-down {
-  0%, 20%, 50%, 80%, 100% {
-    @include translate(0, 0);
-  }
-  40% {
-    @include translate(0, -10px);
-  }
-  60% {
-    @include translate(0, -5px);
-  }
-}
-.bounce-y-down {
-  @include animation(bounce-y-down 2s infinite);
-  text-align: center;
 }
