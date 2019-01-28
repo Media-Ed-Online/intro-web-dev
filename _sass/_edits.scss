@@ -615,7 +615,8 @@ iframe:not(.embed-responsive-item) {
   margin: 10px auto 30px !important;
   color: $panel-info-text;
   height: 90px;
-  font-size: 6em;
+  /*fontawesome*/ font-size: 6em;
+  /*images = 6ems*/ width: 96px !important;
 }
   // >>> List Items (x, ✓)
 .icon-pro, .icon-con {

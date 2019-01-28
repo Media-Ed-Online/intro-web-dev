@@ -17,3 +17,4 @@ We don't even need additional programs to begin using a VCS like [GitHub.com](ht
 <span class="label label-danger">Important</span> You will only use **one repository** for this class. This is the only time you will complete this process.
 
 <iframe src="https://h5p.org/h5p/embed/412442" width="1090" height="794" frameborder="0" allowfullscreen="allowfullscreen"></iframe>
+<a href="https://h5p.org/node/412442" class="btn btn-default btn-xs" target="_blank">View Larger</a>
