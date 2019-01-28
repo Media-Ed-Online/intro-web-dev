@@ -530,6 +530,7 @@ iframe:not(.embed-responsive-item) {
     border-radius: $border-radius-base 0 $border-radius-base $border-radius-base;
     word-break: normal;
     word-wrap: normal;
+    -webkit-overflow-scrolling: touch;
 
     .fab, .far, .fas, .fa {
       font-size: 1.1em;
