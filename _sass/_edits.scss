@@ -530,39 +530,6 @@ iframe:not(.embed-responsive-item) {
     border-radius: $border-radius-base 0 $border-radius-base $border-radius-base;
     word-break: normal;
     word-wrap: normal;
-
-    .fab, .far, .fas, .fa {
-      font-size: 1.1em;
-      span {
-        font-family: $font-family-sans-serif-alt;
-        text-transform: uppercase;
-        letter-spacing: 2px;
-        font-size: 8pt;
-        vertical-align: middle;
-        margin: auto 0.5em;
-      }
-    }
-    .line {
-      width: auto;
-      height: 23px;
-      display: inline-block;
-      position: absolute;
-
-      &.horizontal-down {
-        position: absolute;
-        margin-top: 8px;
-        border-top: 3px solid $brand-danger;
-        border-right: 3px solid $brand-danger;
-        z-index: 1;
-      }
-      &.horizontal-up {
-        position: absolute;
-        margin-top: -12px;
-        border-bottom: 3px solid $brand-danger;
-        border-right: 3px solid $brand-danger;
-        z-index: 0;
-      }
-    }
   }
 }
 
