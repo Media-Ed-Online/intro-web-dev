@@ -8,6 +8,7 @@ tags: internet, web
 
 <div class="divider-heading"></div>
 
+
 <blockquote>
   <p><i>The original idea of the web was that it should be a collaborative space where you can communicate through sharing information.</i></p>
   <p>- <a href="https://en.wikipedia.org/wiki/Tim_Berners-Lee">Tim Berners-Lee</a>, the man who proposed the World Wide Web.</p>

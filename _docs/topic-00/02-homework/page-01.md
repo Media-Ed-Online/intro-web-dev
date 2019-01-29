@@ -8,6 +8,7 @@ tags: homework, required
 
 <div class="divider-heading"></div>
 
+
 <img src="../img/materials-nav-example.gif" alt="locations of materials links" title="Materials Navigation" />
 
 As stated, the majority of your learning materials will be posted of this site. The course is broken up into 4 modules, with 2-4 Topics each (as seen in the “Modules” dropdown menu above).

@@ -8,6 +8,7 @@ tags: internet, routing, wifi
 
 <div class="divider-heading"></div>
 
+
 Knowing “the internet” is a physical network of wires is only half the job. These next videos cover a number of higher-level topics intended to help you understand how data flows from you to me.
 
 

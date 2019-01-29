@@ -8,6 +8,7 @@ tags: github, registration
 
 <div class="divider-heading"></div>
 
+
 To complete this area of the course, you’ll need to have registered for a free GitHub account.
 
 We will discuss <a href="https://github.com/" target="_blank">GitHub.com</a> more in the future, but in the meantime, I would you like you to know that GitHub is a web service which is used for storing git repositories by developers. Much of that statement is still likely jargon to you, and that’s okay - it will all come in time.

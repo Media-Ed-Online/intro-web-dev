@@ -8,6 +8,7 @@ tags: directory, github, markdown, readme
 
 <div class="divider-heading"></div>
 
+
 **README files** are text files that simply contain information about their directory. They explain why the project is useful, what kinds of files it may have, its history, or any other relevant points worth elaborating.
 
 <a href="https://github.com/" target="_blank">GitHub.com</a> uses **Markdown** extensively within its ecosystem for documentation; README files and Issues postings are written using Markdown.

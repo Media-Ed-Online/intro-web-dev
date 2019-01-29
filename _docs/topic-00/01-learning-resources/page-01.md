@@ -8,6 +8,7 @@ tags: grades, moodle
 
 <div class="divider-heading"></div>
 
+
 The learning management system for this course will be [Moodle]({{site.data.moodle.main}}).
 
 There, you will turn in and receive grades for all submitted work, including assignments, quizzes, and projects. Homework is community-affair, and you are encouraged to view each other's submissions.

@@ -8,6 +8,7 @@ tags: markdown, markup, processor, text
 
 <div class="divider-heading"></div>
 
+
 **HTML** or *HyperText Markup Language*, is one of the original markup languages and one you will be using extensively during this course. But to start, let's look at another slightly simpler and very popular markup language known as **Markdown.**
 
 A Markdown file typically uses the `.md` extension.

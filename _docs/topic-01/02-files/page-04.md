@@ -8,6 +8,7 @@ tags: design, file, script
 
 <div class="divider-heading"></div>
 
+
 **Scripts** add functionality to websites. They can be run client- or server-side, and can do some really heavy lifting in terms of making sites interesting and dynamic.
 
 

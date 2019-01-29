@@ -8,6 +8,7 @@ tags: design, file, image
 
 <div class="divider-heading"></div>
 
+
 **Images** are the media lifeblood of web design. Sites can contain many images in different file types, and how that image will be used dictates what file type it should be, and vice versa.
 
 

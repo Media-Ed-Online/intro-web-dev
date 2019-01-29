@@ -8,6 +8,7 @@ tags: design, file, text
 
 <div class="divider-heading"></div>
 
+
 **Text documents** include many file types and can be described as any file that stores an ASCII character set (as opposed to binary data), which is the most common format for the English language.
 
 

@@ -8,6 +8,7 @@ tags: git, vcs
 
 <div class="divider-heading"></div>
 
+
 One great thing about working with text files is that their simplicity makes it easy to track changes between various versions of that file. Since the files contain only <a href="http://www.asciitable.com" target="_blank">ASCII</a> characters, it is easy to create programs that can look for character or word level changes to a document.
 
 <blockquote>

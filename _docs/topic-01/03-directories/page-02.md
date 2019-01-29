@@ -8,7 +8,9 @@ tags: directory, file, folder, name
 
 <div class="divider-heading"></div>
 
+
 Directories are hierarchical - that is, they are organized in a structure resembling a tree, with a single root which branches off into related groups of content.
+
 
 ## Hierarchy
 The top-most directory is considered the **root directory**. Whatever current “folder” you are in can be considered the **active directory**, and any directories inside that current directory are called **subdirectories.**

@@ -8,6 +8,7 @@ tags: dns, internet, ip, protocol
 
 <div class="divider-heading"></div>
 
+
 <blockquote>
   <p><i>When I helped to develop the open standards that computers use to communicate with one another across the Net, I hoped for but could not predict how it would blossom and how much human ingenuity it would unleash.</i></p>
   <p>- <a href="https://en.wikipedia.org/wiki/Vint_Cerf">Vint Cerf</a>, co-inventor of the internet.</p>

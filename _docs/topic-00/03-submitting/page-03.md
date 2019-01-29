@@ -8,6 +8,7 @@ tags: github, help, issues
 
 <div class="divider-heading"></div>
 
+
 The absolute best way to ask for help in this course is to utilize the <a href="{{ site.git_address }}-resources/issues/">Issues board</a> feature. This is ideal because:
 
 1. Everyone has access to your question, and can help respond.

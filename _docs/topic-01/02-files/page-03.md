@@ -8,6 +8,7 @@ tags: audio, design, file, video
 
 <div class="divider-heading"></div>
 
+
 You will come across _many_ types of **media** files in websites. Below are just some common variables, but by no means the only file types available. This list also excludes streaming media, which is the prevailing method of using media on the web.
 
 
