@@ -119,22 +119,31 @@ topic-02:
     - link-deeper
     - todo-linking
 
-  - title: README.md Files
+  - title: Atom Text Editor
     docs:
-    - markdown-readme
-    - markdown-headings
-    - markdown-paragraphs
-    - markdown-emphasis
-    - markdown-lists
-    - markdown-links
-    - markdown-images
-    - markdown-code
-    - todo-readme
+    - atom-intro
+    - atom-base-install
+    - atom-optional-install
+    - readme
+    - create-readme
+    - todo-atom2
 
-  - title: Developing with a Text Editor
-    docs:
-    - atom-install
-    - atom-new-directory
-    - atom-new-file
-    - atom-move-file
-    - todo-atom
+  #- title: README.md Files
+    #docs:
+    #- markdown-readme
+    #- markdown-headings
+    #- markdown-paragraphs
+    #- markdown-emphasis
+    #- markdown-lists
+    #- markdown-links
+    #- markdown-images
+    #- markdown-code
+    #- todo-readme
+
+  #- title: Developing with a Text Editor
+    #docs:
+    #- atom-install
+    #- atom-new-directory
+    #- atom-new-file
+    #- atom-move-file
+    #- todo-atom

@@ -17,7 +17,7 @@ In the first Topic we spent time with an overview of this course itself, the int
 
 By the end of this Topic, we hope you:
 <ul class="pros-and-cons">
-  <li class="icon-pro">Understand the importance of well-organized and -labeled files in web development.</li>
-  <li class="icon-pro">Set up a proper folder/directory system for your future homework.</li>
-  <li class="icon-pro">Experimented with performing, tracking, and visualizing changes to files between your local drive and GitHub.</li>
+  <li class="icon-pro">Further understand the importance of well-organized and -labeled files in web development.</li>
+  <li class="icon-pro">Set up a new folder/directory locally, and experimented with how files communicate.</li>
+  <li class="icon-pro">Coded with your first web language - Markdown!</li>
 </ul>
