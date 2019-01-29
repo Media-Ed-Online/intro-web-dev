@@ -83,7 +83,7 @@ topic-01:
     - readme-files
     - todo-editors
 
-  - title: Repositories and GitHub.com
+  - title: Developing with GitHub.com
     docs:
     - git-vcs
     - git-new-repo
@@ -101,44 +101,40 @@ topic-02:
 
   - title: The Flow of Information
     docs:
-    - infrastructure
-    - protocols
-    - todo-flow-info
+    - net-infrastructure
+    - net-protocols
+    - todo-net-flow
 
-  - title: The Internet's Address Book
+  - title: Directories and Addresses
     docs:
-    - web-addresses
+    - urls-addresses
     - urls-absolute
     - urls-relative
     - todo-urls
 
-  - title: Developing with a Text Editor
-    docs:
-    - atom-intro
-    - atom-base-install
-    - atom-optional-install
-    - create-readme
-    - todo-readme
-    - todo-atom
-
-  - title: GitHub GUI
-    docs:
-    - github-desktop-intro
-    - github-desktop-install
-    - todo-github-desktop
-
-  - title: Developing with Git
-    docs:
-    - dev-part-1
-    - dev-part-2
-    - dev-part-3
-    - dev-part-4
-    - dev-part-5
-    - todo-setup
-
-  - title: Intro to Linking
+  - title: Subdirectories and Linking
     docs:
     - link-internal
     - link-same
     - link-deeper
     - todo-linking
+
+  - title: README.md Files
+    docs:
+    - markdown-readme
+    - markdown-headings
+    - markdown-paragraphs
+    - markdown-emphasis
+    - markdown-lists
+    - markdown-links
+    - markdown-images
+    - markdown-code
+    - todo-readme
+
+  - title: Developing with a Text Editor
+    docs:
+    - atom-install
+    - atom-new-directory
+    - atom-new-file
+    - atom-move-file
+    - todo-atom
