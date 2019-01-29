@@ -2,7 +2,6 @@
 title: Topic Overview
 module: topic-00
 permalink: /topic-00/overview/
-redirect_from: /get-started.html
 redirect_from: /topic-00/
 categories: uncategorized
 tags:

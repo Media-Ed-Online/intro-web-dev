@@ -10,7 +10,7 @@ tags: github, guide, repository
 
 <span class="label label-warning">Load Time</span> This page contains embedded interactive content. In may take 3-10 seconds to completely load.
 
-We don't even need additional programs to begin using a VCS like [GitHub.com](https://github.com/). We can begin creating and tracking files directly within the browser, as long as we create a new repository.
+We don't even need additional programs to begin using a VCS like <a href="https://github.com/" target="_blank">GitHub.com</a>. We can begin creating and tracking files directly within the browser, as long as we create a new repository.
 
 **Repositories** (or _repo_ for short) are the bookbags of websites, and contain all of the files, folders, and related content for that site. A `README.md` file is placed at the highest level of the working directory (the “main folder” or directory) to provide information about that repo.
 

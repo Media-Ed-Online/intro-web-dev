@@ -566,7 +566,7 @@ iframe:not(.embed-responsive-item) {
       width: 100%;
       margin: 0 auto 1rem;
       @media (max-width: $screen-lg) {
-        max-width: 150px;
+        max-width: 100px;
         margin: 2rem auto;
       }
     }

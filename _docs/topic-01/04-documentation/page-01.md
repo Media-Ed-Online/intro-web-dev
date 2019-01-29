@@ -8,7 +8,7 @@ tags: document, file, processor, text
 
 <div class="divider-heading"></div>
 
-As you just read in “<a href="../web-files">Web Files</a>”, **text documents** are file that store an [ASCII character set](https://en.wikipedia.org/wiki/ASCII) (as opposed to binary data), which is the most common format for the English language. These text files can include text documents of prose, code, or some combination of both.
+As you just read in “<a href="../web-files-text">Text Documents</a>”, said **text documents** are files that store an [ASCII character set](https://en.wikipedia.org/wiki/ASCII) (as opposed to binary data), which is the most common format for the English language. These text files can include text documents of prose, code, or some combination of both.
 
 
 ## Creating plain text files

@@ -9,7 +9,7 @@ tags: github, hosting, issues, wiki
 <div class="divider-heading"></div>
 
 
-[GitHub.com](https://www.github.com) is a web-based Git repository hosting service, and is required for you to use in this course. But you may be wondering why? Well, GitHub is a major tool that developers use to - well, _develop_ - and how we’re going to help you create, fix, and build websites.
+<a href="https://github.com/" target="_blank">GitHub.com</a> is a web-based Git repository hosting service, and is required for you to use in this course. But you may be wondering why? Well, GitHub is a major tool that developers use to - well, _develop_ - and how we’re going to help you create, fix, and build websites.
 
 
 ## GitHub Repository Hosting
@@ -34,7 +34,7 @@ GitHub allows users to have an unlimited number of public repositories under 2GB
 As you saw in the above video, GitHub also provides advanced collaboration tools. This is not something you will use much this semester, however it is important to know about and you will use it in future projects.
 
 ###  Static Website Hosting:
-GitHub also provides a service known as [GitHub Pages](https://pages.github.com/). This service provides **free** static website hosting. This is what you will primarily use this semester to host your web projects.
+GitHub also provides a service known as <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>. This service provides **free** static website hosting. This is what you will primarily use this semester to host your web projects.
 
 <span class="label label-success">Neat-o</span> Did I mention it is FREE? This means you do not have to purchase server providers from another company.
 
