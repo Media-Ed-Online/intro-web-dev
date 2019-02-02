@@ -376,9 +376,10 @@ iframe:not(.embed-responsive-item) {
 // LIST GROUPS
   // >>> overwrites:  /_sass/bootstrap/_list-group.scss
 .page-styling {
-  .list-group-item {
+  // UKNOWN ORIGINAL PURPOSE
+  /*.list-group-item {
     padding-left: 30px;
-  }
+  }*/
   .list-group-item-heading {
     margin-top: 0 !important;
     margin-bottom: 5px;
@@ -628,12 +629,17 @@ iframe:not(.embed-responsive-item) {
   @include rotate(270deg);
 }
   // >>> TODO icons
-.icon-hw {
-  margin: 10px auto 30px !important;
+i.icon-hw {
+  margin: 10px auto 30px;
   color: $panel-info-text;
   height: 90px;
   /*fontawesome*/ font-size: 6em;
-  /*images = 6ems*/ width: 96px !important;
+}
+img.icon-hw {
+  margin: 10px auto 30px;
+  color: $panel-info-text;
+  height: 90px;
+  /*images ~ 6ems*/ width: 96px;
 }
   // >>> List Items (x, ✓)
 .icon-pro, .icon-con {
