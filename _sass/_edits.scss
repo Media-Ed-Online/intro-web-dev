@@ -522,7 +522,7 @@ iframe:not(.embed-responsive-item) {
         @include tab($brand-warning)
       }
       &.preview {
-        @include tab($gray-lighter);
+        @include tab($pre-border-color);
         color: $gray-dark;
       }
     }
@@ -544,14 +544,14 @@ iframe:not(.embed-responsive-item) {
     display: block;
     padding: (($line-height-computed - 1) / 2);
     margin: 0 0 ($line-height-computed / 2);
+    border-radius: $border-radius-base 0 $border-radius-base $border-radius-base;
+    word-break: normal;
+    word-wrap: normal;
     font-size: ($font-size-base - 1); // 14px to 13px
     line-height: $line-height-base;
-    word-break: break-all;
-    word-wrap: break-word;
     color: $pre-color;
-    background-color: white;
+    background-color: #fff;
     border: 1px solid $pre-border-color;
-    border-radius: $border-radius-base;
   }
 }
 

@@ -28,15 +28,3 @@ If a `README.md` file is put in a repository's root directory, GitHub will recog
 </pre>
 
 Don't worry if this doesn't quite make sense yet: we can provide an example! Go ahead, <a href="{{ site.git_address }}#readme" target="_blank">check ours out</a>.
-
-
-<div class="divider-pg"></div>
-
-
-## For Our Purposes
-**For every assignment you submit, you will also write a short report in a plain-text file.** For most, this report is the `README.md` for that directory, and may discuss a number of things every week:
-
-- Questions regarding your understanding of the Topic's materials.
-- Summarizing the work you did this cycle, paying particular attention to the individual choices you made.
-- Is there anything in particular you learned that you would like to discuss further?
-- What problems did you have? How did you solve them?

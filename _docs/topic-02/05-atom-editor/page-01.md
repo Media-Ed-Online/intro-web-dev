@@ -8,6 +8,9 @@ tags: atom, editor, guide, install, text
 
 <div class="divider-heading"></div>
 
+
+<span class="label label-warning">Load Time</span> This page contains embedded interactive content. In may take 3-10 seconds to completely load.
+
 Text editors are specialty applications which can ease the type of text and coding work you will be doing in web development. These applications are designed to speed up the writing process and are specially equipped to display text documents in a way that makes identifying errors more easy.
 
 There are many types of text editors, each optimized for specific types of tasks.
