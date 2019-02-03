@@ -656,14 +656,15 @@ iframe:not(.embed-responsive-item) {
 i.icon-hw {
   margin: 10px auto 30px;
   color: $panel-info-text;
-  height: 90px;
-  /*fontawesome*/ font-size: 6em;
+  height: 80px;
+  /*fontawesome*/ font-size: 5em;
 }
 img.icon-hw {
   margin: 10px auto 30px;
   color: $panel-info-text;
-  height: 90px;
-  /*images ~ 6ems*/ width: 96px;
+  height: 80px;
+  /*images ~ 6ems*/ //width: 96px;
+  /*images ~ 5ems*/ //width: 80px;
 }
   // >>> List Items (x, ✓)
 .icon-pro, .icon-con {
