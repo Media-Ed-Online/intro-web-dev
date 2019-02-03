@@ -112,13 +112,6 @@ topic-02:
     - urls-relative
     - todo-urls
 
-  - title: Subdirectories and Linking
-    docs:
-    - link-internal
-    - link-same
-    - link-deeper
-    - todo-linking
-
   - title: README.md Files
     docs:
     - markdown-readme
@@ -154,3 +147,50 @@ topic-03:
     - browser-history
     - browser-stats
     - todo-browsers
+
+  - title: Document Object Manager
+    docs:
+    - overviewz
+
+  - title: Document Structure
+    docs:
+    - overviewz
+
+  - title: Directory and File URLs
+    docs:
+    - overviewz
+
+  - title: Index Files
+    docs:
+    - overviewz
+
+  - title: Developing With GitHub Pages
+    docs:
+    - overviewz
+
+##################################################
+
+topic-04:
+  - title: “GIT Website”
+    docs:
+    - overview
+
+  - title: Headings
+    docs:
+    - overviewz
+
+  - title: Paragraphs
+    docs:
+    - overviewz
+
+  - title: Empty Elements
+    docs:
+    - overviewz
+
+  - title: Snooping
+    docs:
+    - overviewz
+
+  - title: Developing with GitHub Desktop
+    docs:
+    - overviewz
