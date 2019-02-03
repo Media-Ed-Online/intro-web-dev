@@ -140,3 +140,17 @@ topic-02:
     - atom-move-file
     - git-add-directory
     - todo-atom
+
+##################################################
+
+topic-03:
+  - title: “Pages”
+    docs:
+    - overview
+
+  - title: Browsers
+    docs:
+    - browser-intro
+    - browser-history
+    - browser-stats
+    - todo-browsers
