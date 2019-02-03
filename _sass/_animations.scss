@@ -60,6 +60,22 @@
 @mixin bounce-x {
   @include animate(bounce-x, 2s, 0s, infinite, normal);
 }
+
+@include keyframes(bounce-x-alt) {
+  0%, 20%, 50%, 80%, 100% {
+    @include translate(0, 0);
+  }
+  40% {
+    @include translate(-10px, 0);
+  }
+  60% {
+    @include translate(-5px, 0);
+  }
+}
+@mixin bounce-x-alt {
+  @include animate(bounce-x-alt, 2s, 0s, infinite, normal);
+}
+
 .page-styling pre {
     .fa-long-arrow-alt-left,
     .fa-long-arrow-alt-right,

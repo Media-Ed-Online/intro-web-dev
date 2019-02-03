@@ -17,7 +17,7 @@ But once we branch away from our desktop however, this term is a little less app
   <p align="center">
     <img src="https://www.mcdonalds.com/content/dam/usa/logo/m_logo.png" alt="McDonald's Logo" style="border: none;"/>
   </p>
-  <p align="center">https://www.mcdonalds.com/content/dam/usa/logo/m_logo.png</p>
+  <p class="url-example">https://www.mcdonalds.com/content/dam/usa/logo/m_logo.png</p>
 </div>
 
 The **path** (or “directions”) for this image, `/content/dam/usa/logo/` actually refers to the nesting of its folders, or **directories**.

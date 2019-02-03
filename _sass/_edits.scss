@@ -111,10 +111,34 @@ iframe:not(.embed-responsive-item) {
       width: 100%;
     }
   }
-
+  // images
   img {
     margin: ($line-height-computed * 2) auto;
     @include img-responsive;
+  }
+  // image captions
+  .img-caption {
+    margin-top: -($line-height-computed * 1.5);
+    font-size:  $font-size-small;
+    font-family: $font-family-sans-serif-alt;
+    font-style: italic;
+    color: $gray-light;
+    &::before {
+      content: "\f0da";
+      font-family: "Font Awesome 5 Free";
+      font-weight: 900;
+      font-size: inherit;
+      font-style: normal;
+      margin-right: 5px;
+    }
+  }
+  .url-example {
+      font-family: $font-family-sans-serif-alt;
+      text-align: center;
+      letter-spacing: 2px;
+      font-weight: bold;
+      vertical-align: middle;
+      margin: auto 0.5em;
   }
 }
 
@@ -577,7 +601,7 @@ iframe:not(.embed-responsive-item) {
   // >>> 2-column Img + Text
 .img-text-columns {
   //margin: 1rem auto !important;
-  .col-lg-2 {
+  .col-lg-2, .col-lg-3 {
     text-align: center;
     padding-bottom: $line-height-computed;
     img {
