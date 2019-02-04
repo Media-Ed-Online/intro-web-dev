@@ -159,8 +159,8 @@
     margin-bottom: -40px;
   }
   .col-lg-3 {
-    padding-bottom: 20px;
     text-align: center;
+    margin-bottom: 20px;
     .icon {
       width: 80px;
       height: 80px;
@@ -180,22 +180,22 @@
 }
 
   // burst animation
-@keyframes lightBursts {
+@keyframes light-bursts {
   0%, 90%, 100% {
-    height: 0px;
-    bottom: 80px;
+    height: 0%;
+    bottom: 100%;
   }
   10% {
-    height: 0px;
-    bottom: 64px;
+    height: 0%;
+    bottom: 80%;
   }
   35% {
-    height: 16px;
-    bottom: 64px;
+    height: 20%;
+    bottom: 80%;
   }
 }
-@mixin lightBursts {
-  @include animate(lightBursts, 1.5s, 0s, easin-out, infinite, normal);
+@mixin light-bursts {
+  @include animate(light-bursts, 1.5s, 0s, easin-out, infinite, normal);
 }
   // burst lines
 ul.bursts {
@@ -206,18 +206,18 @@ ul.bursts {
    // individual light bursts
   li {
     width: 2px;
-    height: 80px;
+    height: 100%;
     background: transparent;
     position: absolute;
     &::after {
       content: '';
       width: 2px;
-      height: 40px;
+      height: 50%;
       background: $gray; //re-color in sections
       position: absolute;
       left: 0;
-      bottom: 80px;
-      @include lightBursts;
+      bottom: 50%;
+      @include light-bursts;
     }
     //Draw 10 light bursts - use class name to include
     &.deg0   {@include rotate(0deg);}
