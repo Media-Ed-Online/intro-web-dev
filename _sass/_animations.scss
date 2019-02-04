@@ -203,6 +203,9 @@ ul.bursts {
   margin: 0;
   margin-left: calc(50% - 1px);
   padding: 0;
+  @media (max-width: $screen-xs) {
+    display: none;
+  }
    // individual light bursts
   li {
     width: 2px;
