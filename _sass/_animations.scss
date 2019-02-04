@@ -181,16 +181,16 @@
   // burst animation
 @keyframes lightBursts {
   0%, 90%, 100% {
-    height: 0px;
-    bottom: 100px;
+    height: 0%;
+    bottom: 100%;
   }
   10% {
-    height: 0px;
-    bottom: 80px;
+    height: 0%;
+    bottom: 80%;
   }
   35% {
-    height: 20px;
-    bottom: 80px;
+    height: 20%;
+    bottom: 80%;
   }
 }
 @mixin lightBursts {
@@ -216,7 +216,7 @@ ul.bursts {
       position: absolute;
       left: 0;
       bottom: 50%;
-      @include lightBursts;
+      @include bounce-x;
     }
     //Draw 10 light bursts - use class name to include
     &.deg0   {@include rotate(0deg);}
@@ -250,5 +250,5 @@ div.status-warning {
   width: 100px;
   height: 20px;
   background: pink;
-  @include lightBursts;
+  @include bounce-x;
 }
