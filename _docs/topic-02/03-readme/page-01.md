@@ -39,8 +39,9 @@ Here's a good reference guide:
   </div>
 </div>
 
-Services such as <a href="https://github.com/" target="_blank">GitHub</a> and <a href="https://bitbucket.org/" target="_blank">Bitbucket</a> actually “look” for these files and render them automatically, so it's important to create the files thoughtfully.
+Services such as <a href="https://github.com/" target="_blank">GitHub</a> and <a href="https://bitbucket.org/" target="_blank">Bitbucket</a> actually “look” for these files and render them automatically, so it's important to create these files thoughtfully.
 
+<div class="test"></div>
 
 <div class="divider-pg"></div>
 

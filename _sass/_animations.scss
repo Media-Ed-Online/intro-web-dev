@@ -179,22 +179,22 @@
 }
 
   // burst animation
-@keyframes light-bursts {
+@keyframes lightBursts {
   0%, 90%, 100% {
-    height: 0%;
-    bottom: 100%;
+    height: 0px;
+    bottom: 100px;
   }
   10% {
-    height: 0%;
-    bottom: 80%;
+    height: 0px;
+    bottom: 80px;
   }
   35% {
-    height: 20%;
-    bottom: 80%;
+    height: 20px;
+    bottom: 80px;
   }
 }
-@mixin light-bursts {
-  @include animate(light-bursts, 1.5s, 0s, easin-out, infinite, normal);
+@mixin lightBursts {
+  @include animate(lightBursts, 1.5s, 0s, easin-out, infinite, normal);
 }
   // burst lines
 ul.bursts {
@@ -216,7 +216,7 @@ ul.bursts {
       position: absolute;
       left: 0;
       bottom: 50%;
-      @include light-bursts;
+      @include lightBursts;
     }
     //Draw 10 light bursts - use class name to include
     &.deg0   {@include rotate(0deg);}
@@ -244,4 +244,11 @@ ul.bursts {
    // individual light bursts
 div.status-warning {
   @include callout($brand-warning);
+}
+
+.test {
+  width: 100px;
+  height: 20px;
+  background: pink;
+  @include lightBursts;
 }
