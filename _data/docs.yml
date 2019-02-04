@@ -114,7 +114,12 @@ topic-02:
 
   - title: README.md Files
     docs:
-    - markdown-readme
+    - readme-directories
+    - readme-markdown
+    - todo-readme
+
+  - title: Markdown Elements
+    docs:
     - markdown-headings
     - markdown-paragraphs
     - markdown-emphasis
@@ -122,7 +127,7 @@ topic-02:
     - markdown-links
     - markdown-images
     - markdown-code
-    - todo-readme
+    - todo-markdown
 
   - title: Developing with a Text Editor
     docs:
@@ -156,13 +161,10 @@ topic-03:
     docs:
     - overviewz
 
-  - title: Directory and File URLs
-    docs:
-    - overviewz
-
   - title: Index Files
     docs:
     - overviewz
+    - URLS
 
   - title: Developing With GitHub Pages
     docs:
