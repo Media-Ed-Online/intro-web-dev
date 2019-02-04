@@ -206,17 +206,20 @@ ul.bursts {
    // individual light bursts
   li {
     width: 2px;
-    height: 100%;
+    //height: 100%;
+    /* iOS */ height: 80px;
     background: transparent;
     position: absolute;
     &::after {
       content: '';
       width: 2px;
-      height: 50%;
+      // height: 50%;
+      /* iOS */ height: 40px;
       background: $gray; //re-color in sections
       position: absolute;
       left: 0;
-      bottom: 50%;
+      // bottom: 50%;
+      /* iOS */ height: 40px;
       @include light-bursts;
     }
     //Draw 10 light bursts - use class name to include
