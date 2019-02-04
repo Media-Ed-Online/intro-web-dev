@@ -215,8 +215,8 @@ ul.bursts {
       background: $gray; //re-color in sections
       position: absolute;
       left: 0;
-      bottom: 50%;
-      @include bounce-x;
+      bottom: 100%;
+      //@include lightBursts;
     }
     //Draw 10 light bursts - use class name to include
     &.deg0   {@include rotate(0deg);}
@@ -250,5 +250,4 @@ div.status-warning {
   width: 100px;
   height: 20px;
   background: pink;
-  @include bounce-x;
 }
