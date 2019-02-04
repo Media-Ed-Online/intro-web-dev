@@ -182,15 +182,15 @@
   // burst animation
 @keyframes light-bursts {
   0%, 90%, 100% {
-    @include scaleY(0);
+    height: 0%;
     bottom: 100%;
   }
   10% {
-    @include scaleY(0);
+    height: 0%;
     bottom: 80%;
   }
   35% {
-    @include scaleY(0.2);
+    height: 20%;
     bottom: 80%;
   }
 }
