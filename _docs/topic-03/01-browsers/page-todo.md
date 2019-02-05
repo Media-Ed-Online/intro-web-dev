@@ -49,7 +49,7 @@ categories: uncategorized
   <div class="col-lg-4">
     <div class="bs-component">
       <div class="list-group">
-        <a href="http://www.whatbrowser.org/" target="_blank" class="list-group-item">
+        <a href="https://www.whatismybrowser.com/" target="_blank" class="list-group-item">
           <img class="icon-hw" src="../img/hw-icon-browser-logos.png" />
           <h4 class="list-group-item-heading">Check and Update Your Browser</h4>
           <div class="divider-hw"></div>
