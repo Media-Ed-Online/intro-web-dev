@@ -1,7 +1,7 @@
 ---
 title: Create a New File
 module: topic-01
-permalink: /topic-01/git-new-file/
+permalink: /topic-01/gh-new-file/
 categories: development
 tags: directory, file, github, guide
 ---

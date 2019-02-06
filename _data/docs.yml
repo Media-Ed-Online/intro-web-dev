@@ -40,12 +40,12 @@ topic-00:
     - homework
     - todo-homework
 
-  - title: Submitting
+  - title: Submitting with GitHub
     docs:
     - gh-overview
     - gh-registration
     - gh-issues
-    - todo-github
+    - todo-gh-reg
 
 ##################################################
 
@@ -86,12 +86,12 @@ topic-01:
 
   - title: Developing with GitHub.com
     docs:
-    - git-vcs
-    - git-new-repo
-    - git-edit-file
-    - git-new-file
-    - git-add-file
-    - todo-git
+    - gh-vcs
+    - gh-new-repo
+    - gh-edit-file
+    - gh-new-file
+    - gh-add-file
+    - todo-gh-site
 
 ##################################################
 
@@ -171,26 +171,20 @@ topic-03:
     - doc-elements-review
     - todo-elements
 
-  - title: Index Files
+  - title: Pages
     docs:
-    - index-intro
-    - index-part-1
-    - index-part-2
-    - index-part-3
-    - index-part-4
-    - todo-index
-    - file-vs-direct-urls
-    - via-root
-    - via-child
-    - via-refs
-    - todo-file-urls
+    - page-index
+    - page-urls
+    - page-content
+    - todo-page
 
   - title: Developing With GitHub Pages
     docs:
-    - server-space
     - gh-pages
-    - going-live
-    - todo-go-live
+    - gh-pages-repo
+    - gh-pages-dev
+    - gh-pages-live
+    - todo-gh-pages
 
 ##################################################
 

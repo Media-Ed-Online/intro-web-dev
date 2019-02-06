@@ -1,7 +1,7 @@
 ---
 title: Upload a File
 module: topic-01
-permalink: /topic-01/git-add-file/
+permalink: /topic-01/gh-add-file/
 categories: development
 tags: file, github, guide, upload
 ---

@@ -1,7 +1,7 @@
 ---
 title: Edit a File
 module: topic-01
-permalink: /topic-01/git-edit-file/
+permalink: /topic-01/gh-edit-file/
 categories: development
 tags: file, github, guide, repository
 ---

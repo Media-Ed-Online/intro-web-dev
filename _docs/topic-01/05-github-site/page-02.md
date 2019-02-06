@@ -1,7 +1,7 @@
 ---
 title: Create a New Repository
 module: topic-01
-permalink: /topic-01/git-new-repo/
+permalink: /topic-01/gh-new-repo/
 categories: development
 tags: github, guide, repository
 ---

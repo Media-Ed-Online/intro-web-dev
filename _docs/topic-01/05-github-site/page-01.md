@@ -1,7 +1,7 @@
 ---
 title: Git Version Control
 module: topic-01
-permalink: /topic-01/git-vcs/
+permalink: /topic-01/gh-vcs/
 categories: development
 tags: git, vcs
 ---
