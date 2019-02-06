@@ -1,5 +1,5 @@
 ---
-title: Using HTML
+title: Choosing and Using HTML
 module: topic-03
 permalink: /topic-03/dom-html/
 categories: html
@@ -9,11 +9,11 @@ tags: elements, markdown, paragraph, tags
 <div class="divider-heading"></div>
 
 
-The most widely-used markup language is HTML or **HyperText Markup Language.**
+The most widely-used markup language is HTML or **HyperText Markup Language.** Files ending in a `.html` file extension are HTML files, so a `page.html` is a text file written in HTML.
 
 <div class="row">
   <div class="col-lg-12">
-    <img src="../img/berners-lee.png" alt="Tim Berners-Lee" title="Tim Berners-Lee" style="width: 250px; float:right; margin-top: 0;"/>
+    <img src="../img/berners-lee.png" alt="Tim Berners-Lee" title="Tim Berners-Lee" style="width: 200px; float:right; margin: 0;"/>
 
     <p>HTML is the standard markup language for creating web pages and web applications. Web browsers use HTML to interpret and compose text, images, and other material into visual or audible web pages.</p>
 
@@ -26,7 +26,7 @@ The most widely-used markup language is HTML or **HyperText Markup Language.**
 
 
 ## HTML Elements
-An HTML document is composed of a tree of HTML elements. An **element** is an individual component of an HTML document. Elements denote to the processor structure and semantic meaning of the document. Elements may also be nested or encapsulated within other elements.
+An HTML document is composed of a tree of HTML elements. An **element** is an individual component of a HTML document. Elements denote to the processor structure and semantic meaning of the document. Elements may also be nested or encapsulated within other elements.
 
 <div class="code-heading">
   <span class="html">HTML</span>
@@ -47,13 +47,42 @@ This is a paragraph.
 This is another paragraph.
 ```
 
+<div class="divider-pg"></div>
+
+
 ## HTML Tags
 Elements are identified in a document through tags. A **tag** is code that is syntactically unique from the text content of the document. In HTML, all tags include a less-than (**<**) and greater-than (**>**) sign, with the tag typed between.
 
-Most elements include an “opening” and “closing” tag that the processor uses to identify the beginning and end of the element with. Closing tags are identical to opening tags, except that they contain a forward-slash (**/**) between the less-than (**>**) sign and the tag text.
+<div class="row callout-columns status-info">
+  <div class="col-lg-3">
+    <div class="icon">
+      <ul class="bursts">
+        <li class="deg0"></li>
+        <li class="deg36"></li>
+        <li class="deg72"></li>
+        <li class="deg108"></li>
+        <li class="deg144"></li>
+        <li class="deg180"></li>
+        <li class="deg216"></li>
+        <li class="deg252"></li>
+        <li class="deg288"></li>
+        <li class="deg324"></li>
+      </ul>
+      <i class="fas fa-info-circle"></i>
+    </div>
+  </div>
+  <div class="col-lg-9">
+    <p>General formula for an HTML element:</p>
+    <p><span style="color: #20B5E9;">&lt;opening tag&gt;</span>...content...<span style="color: #20B5E9;">&lt;/closing tag&gt;</span></p>
+  </div>
+</div>
+
+Most elements include an “opening” and “closing” tag that the processor uses to identify the beginning and end of that element. Closing tags are identical to opening tags, except that they contain a forward-slash (**/**) between the less-than (**>**) sign and the tag text.
 
 
-<div id="code-heading">HTML</div>
+<div class="code-heading">
+  <span class="html">HTML</span>
+</div>
 ```html
 <p>This is a paragraph element.</p>
 <p>This element is created with an opening "<p>" tag and a closing "</p>" tag. We call this "wrapping."</p>
@@ -61,7 +90,9 @@ Most elements include an “opening” and “closing” tag that the processor 
 
 Compare this to Markdown:
 
-<div id="code-heading" style="margin-top: 0 !important;">Markdown</div>
+<div class="code-heading">
+  <span class="md">Markdown</span>
+</div>
 ```markdown
 This is a paragraph.
 

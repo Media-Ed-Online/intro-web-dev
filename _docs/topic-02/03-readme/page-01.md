@@ -61,7 +61,7 @@ Every repository you make for this class will have a `README.md` file. We initia
 ├── <i class="far fa-folder-open"></i> assignment-03/
 │   └── <i class="far fa-file-alt"></i> README.md
 ... etc ...
-└── <i class="far fa-file-alt"></i> README.md <i class="fas fa-long-arrow-alt-left bounce-x"><span>Root Repo's README</span></i>
+└── <i class="far fa-file-alt"></i> README.md <i class="fas fa-long-arrow-alt-left bounce-x-left"><span>Root Repo's README</span></i>
 </pre>
 
 **For every assignment you submit, you will also write a short report in a text file.** This report is the `README.md` for that directory, and may discuss a number of things every week:

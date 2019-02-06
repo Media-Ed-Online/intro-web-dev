@@ -51,7 +51,7 @@
 
 // CODEBLOCK DISPLAY
   // >>> Bounce fa-long-arrow-alt-left
-@include keyframes(bounce-x) {
+@include keyframes(bounce-x-left) {
   0%, 20%, 50%, 80%, 100% {
     @include translate(0, 0);
   }
@@ -62,11 +62,11 @@
     @include translate(5px, 0);
   }
 }
-@mixin bounce-x {
-  @include animate(bounce-x, 2s, 0s, ease-in, infinite, normal);
+@mixin bounce-x-left {
+  @include animate(bounce-x-left, 2s, 0s, ease-in, infinite, normal);
 }
   // >>> Bounce fa-long-arrow-alt-right
-@include keyframes(bounce-x-alt) {
+@include keyframes(bounce-x-right) {
   0%, 20%, 50%, 80%, 100% {
     @include translate(0, 0);
   }
@@ -77,18 +77,61 @@
     @include translate(-5px, 0);
   }
 }
-@mixin bounce-x-alt {
-  @include animate(bounce-x-alt, 2s, 0s, ease-in, infinite, normal);
+@mixin bounce-x-right {
+  @include animate(bounce-x-right, 2s, 0s, ease-in, infinite, normal);
+}
+  // >>> Bounce fa-long-arrow-alt-up
+@keyframes bounce-y-up {
+  0%, 20%, 50%, 80%, 100% {
+    @include translate(0, 0);
+  }
+  40% {
+    @include translate(0, 10px);
+  }
+  60% {
+    @include translate(0, 5px);
+  }
+}
+@mixin bounce-y-up {
+  @include animate(bounce-y-up, 2s, 0s, ease-in, infinite, normal);
+}
+  // >>> Bounce fa-long-arrow-alt-down
+@keyframes bounce-y-down {
+  0%, 20%, 50%, 80%, 100% {
+    @include translate(0, 0);
+  }
+  40% {
+    @include translate(0, -10px);
+  }
+  60% {
+    @include translate(0, -5px);
+  }
+}
+@mixin bounce-y-down {
+  @include animate(bounce-y-down, 2s, 0s, ease-in, infinite, normal);
 }
 
 .page-styling pre {
+    .fa-long-arrow-alt-left,
+    .fa-arrows-alt-h {
+      @include bounce-x-left;
+    }
+    .fa-long-arrow-alt-right {
+      @include bounce-x-right;
+    }
+    .fa-long-arrow-alt-up {
+      @include bounce-y-up;
+    }
+    .fa-long-arrow-alt-down {
+      @include bounce-y-up;
+    }
+
     .fa-long-arrow-alt-left,
     .fa-long-arrow-alt-right,
     .fa-long-arrow-alt-up,
     .fa-long-arrow-alt-down,
     .fa-arrows-alt-h {
         color: $brand-danger;
-        @include bounce-x;
 
     span {
       font-family: $font-family-monospace;
@@ -105,7 +148,7 @@
     display: inline-block;
     position: absolute;
     left: 0;
-    @include bounce-x;
+    @include bounce-x-left;
 
     .horizontal-down {
       height: 23px;
@@ -246,6 +289,9 @@ ul.bursts {
   }
 }
    // individual light bursts
+div.status-info {
+  @include callout($brand-secondary);
+}
 div.status-warning {
   @include callout($brand-warning);
 }

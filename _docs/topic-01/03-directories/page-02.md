@@ -20,7 +20,7 @@ The top-most directory is considered the **root directory**. Whatever current �
 </div>
 <pre id="bash">
 ./root/
-└── <i class="far fa-folder-open"></i> directory/ <i class="fas fa-long-arrow-alt-left bounce-x"><span>current</span></i>
+└── <i class="far fa-folder-open"></i> directory/ <i class="fas fa-long-arrow-alt-left bounce-x-left"><span>current</span></i>
     └── <i class="far fa-folder-open"></i> subdirectory/
         └── <i class="far fa-file-alt"></i> file.txt
 </pre>
@@ -41,8 +41,8 @@ The web also use familial terms to describe content relationships, such as “gr
 </div>
 <pre id="bash">
 .
-└── <i class="far fa-folder-open"></i> my-site/ <i class="fas fa-arrows-alt-h bounce-x"><span>parent to</span></i><div class="line bounce-x"><div class="horizontal-down" style="width: 140px"></div></div>
-    └── <i class="far fa-folder-open"></i> content/ <i class="fas fa-arrows-alt-h bounce-x"><span>child of</span></i><div class="line bounce-x"><div class="horizontal-up" style="width: 115px"></div></div>
+└── <i class="far fa-folder-open"></i> my-site/ <i class="fas fa-arrows-alt-h bounce-x-left"><span>parent to</span></i><div class="line bounce-x-left"><div class="horizontal-down" style="width: 140px"></div></div>
+    └── <i class="far fa-folder-open"></i> content/ <i class="fas fa-arrows-alt-h bounce-x-left"><span>child of</span></i><div class="line bounce-x-left"><div class="horizontal-up" style="width: 115px"></div></div>
         └── <i class="far fa-folder-open"></i> images/
             └── <i class="far fa-image"></i> logo.png
 </pre>
@@ -60,8 +60,8 @@ This can also describe the location of files. The file `logo.png` is found in it
 .
 └── <i class="far fa-folder-open"></i> my-site/
     └── <i class="far fa-folder-open"></i> content/
-        └── <i class="far fa-folder-open"></i> images/ <i class="fas fa-long-arrow-alt-left bounce-x"><span>parent directory</span></i><div class="line bounce-x"><div class="horizontal-down" style="width: 20px"></div></div>
-            └── <i class="far fa-image"></i> logo.png  <div class="line bounce-x"><div class="horizontal-up" style="width: 135px"></div></div>
+        └── <i class="far fa-folder-open"></i> images/ <i class="fas fa-long-arrow-alt-left bounce-x-left"><span>parent directory</span></i><div class="line bounce-x-left"><div class="horizontal-down" style="width: 20px"></div></div>
+            └── <i class="far fa-image"></i> logo.png  <div class="line bounce-x-left"><div class="horizontal-up" style="width: 135px"></div></div>
 </pre>
 
 
@@ -74,9 +74,9 @@ This familial titling can go deeper as well.
 </div>
 <pre id="bash">
 .
-└── <i class="far fa-folder-open"></i> my-site/ <i class="fas fa-arrows-alt-h bounce-x"><span>grandparent to</span></i><div class="line bounce-x"><div class="horizontal-down" style="width: 95px"></div></div>
+└── <i class="far fa-folder-open"></i> my-site/ <i class="fas fa-arrows-alt-h bounce-x-left"><span>grandparent to</span></i><div class="line bounce-x-left"><div class="horizontal-down" style="width: 95px"></div></div>
     └── <i class="far fa-folder-open"></i> content/
-        └── <i class="far fa-folder-open"></i> images/ <i class="fas fa-arrows-alt-h bounce-x"><span>grandchild of</span></i><div class="line bounce-x"><div class="horizontal-up" style="width: 45px"></div></div>
+        └── <i class="far fa-folder-open"></i> images/ <i class="fas fa-arrows-alt-h bounce-x-left"><span>grandchild of</span></i><div class="line bounce-x-left"><div class="horizontal-up" style="width: 45px"></div></div>
             └── <i class="far fa-image"></i> logo.png
 </pre>
 
