@@ -3,7 +3,7 @@ title: README Files and Directories
 module: topic-02
 permalink: /topic-02/readme-directories/
 categories: development
-tags: markdown, markup
+tags: directory, markdown, readme
 ---
 
 <div class="divider-heading"></div>

@@ -19,6 +19,7 @@ examples:
     - trial-labels
     - trial-modals
     - trial-tree-view
+    - trial-codeblock
 
 ##################################################
 
@@ -155,20 +156,41 @@ topic-03:
 
   - title: Document Object Manager
     docs:
-    - overviewz
+    - dom-breakdown
+    - dom-markup
+    - dom-html
+    - todo-dom
 
   - title: Document Structure
     docs:
-    - overviewz
+    - doc-elements-intro
+    - doctype
+    - root-element
+    - head-element
+    - body-element
+    - doc-elements-review
+    - todo-elements
 
   - title: Index Files
     docs:
-    - overviewz
-    - URLS
+    - index-intro
+    - index-part-1
+    - index-part-2
+    - index-part-3
+    - index-part-4
+    - todo-index
+    - file-vs-direct-urls
+    - via-root
+    - via-child
+    - via-refs
+    - todo-file-urls
 
   - title: Developing With GitHub Pages
     docs:
-    - overviewz
+    - server-space
+    - gh-pages
+    - going-live
+    - todo-go-live
 
 ##################################################
 
