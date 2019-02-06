@@ -9,15 +9,32 @@ tags: elements, markdown, paragraph, tags
 <div class="divider-heading"></div>
 
 
-The most widely-used markup language is HTML or **HyperText Markup Language.** Files ending in a `.html` file extension are HTML files, so a `page.html` is a text file written in HTML.
+This course teaches HTML as its primary markup language because is widely-used and easy to learn. This does not mean you cannot implement XHTML standards, like those we provide throughout the course.
+
+These include:
+- **Mandatory Structure** - Elements like the `!DOCTYPE` declaration and `<head>` and `<body>` elements are required.
+- **Properly Nested Tags** - Tag order is maintained when nesting elements within other elements.
+- **Closed Elements** - Elements must always be closed, i.e. `<p>...</p>`. This includes empty elements.
+- **Lowercase Elements and Attributes** - All elements and their attributes must be in lowercase, i.e. `<body>` not `<BODY>`.
+
+Don't worry if this doesn't make much - or any - sense right now. Just know that we are teaching HTML with the intent that your sites work at the highest-performance possible without having to learn XHTML to its fullest.
+
+
+<div class="divider-pg"></div>
+
+
+## HTML
 
 <div class="row">
-  <div class="col-lg-12">
-    <img src="../img/berners-lee.png" alt="Tim Berners-Lee" title="Tim Berners-Lee" style="width: 200px; float:right; margin: 0;"/>
+  <div class="col-lg-8">
+    <p>The most widely-used markup language is HTML or <b>HyperText Markup Language.</b> Files ending in an <code>.html</code> file extension are HTML files, so a <code>page.html</code> is a text file written in HTML.</p>
 
     <p>HTML is the standard markup language for creating web pages and web applications. Web browsers use HTML to interpret and compose text, images, and other material into visual or audible web pages.</p>
 
     <p>HTML was first proposed in 1990 by Tim Berners-Lee, then a contract physicist at <a href="https://home.cern/topics/birth-web" targe="_blank">CERN</a>.</p>
+  </div>
+  <div class="col-lg-4">
+    <img src="../img/berners-lee.png" alt="Tim Berners-Lee" title="Tim Berners-Lee" style="max-width: 250px; margin: 0 auto;"/>
   </div>
 </div>
 
@@ -25,8 +42,12 @@ The most widely-used markup language is HTML or **HyperText Markup Language.** F
 <div class="divider-pg"></div>
 
 
-## HTML Elements
-An HTML document is composed of a tree of HTML elements. An **element** is an individual component of a HTML document. Elements denote to the processor structure and semantic meaning of the document. Elements may also be nested or encapsulated within other elements.
+## Elements and Tags
+HTML is written in **elements**, small blocks whose beginnings and endings are set by **tags**.
+
+
+### Elements
+An HTML document is composed of a tree of HTML elements. An **element** is an individual component of an HTML document. Elements denote to the processor structure and semantic meaning of the document. Elements may also be nested or encapsulated within other elements.
 
 <div class="code-heading">
   <span class="html">HTML</span>
@@ -47,10 +68,8 @@ This is a paragraph.
 This is another paragraph.
 ```
 
-<div class="divider-pg"></div>
 
-
-## HTML Tags
+### Tags
 Elements are identified in a document through tags. A **tag** is code that is syntactically unique from the text content of the document. In HTML, all tags include a less-than (**<**) and greater-than (**>**) sign, with the tag typed between.
 
 <div class="row callout-columns status-info">
@@ -96,5 +115,5 @@ Compare this to Markdown:
 ```markdown
 This is a paragraph.
 
-In markdown, paragraphs requires no extra markup to signify it as such. An empty line between text blocks signifies a new paragraph.
+In markdown, paragraphs require no extra markup to signify it as such. An empty line between text blocks signifies a new paragraph.
 ```

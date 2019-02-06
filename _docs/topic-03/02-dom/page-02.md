@@ -8,29 +8,11 @@ tags: markup
 
 <div class="divider-heading"></div>
 
+Everything you see on a browser is a combination of _markup_ (text), _style_ (design), and _scripts_ (interactivity). The markup language dictates the architecture of page, with a focus on its text content (although not exclusively).
 
 
 <div class="divider-pg"></div>
 
-
-<div class="row img-text-columns">
-  <div class="col-lg-2">
-    <img src="../img/markup-lang-xml.svg" title="XML" alt="xml icon" />
-    <span>page.xml</span>
-  </div>
-  <div class="col-lg-10">
-    <h3>Extensible Markup Language (<b>XML</b>)</h3>
-    <p>HTML is the standard language known by all web designers and developers. HTML provides the structure of the page, using <i>elements</i> to create headings, paragraphs, lists, tables, links, etc. Properly-laid-out HTML is designed to enhance accessibility, and provide structured content outside of decorative styling.</p>
-
-    <ul class="pros-and-cons">
-      <li class="icon-pro">Easy-to-learn, free or low-cost.</li>
-      <li class="icon-pro">Widely-used; standard practice.</li>
-      <li class="icon-pro">Extensive; has a large library and support community.</li>
-      <li class="icon-con">Requires a browser to correctly interpret the code.</li>
-      <li class="icon-con">HTML Lexicon is in American English, and may require extra interpretation for non-English speakers.</li>
-    </ul>
-  </div>
-</div>
 
 <div class="row img-text-columns">
   <div class="col-lg-2">
@@ -39,14 +21,33 @@ tags: markup
   </div>
   <div class="col-lg-10">
     <h3>Hypertext Markup Language (<b>HTML</b> or <b>HTM</b>)</h3>
-    <p>CSS is used to control how the page looks and functions. CSS is used to “decorate” the site; this is, provide layout, color, interactive elements, fonts, and other formatting. While HTML provides the contents of the page, CSS specifies to the browser how the site will look. Using a stylesheet greatly speeds up development time, as a single sheet can affect all pages in the site.</p>
+    <p>The first and most well-known of internet languages, HTML functions as the foundation and structure of a page's content. After it is set, other aspects can be embedded or attached to that page, like stylesheets or scripts.</p>
 
     <ul class="pros-and-cons">
-      <li class="icon-pro">Speed and consistency in styling pages site-wide.</li>
-      <li class="icon-pro">Supported by nearly all browsers.</li>
-      <li class="icon-pro">Extensive; has a large library and support community.</li>
-      <li class="icon-con">CSS syntax is different from HTML, and requires users to learn both languages.</li>
-      <li class="icon-con">Interpreted differenly across browsers; requires testing.</li>
+      <li class="icon-pro">Most widely-used web language.</li>
+      <li class="icon-pro">Standardized element and tagging system.</li>
+      <li class="icon-pro">Is used to render content and page structure.</li>
+      <li class="icon-con">Consistent version changes and updates require extended education.</li>
+      <li class="icon-con">Quality of HTML usage is varied, meaning sites may not always work cross-browser or cross-device.</li>
+    </ul>
+  </div>
+</div>
+
+<div class="row img-text-columns">
+  <div class="col-lg-2">
+    <img src="../img/markup-lang-xml.svg" title="XML" alt="xml icon" />
+    <span>page.xml</span>
+  </div>
+  <div class="col-lg-10">
+    <h3>Extensible Markup Language (<b>XML</b>)</h3>
+    <p>A compliment to HTML, XML <i>describes</i> document nodes, whereas HTML <i>displays</i> document nodes. Its major usage today is in <a href="https://www.youtube.com/watch?v=RDo3hBL1rfA" target="_blank">the technologies like those utilized by Gmail</a> that allow specific elements to update without having to refresh the entire page.</p>
+
+    <ul class="pros-and-cons">
+      <li class="icon-pro">Stored in plain-text format, which simplifies data sharing.</li>
+      <li class="icon-pro">Eases data transport and availability.</li>
+      <li class="icon-pro">Allows for upgrading without losing data.</li>
+      <li class="icon-con">Does not “do” or render anything, just provides tagged information.</li>
+      <li class="icon-con">No pre-defined tags; author must define and structure individually.</li>
     </ul>
   </div>
 </div>
@@ -58,14 +59,14 @@ tags: markup
   </div>
   <div class="col-lg-10">
     <h3>Extensible Hypertext Markup Language (<b>XHTML</b>)</h3>
-    <p>While we won't get into PHP, you've likely seen or heard of PHP files. PHP is a widely-used, open-source scripting language which is well-suited for use in web design as it can be combined with HTML. A server-side language, PHP can generate dynamic pages, modify databases, encrypt data, and many other processes HTML cannot do alone. In fact, it is the core of many services, such as <a href="http://blog.teamtreehouse.com/php-for-wordpress-1" target="_blank">WordPress</a> and <A href="https://developers.facebook.com/docs/reference/php/" target="_blank">Facebook</a>.</p>
+    <p>Essentially a bridge between HTML and XML, XHTML combines the best of both in an attempt to correct some lenient behaviors of HTML; in particular, those that cause problems on mobile devices. While computer browsers can correct some “bad” HTML, smaller devices often lack the resources to perform these operations.</p>
 
     <ul class="pros-and-cons">
-      <li class="icon-pro">Moderately easy-to-learn, free or low-cost.</li>
-      <li class="icon-pro">Can collect data, like from site forms.</li>
-      <li class="icon-pro">Can control user-access.</li>
-      <li class="icon-con">Limited control.</li>
-      <li class="icon-con">Can take time to master frameworks.</li>
+      <li class="icon-pro">Almost identical to HTML.</li>
+      <li class="icon-pro">Usage ensures that documents are marked-up correctly.</li>
+      <li class="icon-pro">Strict code requirements make it less vulnerable to future changes - longer to write, but easier to maintain.</li>
+      <li class="icon-con">XHTML documents must meet more rigorous standards that HTML to function properly.</li>
+      <li class="icon-con">Because it is more precise, it is more time-consuming to write.</li>
     </ul>
   </div>
 </div>
