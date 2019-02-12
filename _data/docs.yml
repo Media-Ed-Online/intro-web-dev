@@ -193,22 +193,37 @@ topic-04:
     docs:
     - overview
 
-  - title: Headings
+  - title: Snooping Around
     docs:
-    - overviewz
+    - view-source
+    - view-inspect
+    - view-archives
+    - todo-snooping
 
-  - title: Paragraphs
+  - title: Two-Tag Elements
     docs:
-    - overviewz
+    - two-tags-elements
+    - two-tags-headings
+    - two-tags-paragraphs
+    - todo-two-tags
 
-  - title: Empty Elements
+  - title: One-Tag Elements
     docs:
-    - overviewz
+    - one-tag-elements
+    - one-tag-line-breaks
+    - one-tag-horizontal-rules
+    - one-tag-images
+    - todo-one-tag
 
-  - title: Snooping
+  - title: "Navigation: Basic Links"
     docs:
-    - overviewz
+    - nav-links
+    - todo-nav-links
 
   - title: Developing with GitHub Desktop
     docs:
-    - overviewz
+    - gh-app-install
+    - gh-app-connect
+    - gh-app-track
+    - gh-app-push
+    - todo-gh-app
