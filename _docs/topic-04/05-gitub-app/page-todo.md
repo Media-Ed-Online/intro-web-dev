@@ -19,10 +19,10 @@ categories: uncategorized
       </div>
     </div>
   </div>
-  <div class="col-lg-4">
+  <!--<div class="col-lg-4">
     <div class="bs-component">
       <div class="list-group">
-        <a href="../dev-part-5/" target="_blank" class="list-group-item">
+        <a href="../gh-app-track/" class="list-group-item">
           <i class="icon-hw fas fa-upload" aria-hidden="true"></i>
           <h4 class="list-group-item-heading">Practice Making and Pushing Changes</h4>
           <p class="list-group-item-text">Add some text to a file. Make sure you can push and see any changes on GitHub.com.</p>
@@ -31,5 +31,5 @@ categories: uncategorized
         </a>
       </div>
     </div>
-  </div>
+  </div>-->
 </div>

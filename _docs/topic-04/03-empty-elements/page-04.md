@@ -12,7 +12,9 @@ We will get into images much later in the course, but by using a little borrowed
 
 Please note that instead of wrapping the URL in parentheses (`(...)`) like we do in Markdown, in HTML, we use quotations (`"..."`) to contain the URL to the file.
 
-<div id="code-heading">HTML</div>
+<div class="code-heading">
+  <span class="html">HTML</span>
+</div>
 ```html
 <img src="./images/name-of-image.jpg" />
 ```
@@ -21,7 +23,9 @@ Please note that instead of wrapping the URL in parentheses (`(...)`) like we do
 Compare this to Markdown:
 
 
-<div id="code-heading" style="margin-top: 0 !important;">Markdown</div>
+<div class="code-heading">
+  <span class="md">Markdown</span>
+</div>
 ```markdown
 ![My Image](./images/name-of-image.jpg)
 ```

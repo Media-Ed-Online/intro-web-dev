@@ -1,5 +1,5 @@
 ---
-title: Part 3 - Pushing to GitHub.com
+title: Pushing to GitHub.com
 module: topic-04
 permalink: /topic-04/gh-app-push/
 categories: development

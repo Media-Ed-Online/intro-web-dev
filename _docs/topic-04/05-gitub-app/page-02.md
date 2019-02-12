@@ -1,5 +1,5 @@
 ---
-title: Part 2 - Connecting to the Repo
+title: Connecting to the Repo
 module: topic-04
 permalink: /topic-04/gh-app-connect/
 categories: development

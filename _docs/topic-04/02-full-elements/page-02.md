@@ -11,7 +11,9 @@ tags: elements, markdown, headings, tags
 Headings are defined with the `<h1>` to `<h6>` tags, and their elements are written as `<h1>...</h1>`.
 
 
-<div id="code-heading">HTML</div>
+<div class="code-heading">
+  <span class="html">HTML</span>
+</div>
 ```html
 <h1>This is a Heading 1</h1>
 ```
@@ -20,7 +22,9 @@ Headings are defined with the `<h1>` to `<h6>` tags, and their elements are writ
 Compare this to Markdown:
 
 
-<div id="code-heading" style="margin-top: 0 !important;">Markdown</div>
+<div class="code-heading">
+  <span class="md">Markdown</span>
+</div>
 ```markdown
 # This is a Heading 1
 ```

@@ -218,6 +218,7 @@ topic-04:
   - title: "Navigation: Basic Links"
     docs:
     - nav-links
+    - nav-pages
     - todo-nav-links
 
   - title: Developing with GitHub Desktop

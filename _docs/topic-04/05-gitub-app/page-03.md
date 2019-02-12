@@ -1,5 +1,5 @@
 ---
-title: Part 5 - Tracking Changes
+title: Tracking Changes
 module: topic-04
 permalink: /topic-04/gh-app-track/
 categories: development

@@ -10,7 +10,9 @@ tags: break, empty, horizontal, rule
 
 A **horizontal rule** is a line that runs across the browser window. These can be used to visually differentiate content in a document.
 
-<div id="code-heading">HTML</div>
+<div class="code-heading">
+  <span class="html">HTML</span>
+</div>
 ```html
 <p>This is a paragraph element.</p>
 
@@ -23,7 +25,9 @@ A **horizontal rule** is a line that runs across the browser window. These can b
 Compare this to Markdown:
 
 
-<div id="code-heading" style="margin-top: 0 !important;">Markdown</div>
+<div class="code-heading">
+  <span class="md">Markdown</span>
+</div>
 ```markdown
 This is a paragraph.
 

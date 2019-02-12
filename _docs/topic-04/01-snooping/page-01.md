@@ -8,37 +8,45 @@ tags: browser, source, view, website
 
 <div class="divider-heading"></div>
 
-One invaluable resource for web developers is the ability to look at the code for websites you visit. Browsers get code from servers, which means you can look at this code to try and inspect how someone else might have solved a problem.
 
-_During Workshops, you are expected to look at each other's codes as Peer Reviewers, looking for errors and code choices._
+A great way to learn website development is to see it in action. All internet browsers allow viewing of a site's core code, which allows visitors yo explore how other devs are making their sites.
 
+One invaluable way of doing this is “**view source**,” or viewing the site's source code. This way of snooping shows the code _exactly_ as it was delivered from the server to the browser, which has its pros and cons:
 
-<ul class="nav nav-tabs">
-  <li class="active"><a href="#chrome" data-toggle="tab">Chrome</a></li>
-  <li><a href="#firefox" data-toggle="tab">Firefox</a></li>
-  <li><a href="#safari" data-toggle="tab">Safari</a></li>
+<ul class="pros-and-cons">
+  <li class="icon-pro">Quick and easy view; legible and exact.</li>
+  <li class="icon-pro">May “catch” invalid code, and show what needs correcting.</li>
+  <li class="icon-con">Does not show how the DOM <i>actually</i> built the page.</li>
 </ul>
-<div id="myTabContent" class="tab-content">
-  <div class="tab-pane fade active in" id="chrome">
-    <p>In Chrome, if you right click, you can select “inspect” which will bring up the Chrome developer tools to the right.</p>
-    <p>You can use the “Elements” tab, to see source code, as well as the matching highlighted element in the actual page (as described below in Safari). You can also select the “Source” tab to see the raw course code files. Again, these allow you to see the code that creates the page you are viewing.</p>
-    <img src="../img/inspect-with-chrome.png" alt="Example of Inspecting Code in Chrome" />
-  </div>
-  <div class="tab-pane fade" id="firefox">
-    <p>You can do the same thing in Firefox as Chrome. Simply right click in the page you want to see the code for, and select either “View Page Source”, which loads the file in a separate tab, or “Inspect Element”, which open up a more complete set  of developer tools.</p>
-    <img src="../img/inspect-with-firefox.png" alt="Firefox developer tools" />
-  </div>
-  <div class="tab-pane fade" id="safari">
-    <p>To inspect code in Safari, you first need to make it so you can see the developer tools. To do this:</p>
-    <ol>
-      <li>Open preferences (<code>cmd</code> + <code>,</code>).</li>
-      <li>Go to the advanced tab.</li>
-      <li>Select “Show Develop menu in menu bar.”</li>
-    </ol>
-    <img src="../img/inspect-with-safari-1.png" alt="Example of how to turn on develop menu" />
-    <p>This will cause a tab to appear in your menu bar. You can now select this menu tab, then select “Show Page Source.”</p>
-    <img src="../img/inspect-with-safari-2.png" alt="Example of how to pull up page source in safari" />
-    <p>This will bring up a separate window/tab where you can navigate around all of the resources sent over to your browser for the specific web page.</p>
-    <p>You can also select the “Elements” tab from within this window. This alternative view of the code allows you to see where each html element is in the displayed page. As you move your mouse through the code, various parts of the page will highlight, representing the current element in the code you are inspecting.</p>
-  </div>
-</div>
+
+## Chrome
+In <a href="https://www.google.com/chrome/" target="_blank">Chrome</a>:
+1. Right click somewhere on the page.
+2. Select “View Source.”
+
+<img src="../img/chrome-view-source.png" alt="using the view source feature in Chrome" title="View Source in Chrome" />
+
+
+<div class="divider-pg"></div>
+
+
+## Firefox
+In <a href="https://www.mozilla.org/en-US/firefox/new/" target="_blank">Firefox</a>:
+1. Right click somewhere on the page.
+2. Select “View Source.”
+
+<img src="../img/firefox-view-source.png" alt="using the view source feature in Firefox" title="View Source in Firefox" />
+
+
+<div class="divider-pg"></div>
+
+
+## Safari
+To inspect code in Safari, you first need to make it so you can see the developer tools:
+1. Open preferences.
+2. Go to the advanced tab.
+3. Select “Show Develop menu in menu bar.”
+4. Right click somewhere on the page.
+5. Select “View Source.”
+
+<img src="../img/safari-view-source.png" alt="using the view source feature in Safari" title="View Source in Safari" />

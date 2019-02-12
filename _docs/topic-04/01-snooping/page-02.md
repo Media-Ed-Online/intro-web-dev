@@ -1,5 +1,5 @@
 ---
-title: Inspecting
+title: Inspect Element
 module: topic-04
 permalink: /topic-04/view-inspect/
 categories: development
@@ -8,8 +8,43 @@ tags: browser, inspect, website
 
 <div class="divider-heading"></div>
 
-There is too much information for any one person to know right away in development and coding. Luckily though, developers tend to be a helpful group with many resources to assist those getting started, and a community that is willing to answer questions about problems.
+There is too much information for any one person to know right away in development and coding. Another tool you can use when getting started is the “inspect element,” or inspecting the site's current DOM tree state. This way of snooping shows the code _normalized_ by the browser, which has its pros and cons:
 
-If (when) you have been using the issues tab on the GitHub repo for this course, you will already recognize the importance of having a strong community to ask questions within.
+<ul class="pros-and-cons">
+  <li class="icon-pro">Complete view; shows everything dictating the page.</li>
+  <li class="icon-pro">Shows code in a “corrected state,” adding missing tags, or fixing invalid code.</li>
+  <li class="icon-con">Can be complex, and requires higher-level understanding of web languages to navigate.</li>
+</ul>
 
-There are a number of additional resources that you should start to take advantage of, in addition to your classmates and instructors.
+
+## Chrome
+In <a href="https://www.google.com/chrome/" target="_blank">Chrome</a>:
+1. Right click somewhere on the page.
+2. Select “Inspect.”
+
+<img src="../img/chrome-inspect.png" alt="using the inspect code feature in Chrome" title="Inspect Element in Chrome" />
+
+
+<div class="divider-pg"></div>
+
+
+## Firefox
+In <a href="https://www.mozilla.org/en-US/firefox/new/" target="_blank">Firefox</a>:
+1. Right click somewhere on the page.
+2. Select “Inspect Element.”
+
+<img src="../img/firefox-inspect.png" alt="using the inspect code feature in Firefox" title="Inspect Element in Firefox" />
+
+
+<div class="divider-pg"></div>
+
+
+## Safari
+To inspect code in Safari, you first need to make it so you can see the developer tools:
+1. Open preferences.
+2. Go to the advanced tab.
+3. Select “Show Develop menu in menu bar.”
+4. Right click somewhere on the page.
+5. Select “Inspect Element.”
+
+<img src="../img/safari-inspect.png" alt="using the inspect code feature in Safari" title="Inspect Element in Safari" />

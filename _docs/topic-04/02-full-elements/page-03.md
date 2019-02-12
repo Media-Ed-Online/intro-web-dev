@@ -11,7 +11,9 @@ tags: break, elements, markdown, paragraphs, preformatted, tags
 Almost all non-heading text will be placed within a paragraph element in a web document. Paragraphs are defined with the `<p>` tags, and the element is written as `<p>...</p>`.
 
 
-<div id="code-heading">HTML</div>
+<div class="code-heading">
+  <span class="html">HTML</span>
+</div>
 ```html
 <p>This is a paragraph element.</p>
 ```
@@ -20,7 +22,9 @@ Almost all non-heading text will be placed within a paragraph element in a web d
 Compare this to Markdown:
 
 
-<div id="code-heading" style="margin-top: 0 !important;">Markdown</div>
+<div class="code-heading">
+  <span class="md">Markdown</span>
+</div>
 ```markdown
 This is a paragraph.
 
