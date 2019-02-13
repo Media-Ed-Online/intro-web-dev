@@ -19,6 +19,7 @@ One invaluable way of doing this is “**view-source**,” or viewing the site's
   <li class="icon-con">Does not show how the DOM <i>actually</i> built the page.</li>
 </ul>
 
+
 ## Chrome
 In <a href="https://www.google.com/chrome/" target="_blank">Chrome</a>:
 1. Right click in an empty area of the page.
@@ -56,5 +57,4 @@ To inspect code in Safari, you first turn on the developer tools:
 
 
 ## Internet Explorer, Edge
-
 It is very difficult to develop for and with these products. It is recommended you use one of the browsers above for the duration of the course.

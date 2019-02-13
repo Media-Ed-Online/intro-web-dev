@@ -13,6 +13,8 @@ Okay, it's time for our first HTML coding experience and subsequent page. Writin
 
 We are going to need to acquire **server space**. This is where we will store our files. Furthermore, this server will actually “serve” these files to requesting host-computers. In addition to acquiring a server, we will need to each get individual and unique URLs where we can point a computer to.
 
+<img src="../img/logo-gh-pages.png" alt="Github pages logo" />
+
 This is where <a href="https://pages.github.com/" target="_blank">GitHub Pages</a> really comes into play:
 <ul class="pros-and-cons">
   <li class="icon-pro">...providing free storage and hosting.</li>

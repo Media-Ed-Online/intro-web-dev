@@ -8,6 +8,7 @@ tags: browser, inspect, website
 
 <div class="divider-heading"></div>
 
+
 There is too much information for any one person to know right away in development and coding. Another tool you can use when getting started is “**inspect element**,” or inspecting the site's current DOM tree state. This way of snooping shows the code _normalized_ by the browser, which has its pros and cons:
 
 <ul class="pros-and-cons">
@@ -54,5 +55,4 @@ To inspect code in Safari, you first need to make it so you can see the develope
 
 
 ## Internet Explorer, Edge
-
 It is very difficult to develop for and with these products. It is recommended you use one of the browsers above for the duration of the course.
