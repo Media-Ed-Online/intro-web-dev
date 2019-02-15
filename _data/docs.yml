@@ -225,6 +225,6 @@ topic-04:
     docs:
     - gh-app-install
     - gh-app-connect
-    - gh-app-track
-    - gh-app-push
+    - gh-app-navigate
+    - gh-app-workflow
     - todo-gh-app

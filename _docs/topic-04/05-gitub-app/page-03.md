@@ -1,23 +1,17 @@
 ---
-title: Tracking Changes
+title: Navigating Resources
 module: topic-04
-permalink: /topic-04/gh-app-track/
+permalink: /topic-04/gh-app-navigate/
 categories: development
-tags: app, guide, push, track, vcs
+tags: app, github, guide, repository
 ---
 
 <div class="divider-heading"></div>
 
+
 <span class="label label-warning">Load Time</span> This page contains embedded interactive content. In may take 3-10 seconds to completely load.
 
-<span class="label label-danger">Important</span> Take your time, and please follow these directions closely.
+GitHub Desktop can be your portal between your local computer and GitHub.com.
 
-
-<br>
-
-
-## Adding, Tracking, and Reviewing Changes - Development in Action!
-Whenever you commit new changes to your Git repo via GitHub Desktop, you need to remember to save any files and press “Push” or “Sync” when you are done working. This “pushes” your changes to the remotely-hosted version of your repository on GitHub.com, which we need to do in order to make a live site in the future.
-
-<iframe src="https://h5p.org/h5p/embed/177037" width="1090" height="866" frameborder="0" allowfullscreen="allowfullscreen"></iframe>
-<a href="https://h5p.org/node/177037" class="btn btn-default btn-xs" target="_blank">View Larger</a>
+<iframe src="https://h5p.org/h5p/embed/431900" width="1090" height="930" frameborder="0" allowfullscreen="allowfullscreen"></iframe>
+<a href="https://h5p.org/node/431900" class="btn btn-default btn-xs" target="_blank">View Larger</a>
