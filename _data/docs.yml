@@ -235,3 +235,82 @@ topic-05:
   - title: “Markup”
     docs:
     - overview
+
+  - title: Comments in HTML
+    docs:
+    - leaving-messages-html
+    - html-comments
+    - todo-html-comments
+
+  - title: Attributes
+    docs:
+    - html-review
+    - attributes
+    - html-lang-attribute
+    - structure-review
+    - todo-structure
+
+  - title: Declaring Doctype
+    docs:
+    - doctype
+    - doctype-past
+    - doctype-now
+    - todo-doctype
+
+  - title: Head Elements
+    docs:
+    - head-elements-intro
+    - head-meta
+    - head-viewport
+    - head-title
+    - head-link
+    - head-style
+    - head-elements-review
+    - todo-head
+
+  - title: Body Elements
+    docs:
+    - body-elements
+    - structural-markup
+    - semantic-markup
+    - todo-body
+
+  - title: Semantic Markup
+    docs:
+    - bold-strong
+    - italic-emphasis
+    - sup-sub
+    - quote-blockquote
+    - abbr-acro
+    - citations
+    - definitions
+    - addresses
+    - ins-del
+    - strikethrough
+    - todo-semantics
+
+  - title: Lists
+    docs:
+    - html-lists
+    - ordered-lists
+    - unordered-lists
+    - definition-lists
+    - nested-lists
+    - todo-lists
+
+  - title: External Hyperlinks
+    docs:
+    - ex-links-intro
+    - href
+    - new-window
+    - links-to-others
+    - email-links
+    - todo-ex-links
+
+  - title: Proper and Polite Code
+    docs:
+    - writing-code
+    - ordering
+    - burrito-tags
+    - indentation
+    - todo-writing-code

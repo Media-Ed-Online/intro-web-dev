@@ -46,7 +46,7 @@ Services such as <a href="https://github.com/" target="_blank">GitHub</a> and <a
 <div class="divider-pg"></div>
 
 
-## Assignment Reports
+<h2 id="readme-ideas">Assignment Reports</h2>
 Every repository you make for this class will have a `README.md` file. We initiated our **web-dev-hw/** root repository with a `README.md` file, but all homework repositories will need to have `README.md` files created for them.
 
 <div class="code-heading">
