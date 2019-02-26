@@ -8,6 +8,30 @@ tags:
 
 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed dapibus interdum lectus quis convallis. Pellentesque vehicula pulvinar odio eu dapibus. Aliquam erat volutpat. Aenean quam est, rutrum eu purus nec, bibendum egestas erat. Integer sit amet tempor dui, ut finibus dui. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ut mauris nec tortor malesuada sodales. Sed finibus lorem quis laoreet egestas. Cras quis est venenatis, cursus orci eu, semper purus. In facilisis erat libero, cursus mollis libero scelerisque vel.</p>
 
+<div class="row callout-columns status-info">
+  <div class="col-lg-3">
+    <div class="icon">
+      <ul class="bursts">
+        <li class="deg0"></li>
+        <li class="deg36"></li>
+        <li class="deg72"></li>
+        <li class="deg108"></li>
+        <li class="deg144"></li>
+        <li class="deg180"></li>
+        <li class="deg216"></li>
+        <li class="deg252"></li>
+        <li class="deg288"></li>
+        <li class="deg324"></li>
+      </ul>
+      <i class="fas fa-info-circle"></i>
+    </div>
+  </div>
+  <div class="col-lg-9">
+    <p>General formula for an HTML element:</p>
+    <p><span style="color: #20B5E9;">&lt;tagname&gt;</span>...content...<span style="color: #20B5E9;">&lt;/tagname&gt;</span></p>
+  </div>
+</div>
+
 <div style="clear:both;">
 <section class="bubble" id="lightbulb">
    <div class="icon">

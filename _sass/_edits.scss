@@ -622,9 +622,39 @@ iframe:not(.embed-responsive-item) {
     }
   }
 }
+// >>> 2-column Tutorial Step-by-Step
+table.numbered-steps {
+  border-collapse: separate;
+  border-spacing: 0 15px;
+  td, th {
+    border-top: 0 !important;
+    h3 {
+      margin-top: 0 !important;
+    }
+  }
+  th div {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background-color: $brand-secondary;
 
-
-
+    line-height: 80px;
+    text-align: center;
+    font-size: $font-size-base;
+    font-family: $font-family-sans-serif-alt;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: white;
+  }
+  td {
+    pre {
+      margin: $line-height-computed auto ($line-height-computed * 2);
+    }
+    .img-caption {
+      margin-bottom: ($line-height-computed * 2);
+    }
+  }
+}
 
 
 // FONTAWESOME ICONS

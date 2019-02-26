@@ -314,3 +314,36 @@ topic-05:
     - burrito-tags
     - indentation
     - todo-writing-code
+
+##################################################
+
+topic-06:
+  - title: “Forms”
+    docs:
+    - overview
+
+  - title: Building Tables
+    docs:
+    - table-build-about
+    - table-build-element
+    - todo-table-build
+
+  - title: Styling Tables
+    docs:
+    - table-style-about
+    - table-style-borders
+    - table-style-padding
+    - table-style-colors
+    - todo-table-style
+
+  - title: Forms
+    docs:
+    -
+
+  - title: Input Types
+    docs:
+    -
+
+  - title: Styling Forms
+    docs:
+    -
