@@ -13,7 +13,7 @@ tags:
 </div>
 
 
-It's time to get into the juicier HTML elements. This Topic, you'll be introduced to some multi-part elements, including images, tables, and one of the foundations of web development - forms.
+For many, a website serve as portal between product or service and consumer. For example, businesses use websites to display their goods, company information, and availability. Additionally, information can be collected by registered users, such as orders/purchases, payment accounts, and contact interfaces using one of the foundations of web development - forms.
 
 Although they appear antiquated by today's visual standards, HTML tables are still used quite often to present data in structured formats. One way to collect data from visitors is through forms, or question-response collections where users enter data that is then sent to a server for processing. A common form you encounter daily is the _user login_.
 
