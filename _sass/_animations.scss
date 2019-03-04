@@ -81,7 +81,7 @@
   @include animate(bounce-x-right, 2s, 0s, ease-in, infinite, normal);
 }
   // >>> Bounce fa-long-arrow-alt-up
-@keyframes bounce-y-up {
+@include keyframes(bounce-y-up) {
   0%, 20%, 50%, 80%, 100% {
     @include translate(0, 0);
   }
@@ -96,7 +96,7 @@
   @include animate(bounce-y-up, 2s, 0s, ease-in, infinite, normal);
 }
   // >>> Bounce fa-long-arrow-alt-down
-@keyframes bounce-y-down {
+@include keyframes(bounce-y-down) {
   0%, 20%, 50%, 80%, 100% {
     @include translate(0, 0);
   }
@@ -189,17 +189,26 @@
   border-radius: $border-radius-base;
   background: #f5f5f5;
   @include drop-shadow;
-  &:nth-of-type(n-1)::after {
+  &:nth-of-type(even)::after {
     content: '';
-    position: absolute;
-    bottom: 0;
-    right: 20px;
+    //position: absolute;
+    //bottom: 0;
+    //right: 20px;
+    margin-left: 80%;
+    margin-bottom: -55px;
     border: 40px solid transparent;
     border-top-color: #f5f5f5;
     border-bottom: 0;
     border-right: 0;
-    margin-left: -20px;
-    margin-bottom: -40px;
+  }
+  &:nth-of-type(odd)::after {
+    content: '';
+    margin-left: calc(20% - 40px);
+    margin-bottom: -55px;
+    border: 40px solid transparent;
+    border-top-color: #f5f5f5;
+    border-bottom: 0;
+    border-left: 0;
   }
   .col-lg-3 {
     text-align: center;
@@ -223,7 +232,7 @@
 }
 
   // burst animation
-@keyframes light-bursts {
+@include keyframes(light-bursts) {
   0%, 90%, 100% {
     height: 0%;
     bottom: 100%;
@@ -246,9 +255,9 @@ ul.bursts {
   margin: 0;
   margin-left: calc(50% - 1px);
   padding: 0;
-  @media (max-width: $screen-xs) {
+  /*@media (max-width: $screen-xs) {
     display: none;
-  }
+  }*/
    // individual light bursts
   li {
     width: 2px;
@@ -297,4 +306,54 @@ div.status-warning {
 }
 div.status-danger {
   @include callout($brand-danger);
+}
+
+@include keyframes(tiebow) {
+   0%, 100% {
+      @include scale(0);
+   }
+   15%, 90% {
+      @include scale(1.2);
+   }
+   25%, 80% {
+      @include scale(1);
+   }
+}
+@mixin tiebow {
+  @include animate(tiebow, 1.5s, 0s, easin-out, infinite, normal);
+}
+div.memo {
+  @include callout($brand-danger);
+  i:nth-of-type(1) {
+      color: BurlyWood;
+      z-index: -1;
+      margin-top: 60% !important;
+      margin-left: 10%;
+      &::after {
+         content: '';
+         width: 8px;
+         position: absolute;
+         top: 20%;
+         left: 20%;
+         border-top: 3px solid $brand-danger;
+      }
+   }
+   i:nth-of-type(2) {
+      color: $brand-danger;
+      z-index: 1;
+      font-size: 90% !important;
+      position: absolute;
+      margin-top: 24% !important;
+      margin-left: -22%;
+      @include tiebow;
+      &::after {
+         font-family: "Font Awesome 5 Free";
+         font-weight: 900;
+         content: "\f077";
+         font-size: 130%;
+         position: absolute;
+         top: 4px;
+         left: 1px;
+      }
+   }
 }

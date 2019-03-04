@@ -14,10 +14,10 @@ This course teaches HTML as its primary markup language because is widely-used a
 These include:
 - **Mandatory Structure** - Elements like the `!DOCTYPE` declaration and `<head>` and `<body>` elements are required.
 - **Properly Nested Tags** - Tag order is maintained when nesting elements within other elements.
-- **Closed Elements** - Elements must always be closed, i.e. `<p>...</p>`. This includes empty elements.
+- **Closed Elements** - Elements must always be closed, i.e. `<p>...</p>`. This includes empty elements, i.e. `<br />`.
 - **Lowercase Elements and Attributes** - All elements and their attributes must be in lowercase, i.e. `<body>` not `<BODY>`.
 
-Don't worry if this doesn't make much - or any - sense right now. Just know that we are teaching HTML with the intent that your sites work at the highest-performance possible without having to learn XHTML to its fullest.
+Don't worry if this doesn't make much (or any) sense right now. Just know that we are teaching HTML with the intent that your sites work at the highest-performance possible without having to learn XHTML to its fullest.
 
 
 <div class="divider-pg"></div>
@@ -34,7 +34,8 @@ Don't worry if this doesn't make much - or any - sense right now. Just know that
     <p>HTML was first proposed in 1990 by Tim Berners-Lee, then a contract physicist at <a href="https://home.cern/topics/birth-web" targe="_blank">CERN</a>.</p>
   </div>
   <div class="col-lg-4">
-    <img src="../img/berners-lee.png" alt="Tim Berners-Lee" title="Tim Berners-Lee" style="max-width: 250px; margin: 0 auto;"/>
+    <img src="../img/berners-lee.png" alt="Tim Berners-Lee" title="Tim Berners-Lee" style="max-width: 250px; margin-top: 0;"/>
+    <p class="img-caption">Berners-Lee (1955 - )</p>
   </div>
 </div>
 

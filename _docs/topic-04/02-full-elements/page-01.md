@@ -36,7 +36,7 @@ The majority of HTML elements are made of two tags: and **opening tag** and **cl
 
 Your job then becomes a three-step process:
 1. Decide on the content: title, text, caption, etc.
-2. Wrap the content in the appropriate elements: headings, paragraphs, list items, etc.
+2. Wrap the content in the appropriate element tags: headings, paragraphs, list items, etc.
 3. Decide where on the page each element will lie: titling the page, third paragraph down, etc.
 
 This is part of the _page structuring_ process.
