@@ -355,3 +355,36 @@ topic-07:
   - title: “Media”
     docs:
     - overview
+
+  - title: The Building Blocks of Pages
+    docs:
+    - overview
+
+  - title: Media Management
+    docs:
+    - overview
+
+  - title: Images
+    docs:
+    - img-about
+    - img-element
+    - img-format
+    - todo-img
+
+  - title: Audio
+    docs:
+    - audio-about
+    - audio-element
+    - audio-format
+    - todo-audio
+
+  - title: Video
+    docs:
+    - video-about
+    - video-element
+    - video-format
+    - todo-video
+
+  - title: Iframes
+    docs:
+    - overview

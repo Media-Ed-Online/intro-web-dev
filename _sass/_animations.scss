@@ -29,7 +29,7 @@
 	-webkit-animation-direction: $direction;
 	   -moz-animation-direction: $direction;
 	     -o-animation-direction: $direction;
-		     animation-direction: $direction;
+		      animation-direction: $direction;
 }
 @mixin keyframes($animationName) {
     @-webkit-keyframes #{$animationName} {
@@ -45,6 +45,7 @@
         @content;
     }
 }
+
 
 
 
@@ -174,6 +175,7 @@
 
 
 
+
 // BURST ANIMATIONS
   // container
 @mixin drop-shadow {
@@ -297,6 +299,7 @@ ul.bursts {
     color: $callout-color;
   }
 }
+
    // individual light bursts
 div.status-info {
   @include callout($brand-secondary);
@@ -307,34 +310,33 @@ div.status-warning {
 div.status-danger {
   @include callout($brand-danger);
 }
-
-@include keyframes(tiebow) {
-   0%, 100% {
-      @include scale(0);
-   }
-   15%, 90% {
-      @include scale(1.2);
-   }
-   25%, 80% {
-      @include scale(1);
-   }
-}
-@mixin tiebow {
-  @include animate(tiebow, 1.5s, 0s, easin-out, infinite, normal);
-}
 div.memo {
+  @include keyframes(tiebow) {
+     0%, 100% {
+        @include scale(0);
+     }
+     15%, 90% {
+        @include scale(1.2);
+     }
+     25%, 80% {
+        @include scale(1);
+     }
+  }
+  @mixin tiebow {
+    @include animate(tiebow, 1.5s, 0s, easin-out, infinite, normal);
+  }
   @include callout($brand-danger);
   i:nth-of-type(1) {
       color: BurlyWood;
       z-index: -1;
-      margin-top: 60% !important;
-      margin-left: 10%;
+      margin-top: 1.2em !important;
+      margin-left: 0.05em;
       &::after {
          content: '';
          width: 8px;
          position: absolute;
-         top: 20%;
-         left: 20%;
+         top: 0.24em;
+         left: 0.18em;
          border-top: 3px solid $brand-danger;
       }
    }
@@ -343,17 +345,17 @@ div.memo {
       z-index: 1;
       font-size: 90% !important;
       position: absolute;
-      margin-top: 24% !important;
-      margin-left: -22%;
+      margin-top: 2em !important;
+      margin-left: -2.25em;
       @include tiebow;
       &::after {
          font-family: "Font Awesome 5 Free";
          font-weight: 900;
          content: "\f077";
-         font-size: 130%;
+         font-size: 120%;
          position: absolute;
-         top: 4px;
-         left: 1px;
+         top: 0.21em;
+         left: 0.08em;
       }
    }
 }

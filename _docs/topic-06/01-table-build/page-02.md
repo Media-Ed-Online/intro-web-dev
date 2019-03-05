@@ -26,7 +26,7 @@ tags: element, table
 
 </table>
 {% endhighlight %}
-        <div class="img-caption">The beginnings of a 2x2 table.</div>
+        <div class="img-caption">The beginnings of a 3x2 table.</div>
       </td>
     </tr>
 
@@ -47,9 +47,13 @@ tags: element, table
   <tr>
     <!-- Row 2 -->
   </tr>
+
+  <tr>
+    <!-- Row 3 -->
+  </tr>
 </table>
 {% endhighlight %}
-        <div class="img-caption">This table has 2 rows made with 2 sets of <code>&lt;tr&gt;</code> tags.</div>
+        <div class="img-caption">This table has 3 rows made with sets of <code>&lt;tr&gt;</code> tags.</div>
       </td>
     </tr>
 
@@ -74,9 +78,15 @@ tags: element, table
     <td></td>
     <td></td>
   </tr>
+
+  <tr>
+    <!-- Row 3 -->
+    <td></td>
+    <td></td>
+  </tr>
 </table>
 {% endhighlight %}
-        <div class="img-caption">This table has 2 colums, so we need 4 cells made with <code>&lt;td&gt;</code> elements.</div>
+        <div class="img-caption">This table has 2 colums and 3 rows, so we need 4 cells made with <code>&lt;td&gt;</code> elements.</div>
       </td>
     </tr>
 
@@ -100,6 +110,12 @@ tags: element, table
     <!-- Row 2 -->
     <th scope="row">Row 1</th>
     <td>Cell A1</td>
+  </tr>
+
+  <tr>
+    <!-- Row 3 -->
+    <th scope="row">Row 2</th>
+    <td>Cell A2</td>
   </tr>
 </table>
 {% endhighlight %}
@@ -127,6 +143,12 @@ tags: element, table
               <!-- Row 2 -->
               <th scope="row">Row 1</th>
               <td>Cell A1</td>
+            </tr>
+
+            <tr>
+              <!-- Row 3 -->
+              <th scope="row">Row 2</th>
+              <td>Cell A2</td>
             </tr>
           </table>
         </div>

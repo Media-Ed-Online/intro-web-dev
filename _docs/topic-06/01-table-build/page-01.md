@@ -1,9 +1,9 @@
 ---
-title: "About: HTML Tables"
+title: HTML Tables
 module: topic-06
 permalink: /topic-06/table-build-about/
 categories: html
-tags: comment, testing
+tags: table,
 ---
 
 <div class="divider-heading"></div>
