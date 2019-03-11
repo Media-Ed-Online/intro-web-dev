@@ -30,7 +30,7 @@ Now that you know that most elements are made up of an opening-closing pair of t
   </div>
   <div class="col-lg-9">
     <p>General formula for an Empty HTML element:</p>
-    <p><span style="color: #20B5E9;">&lt;tagname /&gt;</span></p>
+    <p><code>&lt;tagname /&gt;</code></p>
   </div>
 </div>
 

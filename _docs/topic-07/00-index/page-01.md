@@ -12,12 +12,13 @@ tags:
   <h2 style="text-align: center;">07://Media</h2>
 </div>
 
+As you're aware, some HTML elements are made up of one tag (“empty”), such as line breaks (`br />`) and horizontal rules (`<hr />`). However, most elements are made up of two tags, like the body (`<body>...</body>`) and bolded text (`<b>...</b>`). Following this pattern, there are “multi-part” elements like images, audio/video embeds, and iframes, which may require additional attributes or supplementary tags to work correctly.
 
-Text...
+As designers, we need to consider how and when to add media, what filetypes to use, file sizes, and what code element works best for each specific situation.
 
 By the end of this Topic, we hope you:
 <ul class="pros-and-cons">
-  <li class="icon-pro">Built structured data-giving and data-gathering interfaces.</li>
-  <li class="icon-pro">Understand how elements can be stringed together to better describe, present, and gather information.</li>
-  <li class="icon-pro">Played around with form elements, and explored how data is presented and collected on websites.</li>
+  <li class="icon-pro">Have experimented with using <a href="#" data-toggle="tooltip" title="Divisions or “sections” of page content.">divs</a> to structure the contents of your pages.</li>
+  <li class="icon-pro">Understand how media is placed and accessed on the internet (hosted vs. streaming).</li>
+  <li class="icon-pro">Source and reference outside materials directly within your site pages.</li>
 </ul>

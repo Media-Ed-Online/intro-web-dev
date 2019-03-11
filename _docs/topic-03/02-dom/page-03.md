@@ -93,7 +93,7 @@ Elements are identified in a document through tags. A **tag** is code that is sy
   </div>
   <div class="col-lg-9">
     <p>General formula for an HTML element:</p>
-    <p><span style="color: #20B5E9;">&lt;tagname&gt;</span>...content...<span style="color: #20B5E9;">&lt;/tagname&gt;</span></p>
+    <p><code>&lt;tagname&gt;</code>...content...<code>&lt;/tagname&gt;</code></p>
   </div>
 </div>
 

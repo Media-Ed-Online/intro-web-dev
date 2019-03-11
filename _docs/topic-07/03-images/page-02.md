@@ -17,7 +17,7 @@ tags: elements, image
       <th scope="row"><div>Step 1</div></th>
       <td>
         <h3>Declare the Image</h3>
-        <p>As with the break (<code>&lt;br /&gt;</code>) and horizontal ruler (<code>&lt;hr /&gt;</code>) elements, the image element is an <i>empty element</i> that only requires a single tag: the <b>image tag</b>.</p>
+        <p>The image element is an <i>empty element</i> that only requires a single tag: the <b>image tag</b>.</p>
         <div class="code-heading">
           <span class="html">HTML</span>
         </div>
@@ -49,7 +49,7 @@ tags: elements, image
       <th scope="row"><div>Step 3</div></th>
       <td>
         <h3>Add Alternative Text</h3>
-        <p>Proper style and accessibility standards dictate that you must always include the <b>alternative text attribute</b>. The key for this is simply <code>alt=""</code>. It is required that you provide a detailed description, especially in the case where the image is necessary to understand the content of the page.</p>
+        <p>Proper style and accessibility standards dictate that you must always include the <b>alternative text attribute</b>. It is required that you provide a detailed description, especially in the case where the image is necessary to understand the content of the page.</p>
         <div class="code-heading">
           <span class="html">HTML</span>
         </div>
@@ -63,13 +63,28 @@ tags: elements, image
     <tr id="step-04">
       <th scope="row"><div>Step 4</div></th>
       <td>
-        <h3>Step 4 Heading</h3>
-        <p>Text</p>
+        <h3>Add a Title</h3>
+        <p>As with the alt text attribute, you should also get in the habit of always including a <b>title attribute</b>. Most browsers will display this text as a tooltip when a user hovers their mouse over am image.</p>
         <div class="code-heading">
           <span class="html">HTML</span>
         </div>
 {% highlight html %}
-<tag></tag>
+<img src="" alt="" title="" />
+{% endhighlight %}
+        <div class="img-caption">Including a title will give your users more information about the image when hovering.</div>
+      </td>
+    </tr>
+
+    <tr id="step-05">
+      <th scope="row"><div>Step 5</div></th>
+      <td>
+        <h3>Set the Size</h3>
+        <p></p>
+        <div class="code-heading">
+          <span class="html">HTML</span>
+        </div>
+{% highlight html %}
+<img src="" alt="" title="" width="" height="" />
 {% endhighlight %}
         <div class="img-caption">Caption</div>
       </td>
@@ -79,12 +94,18 @@ tags: elements, image
       <th scope="row"><div>Preview</div></th>
       <td>
         <h3>Preview</h3>
-        <p>A full ___ element is a combination ___, ___, and ___:</p>
+        <p>A full <b>image element</b> is a combination of tag, source, alt text, title, and size:</p>
+        <div class="code-heading">
+          <span class="html">HTML</span>
+        </div>
+{% highlight html %}
+<img src="./images/octocat-wave.gif" alt="animated GitHub Octocat logo, waving with a tentacle" title="Join Us at GitHub.com!" width="200" height="150" />
+{% endhighlight %}
         <div class="code-heading">
           <span class="preview">Preview</span>
         </div>
         <div class="preview">
-          content
+          <img src="../img/octocat-wave.gif" alt="animated GitHub Octocat logo, waving with a tentacle" title="Join Us at GitHub.com!" width="200" height="150" style="margin-left: 0;"/>
         </div>
       </td>
     </tr>
