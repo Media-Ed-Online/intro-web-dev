@@ -123,7 +123,7 @@ tags: element, table
       </td>
     </tr>
 
-    <tr id="review">
+    <tr id="preview">
       <th scope="row"><div>Preview</div></th>
       <td>
         <h3>Preview</h3>
