@@ -4,7 +4,7 @@ $(function() {
     $('.list-group-item.active').parent().parent('.collapse').collapse('show');
 
 
-    //Justine added whitespace('tags')
+    //JUSTINE: added whitespace('tags')
     var pages = new Bloodhound({
         datumTokenizer: Bloodhound.tokenizers.obj.whitespace('tags', 'title'),
         // datumTokenizer: Bloodhound.tokenizers.whitespace,
@@ -32,4 +32,8 @@ $(function() {
     $('#markdown-content-container img').addClass('img-responsive');
 
 
+    // JUSTINE: Tooltip Bubbles
+    $('[data-toggle="tooltip"]').tooltip({
+        placement : 'top'
+    });
 });

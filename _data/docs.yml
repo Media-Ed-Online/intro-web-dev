@@ -396,3 +396,42 @@ topic-08:
   - title: “HTML Website”
     docs:
     - overview
+
+  - title: Search Engines
+    docs:
+    - overviewz
+
+  - title: Meta Tags
+    docs:
+    - meta-about
+    - meta-element
+    - todo-meta
+
+  - title: "Style: The Style Element"
+    docs:
+    - style-element-about
+    - style-element
+    - style-element-containers
+    - style-element-backgrounds
+    - style-element-text
+    - style-element-lists
+    - todo-style-element
+
+  - title: "Navigation: The Nav Element"
+    docs:
+    - nav-element-about
+    - nav-element
+    - nav-site
+    - todo-nav-element
+
+  - title: "Development: Escape Characters"
+    docs:
+    - overviewz
+
+##################################################
+
+topic-09:
+
+  - title: “Color”
+    docs:
+    - overview
