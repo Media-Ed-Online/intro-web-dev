@@ -37,6 +37,7 @@ exclude:
   - .gitignore
   - README.md
   - .DS_Store
+
 timezone: America/Denver
 defaults:
 - scope:

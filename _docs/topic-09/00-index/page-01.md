@@ -20,6 +20,6 @@ While we've explored styling briefly in the previous topics, it's time to really
 By the end of this Topic, we hope you:
 <ul class="pros-and-cons">
   <li class="icon-pro">Understand how CSS functions in web design, and the many ways we can use it in our pages.</li>
-  <li class="icon-pro">Have experimented with CSS selectors, and tried linking your _own_ stylesheet to your HTML pages.</li>
+  <li class="icon-pro">Have experimented with CSS selectors, and tried linking your <i>own</i> stylesheet to your HTML pages.</li>
   <li class="icon-pro">Experimented with color as an enhacement to page layouts.</li>
 </ul>
