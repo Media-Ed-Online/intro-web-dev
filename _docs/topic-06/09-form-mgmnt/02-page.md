@@ -1,9 +1,9 @@
 ---
 title: Labels and IDs
-module: topic-05
-permalink: /docs/topic-05/form-labels-ids/
-redirect_from: /docs/topic-05/09-form-mgmnt/02-page.md
+module: topic-06
+permalink: /topic-06/form-labels-ids/
 ---
+
 
 <div class="divider-heading"></div>
 

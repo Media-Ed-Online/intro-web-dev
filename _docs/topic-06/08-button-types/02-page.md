@@ -1,8 +1,7 @@
 ---
 title: The Upload Button
-module: topic-05
-permalink: /docs/topic-05/button-upload/
-redirect_from: /docs/topic-05/08-button-types/02-page.md
+module: topic-06
+permalink: /topic-06/button-upload/
 ---
 
 <div class="divider-heading"></div>

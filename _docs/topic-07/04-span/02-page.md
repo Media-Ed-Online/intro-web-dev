@@ -1,0 +1,14 @@
+---
+title: Styling
+module: topic-06
+permalink: /docs/topic-06/span-style/
+redirect_from: /docs/topic-06/04-span/02-page.md
+---
+
+<div class="divider-heading"></div>
+
+In the below example, the `<span>` element identifies specific parts of the paragraph statement, and then alter the appearance of those elements in the rendered page.
+
+<div class="codepen-embed">
+  <p data-height="400" data-theme-id="30567" data-slug-hash="oGMbOe" data-default-tab="html,result" data-user="Media-Ed-Online" data-embed-version="2" data-pen-title="Topic-06: The Span Element" class="codepen"></p>
+</div>

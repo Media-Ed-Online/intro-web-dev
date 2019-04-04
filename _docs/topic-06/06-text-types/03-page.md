@@ -1,8 +1,7 @@
 ---
 title: Password
-module: topic-05
-permalink: /docs/topic-05/text-password/
-redirect_from: /docs/topic-05/06-text-types/03-page.md
+module: topic-06
+permalink: /topic-06/text-password/
 ---
 
 <div class="divider-heading"></div>

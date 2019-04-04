@@ -1,8 +1,7 @@
 ---
 title: The &lt;table&gt; Tags
-module: topic-05
-permalink: /docs/topic-05/table-structure/
-redirect_from: /docs/topic-05/02-table-struct/02-page.md
+module: topic-06
+permalink: /topic-06/table-structure/
 ---
 <style>
   .indent-sm {

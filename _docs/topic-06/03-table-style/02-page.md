@@ -1,8 +1,7 @@
 ---
 title: Borders
-module: topic-05
-permalink: /docs/topic-05/table-borders/
-redirect_from: /docs/topic-05/03-table-style/02-page.md
+module: topic-06
+permalink: /topic-06/table-borders/
 ---
 
 <div class="divider-heading"></div>

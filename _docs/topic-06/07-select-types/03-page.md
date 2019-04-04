@@ -1,8 +1,7 @@
 ---
 title: The Checkbox Element
-module: topic-05
-permalink: /docs/topic-05/select-checkbox/
-redirect_from: /docs/topic-05/07-select-types/03-page.md
+module: topic-06
+permalink: /topic-06/select-checkbox/
 ---
 
 <div class="divider-heading"></div>

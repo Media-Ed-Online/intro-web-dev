@@ -1,8 +1,7 @@
 ---
 title: The &lt;table&gt; Element
-module: topic-05
-permalink: /docs/topic-05/table-element/
-redirect_from: /docs/topic-05/02-table-struct/06-page.md
+module: topic-06
+permalink: /topic-06/table-element/
 ---
 
 <div class="divider-heading"></div>

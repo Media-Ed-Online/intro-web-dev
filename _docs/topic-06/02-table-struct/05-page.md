@@ -1,8 +1,7 @@
 ---
 title: Headings
-module: topic-05
-permalink: /docs/topic-05/table-headings/
-redirect_from: /docs/topic-05/02-table-struct/05-page.md
+module: topic-06
+permalink: /topic-06/table-headings/
 ---
 
 <style>

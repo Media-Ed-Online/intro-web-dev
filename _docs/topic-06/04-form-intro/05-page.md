@@ -1,8 +1,7 @@
 ---
 title: ID and Class
-module: topic-05
-permalink: /docs/topic-05/form-id-class/
-redirect_from: /docs/topic-05/04-form-intro/05-page.md
+module: topic-06
+permalink: /topic-06/form-id-class/
 ---
 
 <div class="divider-heading"></div>

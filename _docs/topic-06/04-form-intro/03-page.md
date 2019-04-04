@@ -1,8 +1,7 @@
 ---
 title: Action
-module: topic-05
-permalink: /docs/topic-05/form-action/
-redirect_from: /docs/topic-05/04-form-intro/03-page.md
+module: topic-06
+permalink: /topic-06/form-action/
 ---
 
 <div class="divider-heading"></div>

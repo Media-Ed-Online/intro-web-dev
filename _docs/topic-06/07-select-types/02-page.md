@@ -1,8 +1,7 @@
 ---
 title: Radio Buttons
-module: topic-05
-permalink: /docs/topic-05/select-radio/
-redirect_from: /docs/topic-05/07-select-types/02-page.md
+module: topic-06
+permalink: /topic-06/select-radio/
 ---
 
 <div class="divider-heading"></div>

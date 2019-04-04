@@ -1,8 +1,7 @@
 ---
 title: The Image Button
-module: topic-05
-permalink: /docs/topic-05/button-image/
-redirect_from: /docs/topic-05/08-button-types/04-page.md
+module: topic-06
+permalink: /topic-06/button-image/
 ---
 
 <div class="divider-heading"></div>

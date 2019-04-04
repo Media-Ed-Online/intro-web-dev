@@ -1,9 +1,9 @@
 ---
 title: TODO
-todo: <i class="fa fa-check-square-o" aria-hidden="true"></i>
-module: topic-05
-permalink: /docs/topic-05/todo-table-structure/
-redirect_from: /docs/topic-05/02-table-struct/07-todo.md
+module: topic-06
+todo: <i class="fas fa-check-square" aria-hidden="true"></i>
+permalink: /topic-06/todo-table-structure/
+categories: uncategorized
 ---
 
 <div class="row text-center">

@@ -1,9 +1,9 @@
 ---
 title: Fieldsets and Legends
-module: topic-05
-permalink: /docs/topic-05/form-fieldsets-legends/
-redirect_from: /docs/topic-05/09-form-mgmnt/03-page.md
+module: topic-06
+permalink: /topic-06/form-fieldsets-legends/
 ---
+
 
 <div class="divider-heading"></div>
 

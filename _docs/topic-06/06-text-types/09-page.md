@@ -1,8 +1,7 @@
 ---
 title: Value
-module: topic-05
-permalink: /docs/topic-05/text-value/
-redirect_from: /docs/topic-05/06-text-types/09-page.md
+module: topic-06
+permalink: /topic-06/text-value/
 ---
 
 <div class="divider-heading"></div>

@@ -1,8 +1,7 @@
 ---
 title: Size
-module: topic-05
-permalink: /docs/topic-05/text-size/
-redirect_from: /docs/topic-05/06-text-types/08-page.md
+module: topic-06
+permalink: /topic-06/text-size/
 ---
 
 <div class="divider-heading"></div>

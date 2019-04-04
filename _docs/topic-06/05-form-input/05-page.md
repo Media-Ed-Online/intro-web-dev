@@ -1,8 +1,7 @@
 ---
 title: ID
-module: topic-05
-permalink: /docs/topic-05/input-id/
-redirect_from: /docs/topic-05/05-form-input/05-page.md
+module: topic-06
+permalink: /topic-06/input-id/
 ---
 
 <div class="divider-heading"></div>

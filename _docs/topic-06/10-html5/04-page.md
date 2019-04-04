@@ -1,8 +1,7 @@
 ---
 title: E-Mail
-module: topic-05
-permalink: /docs/topic-05/html5-email/
-redirect_from: /docs/topic-05/10-html5/04-page.md
+module: topic-06
+permalink: /topic-06/html5-email/
 ---
 
 <div class="divider-heading"></div>

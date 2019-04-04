@@ -1,8 +1,7 @@
 ---
 title: The Button Element
-module: topic-05
-permalink: /docs/topic-05/button-element/
-redirect_from: /docs/topic-05/08-button-types/05-page.md
+module: topic-06
+permalink: /topic-06/button-element/
 ---
 
 <div class="divider-heading"></div>

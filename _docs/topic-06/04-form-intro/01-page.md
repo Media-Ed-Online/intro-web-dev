@@ -1,8 +1,7 @@
 ---
 title: Web Forms
-module: topic-05
-permalink: /docs/topic-05/form-about/
-redirect_from: /docs/topic-05/04-form-intro/01-page.md
+module: topic-06
+permalink: /topic-06/form-about/
 ---
 
 <div class="divider-heading"></div>

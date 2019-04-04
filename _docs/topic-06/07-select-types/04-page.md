@@ -1,8 +1,7 @@
 ---
 title: The Select Box (AKA Dropdown Select)
-module: topic-05
-permalink: /docs/topic-05/select-dropdown/
-redirect_from: /docs/topic-05/07-select-types/04-page.md
+module: topic-06
+permalink: /topic-06/select-dropdown/
 ---
 
 <div class="divider-heading"></div>

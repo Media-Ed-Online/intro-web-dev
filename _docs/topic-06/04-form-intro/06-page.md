@@ -1,8 +1,7 @@
 ---
 title: The &lt;form&gt; Element
-module: topic-05
-permalink: /docs/topic-05/form-element/
-redirect_from: /docs/topic-05/04-form-intro/06-page.md
+module: topic-06
+permalink: /topic-06/form-element/
 ---
 
 <div class="divider-heading"></div>

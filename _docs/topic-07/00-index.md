@@ -1,0 +1,38 @@
+---
+title: Topic Overview
+module: topic-07
+permalink: /topic-07/overview/
+redirect_from: /topic-07/
+categories: uncategorized
+tags:
+---
+
+<div class="section-title">
+  <img src="../img/assignment-07.svg" alt="" title="Assignment 7: Media" />
+  <h2 style="text-align: center;">07://Media</h2>
+</div>
+
+
+This is the last Topic where we will look at HTML elements in depth. At the point you should be comfortable with:
+
+- The Basics of HTML, Including:
+    - Elements
+    - Tags
+        - Attributes
+        - Opening and Closing Tags
+        - Empty Tags
+- The Basic Structure of an HTML Document:
+    - The HTML Element
+    - The Head and Body Elements
+- Structural vs. Semantic Elements
+- Nesting Elements
+- Linking to Other Files (i.e. Images)
+- User Input
+
+This week we will be wrapping up our unit on HTML by looking at three groups: additional structural elements, media, and metadata.
+
+
+By the end of this Topic, we hope you:
+- Have experimented with using `<div>`s to structure the contents of your pages.
+- Understand how media is placed and accessed on the internet (hosted vs. streaming).
+- Source and reference outside materials directly within your site pages.

@@ -1,8 +1,7 @@
 ---
 title: Styling
-module: topic-05
-permalink: /docs/topic-05/table-style/
-redirect_from: /docs/topic-05/03-table-style/01-page.md
+module: topic-06
+permalink: /topic-06/table-style/
 ---
 
 <div class="divider-heading"></div>

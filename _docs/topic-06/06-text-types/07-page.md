@@ -1,8 +1,7 @@
 ---
 title: Placeholder
-module: topic-05
-permalink: /docs/topic-05/text-placeholder/
-redirect_from: /docs/topic-05/06-text-types/07-page.md
+module: topic-06
+permalink: /topic-06/text-placeholder/
 ---
 
 <div class="divider-heading"></div>

@@ -1,8 +1,7 @@
 ---
 title: New in HTML5
-module: topic-05
-permalink: /docs/topic-05/html5-new/
-redirect_from: /docs/topic-05/10-html5/01-page.md
+module: topic-06
+permalink: /topic-06/html5-new/
 ---
 
 <div class="divider-heading"></div>

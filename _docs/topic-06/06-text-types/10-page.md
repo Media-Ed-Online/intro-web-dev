@@ -1,8 +1,7 @@
 ---
 title: Autofocus
-module: topic-05
-permalink: /docs/topic-05/text-autofocus/
-redirect_from: /docs/topic-05/06-text-types/05-page.md
+module: topic-06
+permalink: /topic-06/text-autofocus/
 ---
 
 <div class="divider-heading"></div>

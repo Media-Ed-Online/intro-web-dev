@@ -1,8 +1,7 @@
 ---
 title: Cell Padding
-module: topic-05
-permalink: /docs/topic-05/table-padding/
-redirect_from: /docs/topic-05/03-table-style/03-page.md
+module: topic-06
+permalink: /topic-06/table-padding/
 ---
 
 <div class="divider-heading"></div>

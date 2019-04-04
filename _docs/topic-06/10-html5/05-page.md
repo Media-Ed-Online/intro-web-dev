@@ -1,8 +1,7 @@
 ---
 title: Search
-module: topic-05
-permalink: /docs/topic-05/html5-search/
-redirect_from: /docs/topic-05/10-html5/05-page.md
+module: topic-06
+permalink: /topic-06/html5-search/
 ---
 
 <div class="divider-heading"></div>

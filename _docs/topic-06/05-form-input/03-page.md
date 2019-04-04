@@ -1,8 +1,7 @@
 ---
 title: Type
-module: topic-05
-permalink: /docs/topic-05/input-type/
-redirect_from: /docs/topic-05/05-form-input/03-page.md
+module: topic-06
+permalink: /topic-06/input-type/
 ---
 
 <div class="divider-heading"></div>

@@ -1,8 +1,7 @@
 ---
 title: The &lt;iput&gt; Tag
-module: topic-05
-permalink: /docs/topic-05/input-tag/
-redirect_from: /docs/topic-05/05-form-input/02-page.md
+module: topic-06
+permalink: /topic-06/input-tag/
 ---
 
 <div class="divider-heading"></div>

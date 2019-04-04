@@ -1,8 +1,7 @@
 ---
 title: Buttons
-module: topic-05
-permalink: /docs/topic-05/button-intro/
-redirect_from: /docs/topic-05/08-button-types/01-page.md
+module: topic-06
+permalink: /topic-06/button-intro/
 ---
 
 <div class="divider-heading"></div>

@@ -1,9 +1,9 @@
 ---
 title: TODO
-todo: <i class="fa fa-check-square-o" aria-hidden="true"></i>
-module: topic-05
-permalink: /docs/topic-05/todo-select-type/
-redirect_from: /docs/topic-05/07-text-types/05-todo.md
+module: topic-06
+todo: <i class="fas fa-check-square" aria-hidden="true"></i>
+permalink: /topic-06/todo-select-type/
+categories: uncategorized
 ---
 
 <div class="row text-center">

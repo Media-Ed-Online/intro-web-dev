@@ -1,8 +1,7 @@
 ---
 title: Asking for Input
-module: topic-05
-permalink: /docs/topic-05/input-about/
-redirect_from: /docs/topic-05/05-form-input/01-page.md
+module: topic-06
+permalink: /topic-06/input-about/
 ---
 
 <div class="divider-heading"></div>

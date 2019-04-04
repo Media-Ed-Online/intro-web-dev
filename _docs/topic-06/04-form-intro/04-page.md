@@ -1,8 +1,7 @@
 ---
 title: Method
-module: topic-05
-permalink: /docs/topic-05/form-method/
-redirect_from: /docs/topic-05/04-form-intro/04-page.md
+module: topic-06
+permalink: /topic-06/form-method/
 ---
 
 <div class="divider-heading"></div>

@@ -1,8 +1,7 @@
 ---
 title: Text Input
-module: topic-05
-permalink: /docs/topic-05/text-intro/
-redirect_from: /docs/topic-05/06-text-types/01-page.md
+module: topic-06
+permalink: /topic-06/text-intro/
 ---
 
 <div class="divider-heading"></div>

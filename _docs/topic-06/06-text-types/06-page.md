@@ -1,8 +1,7 @@
 ---
 title: Columns and Rows
-module: topic-05
-permalink: /docs/topic-05/text-cols-rows/
-redirect_from: /docs/topic-05/06-text-types/06-page.md
+module: topic-06
+permalink: /topic-06/text-cols-rows/
 ---
 
 <div class="divider-heading"></div>

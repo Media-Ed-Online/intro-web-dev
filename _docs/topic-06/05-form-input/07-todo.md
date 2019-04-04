@@ -1,9 +1,9 @@
 ---
 title: TODO
-todo: <i class="fa fa-check-square-o" aria-hidden="true"></i>
-module: topic-05
-permalink: /docs/topic-05/todo-form-input/
-redirect_from: /docs/topic-05/05-form-input/07-todo.md
+module: topic-06
+todo: <i class="fas fa-check-square" aria-hidden="true"></i>
+permalink: /topic-06/todo-form-input/
+categories: uncategorized
 ---
 
 <div class="row text-center">
@@ -22,7 +22,7 @@ redirect_from: /docs/topic-05/05-form-input/07-todo.md
     <div class="col-lg-4">
         <div class="bs-component">
           <div class="list-group">
-              <a href="{{ site.url }}/docs/topic-02/protocols#tumblr/" target="_blank" class="list-group-item">
+              <a href="{{ site.url }}/topic-02/net-protocols#tumblr/" target="_blank" class="list-group-item">
                 <img src="../img/hw-icon-review-page.svg" style="max-height: 100px; margin: auto; margin-bottom: 10px;" />
                 <h4 class="list-group-item-heading">Review HTTP, HTML, & Logging Into Tumblr</h4>
                 <hr>

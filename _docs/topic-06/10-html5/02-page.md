@@ -1,8 +1,7 @@
 ---
 title: Validation
-module: topic-05
-permalink: /docs/topic-05/html5-validation/
-redirect_from: /docs/topic-05/10-html5/02-page.md
+module: topic-06
+permalink: /topic-06/html5-validation/
 ---
 
 <div class="divider-heading"></div>
