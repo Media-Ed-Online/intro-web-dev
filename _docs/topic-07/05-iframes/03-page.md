@@ -1,8 +1,7 @@
 ---
 title: Source
-module: topic-06
-permalink: /docs/topic-06/iframes-src/
-redirect_from: /docs/topic-06/05-iframes/03-page.md
+module: topic-07
+permalink: /topic-07/iframes-src/
 ---
 
 <div class="divider-heading"></div>

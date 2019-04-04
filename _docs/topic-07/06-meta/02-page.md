@@ -1,9 +1,9 @@
 ---
 title: Meta Name Types
-module: topic-06
-permalink: /docs/topic-06/meta-names/
-redirect_from: /docs/topic-06/06-meta/02-page.md
+module: topic-07
+permalink: /topic-07/meta-names/
 ---
+
 
 <div class="divider-heading"></div>
 

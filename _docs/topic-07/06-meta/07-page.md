@@ -1,9 +1,9 @@
 ---
 title: Robots
-module: topic-06
-permalink: /docs/topic-06/meta-robots/
-redirect_from: /docs/topic-06/06-meta/07-page.md
+module: topic-07
+permalink: /topic-07/meta-robots/
 ---
+
 
 <div class="divider-heading"></div>
 

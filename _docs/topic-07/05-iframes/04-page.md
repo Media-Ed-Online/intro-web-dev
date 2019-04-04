@@ -1,8 +1,7 @@
 ---
 title: Size
-module: topic-06
-permalink: /docs/topic-06/iframes-size/
-redirect_from: /docs/topic-06/05-iframes/04-page.md
+module: topic-07
+permalink: /topic-07/iframes-size/
 ---
 
 <div class="divider-heading"></div>

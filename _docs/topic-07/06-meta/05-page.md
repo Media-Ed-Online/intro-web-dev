@@ -1,9 +1,9 @@
 ---
 title: Author
-module: topic-06
-permalink: /docs/topic-06/meta-auth/
-redirect_from: /docs/topic-06/06-meta/05-page.md
+module: topic-07
+permalink: /topic-07/meta-auth/
 ---
+
 
 <div class="divider-heading"></div>
 

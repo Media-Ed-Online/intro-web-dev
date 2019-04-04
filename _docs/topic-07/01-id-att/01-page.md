@@ -1,7 +1,7 @@
 ---
 title: Clarity and Structure with ids
 module: topic-07
-permalink: /topic-07/id-clari/
+permalink: /topic-07/id-clarity/
 ---
 
 <div class="divider-heading"></div>

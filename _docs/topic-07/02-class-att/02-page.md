@@ -1,8 +1,7 @@
 ---
 title: Styling
-module: topic-06
-permalink: /docs/topic-06/class-style/
-redirect_from: /docs/topic-06/02-class-att/02-page.md
+module: topic-07
+permalink: /topic-07/class-style/
 ---
 
 <div class="divider-heading"></div>

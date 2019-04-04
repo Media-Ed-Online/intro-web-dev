@@ -1,8 +1,7 @@
 ---
 title: The &lt;div&gt; Element
-module: topic-06
-permalink: /docs/topic-06/div-element/
-redirect_from: /docs/topic-06/03-div/01-page.md
+module: topic-07
+permalink: /topic-07/div-element/
 ---
 
 <div class="divider-heading"></div>

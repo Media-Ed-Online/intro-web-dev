@@ -1,9 +1,9 @@
 ---
 title: Viewport
-module: topic-06
-permalink: /docs/topic-06/meta-view/
-redirect_from: /docs/topic-06/06-meta/08-page.md
+module: topic-07
+permalink: /topic-07/meta-view/
 ---
+
 
 <div class="divider-heading"></div>
 

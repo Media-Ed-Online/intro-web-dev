@@ -1,8 +1,7 @@
 ---
 title: Seamless
-module: topic-06
-permalink: /docs/topic-06/iframes-seamless/
-redirect_from: /docs/topic-06/05-iframes/05-page.md
+module: topic-07
+permalink: /topic-07/iframes-seamless/
 ---
 
 <div class="divider-heading"></div>

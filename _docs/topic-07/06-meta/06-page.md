@@ -1,9 +1,9 @@
 ---
 title: Keywords
-module: topic-06
-permalink: /docs/topic-06/meta-keywords/
-redirect_from: /docs/topic-06/06-meta/06-page.md
+module: topic-07
+permalink: /topic-07/meta-keywords/
 ---
+
 
 <div class="divider-heading"></div>
 

@@ -1,8 +1,7 @@
 ---
 title: Media in the &lt;iframe&gt; Element
-module: topic-06
-permalink: /docs/topic-06/iframes-element-media/
-redirect_from: /docs/topic-06/05-iframes/08-page.md
+module: topic-07
+permalink: /topic-07/iframes-element-media/
 ---
 
 <div class="divider-heading"></div>

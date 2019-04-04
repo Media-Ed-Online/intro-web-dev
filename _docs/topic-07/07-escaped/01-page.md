@@ -1,9 +1,9 @@
 ---
 title: Solving Conflicts
-module: topic-06
-permalink: /docs/topic-06/esc-about/
-redirect_from: /docs/topic-06/07-escaped/01-page.md
+module: topic-07
+permalink: /topic-07/esc-about/
 ---
+
 
 <div class="divider-heading"></div>
 

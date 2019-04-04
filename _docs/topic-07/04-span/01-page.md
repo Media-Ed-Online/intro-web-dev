@@ -1,8 +1,7 @@
 ---
 title: The &lt;span&gt; Element
-module: topic-06
-permalink: /docs/topic-06/span-element/
-redirect_from: /docs/topic-06/04-span/01-page.md
+module: topic-07
+permalink: /topic-07/span-element/
 ---
 
 <div class="divider-heading"></div>

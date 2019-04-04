@@ -1,8 +1,7 @@
 ---
 title: Common Escape Characters
-module: topic-06
-permalink: /docs/topic-06/esc-common/
-redirect_from: /docs/topic-06/07-escaped/04-page.md
+module: topic-07
+permalink: /topic-07/esc-common/
 ---
 
 <div class="divider-heading"></div>

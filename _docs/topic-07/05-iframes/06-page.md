@@ -1,8 +1,7 @@
 ---
 title: Sites in the &lt;iframe&gt; Element
-module: topic-06
-permalink: /docs/topic-06/iframes-element-sites/
-redirect_from: /docs/topic-06/05-iframes/06-page.md
+module: topic-07
+permalink: /topic-07/iframes-element-sites/
 ---
 
 <div class="divider-heading"></div>

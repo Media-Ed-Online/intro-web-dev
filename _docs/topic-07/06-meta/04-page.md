@@ -1,9 +1,9 @@
 ---
 title: Description
-module: topic-06
-permalink: /docs/topic-06/meta-desc/
-redirect_from: /docs/topic-06/06-meta/04-page.md
+module: topic-07
+permalink: /topic-07/meta-desc/
 ---
+
 
 <div class="divider-heading"></div>
 

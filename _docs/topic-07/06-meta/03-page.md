@@ -1,9 +1,9 @@
 ---
 title: Character Set
-module: topic-06
-permalink: /docs/topic-06/meta-charset/
-redirect_from: /docs/topic-06/06-meta/03-page.md
+module: topic-07
+permalink: /topic-07/meta-charset/
 ---
+
 
 <div class="divider-heading"></div>
 

@@ -1,8 +1,7 @@
 ---
 title: Styling
-module: topic-06
-permalink: /docs/topic-06/span-style/
-redirect_from: /docs/topic-06/04-span/02-page.md
+module: topic-07
+permalink: /topic-07/span-style/
 ---
 
 <div class="divider-heading"></div>

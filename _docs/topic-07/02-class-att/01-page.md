@@ -1,8 +1,7 @@
 ---
 title: Clarity and Structure with Classes
-module: topic-06
-permalink: /docs/topic-06/class-clarity/
-redirect_from: /docs/topic-06/02-class-att/01-page.md
+module: topic-07
+permalink: /topic-07/class-clarity/
 ---
 
 <div class="divider-heading"></div>

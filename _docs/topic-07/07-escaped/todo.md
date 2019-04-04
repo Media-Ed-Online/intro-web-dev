@@ -1,9 +1,9 @@
 ---
 title: TODO
-todo: <i class="fa fa-check-square-o" aria-hidden="true"></i>
-module: topic-06
-permalink: /docs/topic-06/todo-esc/
-redirect_from: /docs/topic-06/07-escaped/todo.md
+module: topic-07
+todo: <i class="fas fa-check-square" aria-hidden="true"></i>
+permalink: /topic-07/todo-esc/
+categories: uncategorized
 ---
 
 <div class="row text-center">
