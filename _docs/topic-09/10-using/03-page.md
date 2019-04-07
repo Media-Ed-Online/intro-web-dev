@@ -1,8 +1,7 @@
 ---
 title: Opacity
-module: topic-08
-permalink: /docs/topic-08/opacity/
-redirect_from: /docs/topic-08/10-using/03-page.md
+module: topic-09
+permalink: /topic-09/opacity/
 ---
 
 <div class="divider-heading"></div>

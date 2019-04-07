@@ -1,8 +1,7 @@
 ---
 title: Basic Positioning
-module: topic-08
-permalink: /docs/topic-08/intro-positioning/
-redirect_from: /docs/topic-08/10-using/04-page.md
+module: topic-09
+permalink: /topic-09/intro-positioning/
 ---
 
 <div class="divider-heading"></div>
@@ -15,7 +14,9 @@ _Absolute positioning_ (`position: absolute`) sets elements absolutely, removing
 
 For example, I can create a "canvas" 100px by 100px wide, and color half using a rectangle half the size of the parent, and positioned halfway across its width:
 
-<div id="code-heading">HTML</div>
+<div class="code-heading">
+  <span class="html">HTML</span>
+</div>
 ```html
 <head>
   <style>

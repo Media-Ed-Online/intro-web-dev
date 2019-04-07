@@ -1,8 +1,7 @@
 ---
 title: Text Color
-module: topic-08
-permalink: /docs/topic-08/text-color/
-redirect_from: /docs/topic-08/10-using/02-page.md
+module: topic-09
+permalink: /topic-09/text-color/
 ---
 
 <div class="divider-heading"></div>

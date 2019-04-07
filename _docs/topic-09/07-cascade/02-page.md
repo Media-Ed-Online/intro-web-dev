@@ -1,8 +1,7 @@
 ---
 title: Order
-module: topic-08
-permalink: /docs/topic-08/cascade-order/
-redirect_from: /docs/topic-08/07-cascade/02-page.md
+module: topic-09
+permalink: /topic-09/cascade-order/
 ---
 
 <div class="divider-heading"></div>
@@ -22,7 +21,9 @@ This may seem like a funny idea right now that may lead to poorly written code. 
 
 <span class="label label-danger">IMPORTANT:</span> In the following example, three documents are brought in, but notice that the developer's _(mine)_ is brought in **last**.
 
-<div id="code-heading">HTML</div>
+<div class="code-heading">
+  <span class="html">HTML</span>
+</div>
 ```html
 <head>
   <link rel="stylesheet" href="https://www.example.com/reset.css">

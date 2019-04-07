@@ -1,8 +1,7 @@
 ---
 title: Child Selector
-module: topic-08
-permalink: /docs/topic-08/chain-child/
-redirect_from: /docs/topic-08/06-chain/02-page.md
+module: topic-09
+permalink: /topic-09/chain-child/
 ---
 
 <div class="divider-heading"></div>

@@ -1,8 +1,7 @@
 ---
 title: Cascading in CSS Rules
-module: topic-08
-permalink: /docs/topic-08/cascade-rules/
-redirect_from: /docs/topic-08/07-cascade/01-page.md
+module: topic-09
+permalink: /topic-09/cascade-rules/
 ---
 
 <div class="divider-heading"></div>

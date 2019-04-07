@@ -1,8 +1,7 @@
 ---
 title: The Style Document
-module: topic-08
-permalink: /docs/topic-08/style-doc/
-redirect_from: /docs/topic-08/04-guide/01-page.md
+module: topic-09
+permalink: /topic-09/style-doc/
 ---
 
 <div class="divider-heading"></div>

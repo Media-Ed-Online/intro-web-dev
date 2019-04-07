@@ -1,8 +1,7 @@
 ---
 title: General Sibling Selector
-module: topic-08
-permalink: /docs/topic-08/chain-sib-gen/
-redirect_from: /docs/topic-08/06-chain/05-page.md
+module: topic-09
+permalink: /topic-09/chain-sib-gen/
 ---
 
 <div class="divider-heading"></div>

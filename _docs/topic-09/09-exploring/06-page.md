@@ -1,8 +1,7 @@
 ---
 title: Desaturated Color (Grayscale)
-module: topic-08
-permalink: /docs/topic-08/grayscale-color/
-redirect_from: /docs/topic-08/09-exploring/06-page.md
+module: topic-09
+permalink: /topic-09/grayscale-color/
 ---
 
 <div class="divider-heading"></div>
@@ -65,7 +64,7 @@ Following from this principle, to get any color within the grey scale, we simply
       #707070 - rgb(112, 112, 112);
   </div>
   <div width="50%" height="20px"
-      style="background-color:#808080;color:#808080;padding:10px;">
+      style="background-color:#808080;color:#606060;padding:10px;">
       #808080 - rgb(128, 128, 128);
   </div>
   <div width="50%" height="20px"

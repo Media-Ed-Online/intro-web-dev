@@ -1,8 +1,7 @@
 ---
 title: RGB Values
-module: topic-08
-permalink: /docs/topic-08/color-rgb/
-redirect_from: /docs/topic-08/09-exploring/03-page.md
+module: topic-09
+permalink: /topic-09/color-rgb/
 ---
 
 <div class="divider-heading"></div>
@@ -10,7 +9,9 @@ redirect_from: /docs/topic-08/09-exploring/03-page.md
 In RGB, each of these three color values is represented as a decimal-based number, comma separated. These values are almost always wrapped in a  `rgb(rrr, ggg, bbb)`.
 
 
-<div id="code-heading">CSS</div>
+<div class="code-heading">
+  <span class="css">CSS</span>
+</div>
 ```css
 /* Black as a RGB value: */
 p {

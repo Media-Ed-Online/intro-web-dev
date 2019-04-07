@@ -1,8 +1,7 @@
 ---
 title: Specificity
-module: topic-08
-permalink: /docs/topic-08/cascade-specify/
-redirect_from: /docs/topic-08/07-cascade/03-page.md
+module: topic-09
+permalink: /topic-09/cascade-specify/
 ---
 
 <div class="divider-heading"></div>

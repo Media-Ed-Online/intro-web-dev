@@ -1,8 +1,7 @@
 ---
 title: Understanding Styling
-module: topic-08
-permalink: /docs/topic-08/understand-css/
-redirect_from: /docs/topic-08/04-applied/02-page.md
+module: topic-09
+permalink: /topic-09/understand-css/
 ---
 
 <div class="divider-heading"></div>

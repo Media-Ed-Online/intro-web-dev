@@ -1,8 +1,7 @@
 ---
 title: Learn More
-module: topic-08
-permalink: /docs/topic-08/more-color/
-redirect_from: /docs/topic-08/10-using/05-page.md
+module: topic-09
+permalink: /topic-09/more-color/
 ---
 
 <div class="divider-heading"></div>

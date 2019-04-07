@@ -1,8 +1,7 @@
 ---
 title: Elements and Rules
-module: topic-08
-permalink: /docs/topic-08/multi-selectors/
-redirect_from: /docs/topic-08/01-anatomy/02-page.md
+module: topic-09
+permalink: /topic-09/multi-selectors/
 ---
 
 <div class="divider-heading"></div>
@@ -16,7 +15,9 @@ redirect_from: /docs/topic-08/01-anatomy/02-page.md
 
 When applying different rules to elements, you simply need to write another selector/declaration set. The closing **curly bracket** (`}`) tells the browser the rule is finished.
 
-<div id="code-heading">CSS</div>
+<div class="code-heading">
+  <span class="css">CSS</span>
+</div>
 ```css
 /* Rule 1: Applied to all h1 elements. */
 h1 {
@@ -36,7 +37,9 @@ If you need to apply the same rules to more than one element, you can select mul
 
 You can then still go on to apply additional, unique style rules to an already styled element. These rules will simply be cumulative.
 
-<div id="code-heading">CSS</div>
+<div class="code-heading">
+  <span class="css">CSS</span>
+</div>
 ```css
 h1, h2, p {
     /* Style rules applied to all h1, h2, and paragraph elements. */

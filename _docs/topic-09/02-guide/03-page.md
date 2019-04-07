@@ -1,8 +1,7 @@
 ---
 title: The Style Attribute
-module: topic-08
-permalink: /docs/topic-08/style-attribute/
-redirect_from: /docs/topic-08/03-guide/01-page.md
+module: topic-09
+permalink: /topic-09/style-attribute/
 ---
 
 <div class="divider-heading"></div>

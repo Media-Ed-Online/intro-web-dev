@@ -1,8 +1,7 @@
 ---
 title: Relationship
-module: topic-08
-permalink: /docs/topic-08/link-rel/
-redirect_from: /docs/topic-08/03-docs/03-page.md
+module: topic-09
+permalink: /topic-09/link-rel/
 ---
 
 <div class="divider-heading"></div>

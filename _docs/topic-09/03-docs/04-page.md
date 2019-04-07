@@ -1,8 +1,7 @@
 ---
 title: Type
-module: topic-08
-permalink: /docs/topic-08/link-type/
-redirect_from: /docs/topic-08/03-docs/04-page.md
+module: topic-09
+permalink: /topic-09/link-type/
 ---
 
 <div class="divider-heading"></div>

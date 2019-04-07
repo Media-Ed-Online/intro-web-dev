@@ -1,8 +1,7 @@
 ---
 title: Descendent Selector
-module: topic-08
-permalink: /docs/topic-08/chain-descendent/
-redirect_from: /docs/topic-08/06-chain/03-page.md
+module: topic-09
+permalink: /topic-09/chain-descendent/
 ---
 
 <div class="divider-heading"></div>

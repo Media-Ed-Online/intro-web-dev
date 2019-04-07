@@ -1,9 +1,9 @@
 ---
 title: TODO
-todo: <i class="fa fa-check-square-o" aria-hidden="true"></i>
-module: topic-08
-permalink: /docs/topic-08/todo-inherit/
-redirect_from: /docs/topic-08/08-inherit/todo.md
+module: topic-09
+todo: <i class="fas fa-check-square" aria-hidden="true"></i>
+permalink: /topic-09/todo-inherit/
+categories: uncategorized
 ---
 
 <div class="row text-center">

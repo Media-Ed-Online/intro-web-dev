@@ -1,8 +1,7 @@
 ---
 title: Property and Value
-module: topic-08
-permalink: /docs/topic-08/property-value/
-redirect_from: /docs/topic-08/01-anatomy/03-page.md
+module: topic-09
+permalink: /topic-09/property-value/
 ---
 
 <div class="divider-heading"></div>
@@ -21,7 +20,9 @@ The **property** is the aspect about the element that you want to change, i.e. l
 
 The **value** defines how to change a property; for example, color and placement.
 
-<div id="code-heading">CSS</div>
+<div class="code-heading">
+  <span class="css">CSS</span>
+</div>
 ```css
 p {
     property1: value;

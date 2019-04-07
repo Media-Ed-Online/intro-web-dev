@@ -1,9 +1,9 @@
 ---
 title: Directory Placement
-module: topic-08
-permalink: /docs/topic-08/css-docs/
-redirect_from: /docs/topic-08/03-docs/01-page.md
+module: topic-09
+permalink: /topic-09/css-docs/
 ---
+
 
 <div class="divider-heading"></div>
 

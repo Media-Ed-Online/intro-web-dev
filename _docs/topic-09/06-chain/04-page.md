@@ -1,8 +1,7 @@
 ---
 title: Adjacent Sibling Selector
-module: topic-08
-permalink: /docs/topic-08/chain-sib-adj/
-redirect_from: /docs/topic-08/06-chain/04-page.md
+module: topic-09
+permalink: /topic-09/chain-sib-adj/
 ---
 
 <div class="divider-heading"></div>

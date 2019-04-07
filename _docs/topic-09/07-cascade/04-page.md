@@ -1,8 +1,7 @@
 ---
 title:  Setting Importance
-module: topic-08
-permalink: /docs/topic-08/cascade-important/
-redirect_from: /docs/topic-08/07-cascade/04-page.md
+module: topic-09
+permalink: /topic-09/cascade-important/
 ---
 
 <div class="divider-heading"></div>

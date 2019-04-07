@@ -1,8 +1,7 @@
 ---
 title: Specifying Color
-module: topic-08
-permalink: /docs/topic-08/specify-color/
-redirect_from: /docs/topic-08/09-exploring/01-page.md
+module: topic-09
+permalink: /topic-09/specify-color/
 ---
 
 <div class="divider-heading"></div>

@@ -1,8 +1,7 @@
 ---
 title: Saturated Color
-module: topic-08
-permalink: /docs/topic-08/saturated-color/
-redirect_from: /docs/topic-08/09-exploring/05-page.md
+module: topic-09
+permalink: /topic-09/saturated-color/
 ---
 
 <div class="divider-heading"></div>

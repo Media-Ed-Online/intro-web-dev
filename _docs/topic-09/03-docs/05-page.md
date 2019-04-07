@@ -1,8 +1,7 @@
 ---
 title: Href
-module: topic-08
-permalink: /docs/topic-08/link-href/
-redirect_from: /docs/topic-08/03-docs/05-page.md
+module: topic-09
+permalink: /topic-09/link-href/
 ---
 
 <div class="divider-heading"></div>
@@ -26,7 +25,9 @@ The process of linking CSS documents is the same as you've been doing for other 
 ### External Style Sheets
 Many sites link out to external CSS documents as well, and will be linked via an _absolute URL_.
 
-<div id="code-heading">HTML</div>
+<div class="code-heading">
+  <span class="html">HTML</span>
+</div>
 ```html
 <head>
   <title>Tuna the Cat</title>
@@ -38,7 +39,9 @@ Many sites link out to external CSS documents as well, and will be linked via an
 ### Internal Style Sheets
 Internal files, like your own created CSS document, should be linked via _relative URL_.
 
-<div id="code-heading">HTML</div>
+<div class="code-heading">
+  <span class="html">HTML</span>
+</div>
 ```html
 <head>
   <title>Tuna the Cat</title>

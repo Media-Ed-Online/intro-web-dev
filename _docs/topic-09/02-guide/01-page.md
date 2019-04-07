@@ -1,8 +1,7 @@
 ---
 title: Where to Style
-module: topic-08
-permalink: /docs/topic-08/where-style/
-redirect_from: /docs/topic-08/02-guide/01-page.md
+module: topic-09
+permalink: /topic-09/where-style/
 ---
 
 <div class="divider-heading"></div>

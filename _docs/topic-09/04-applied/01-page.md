@@ -1,8 +1,7 @@
 ---
 title: Comments in CSS
-module: topic-08
-permalink: /docs/topic-08/css-comments/
-redirect_from: /docs/topic-08/04-applied/01-page.md
+module: topic-09
+permalink: /topic-09/css-comments/
 ---
 
 <div class="divider-heading"></div>
@@ -14,7 +13,9 @@ These comments can be used to tell you what you are trying to do, leave yourself
 In CSS, comments are placed inside of a 'forward-slash', 'star' set (`/*...*/`).
 
 
-<div id="code-heading">CSS</div>
+<div class="code-heading">
+  <span class="css">CSS</span>
+</div>
 ```css
 /* Everything between the forward-slash-star pair is a comment. */
 
@@ -32,7 +33,9 @@ lines above and below the text respectively.
 
 This is the type syntax for comments in CSS regardless of whether your CSS is being written in a separate CSS document, as the above example implies, or within a style element in an HTML document.
 
-<div id="code-heading">HTML</div>
+<div class="code-heading">
+  <span class="html">HTML</span>
+</div>
 ```html
 <!DOCTYPE html>
 <html>

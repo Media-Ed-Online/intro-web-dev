@@ -1,8 +1,7 @@
 ---
 title: Direct Chaining
-module: topic-08
-permalink: /docs/topic-08/chain-direct/
-redirect_from: /docs/topic-08/06-chain/01-page.md
+module: topic-09
+permalink: /topic-09/chain-direct/
 ---
 
 <div class="divider-heading"></div>

@@ -1,8 +1,7 @@
 ---
 title: What They Get
-module: topic-08
-permalink: /docs/topic-08/inherit-what/
-redirect_from: /docs/topic-08/08-inherit/02-page.md
+module: topic-09
+permalink: /topic-09/inherit-what/
 ---
 
 <div class="divider-heading"></div>

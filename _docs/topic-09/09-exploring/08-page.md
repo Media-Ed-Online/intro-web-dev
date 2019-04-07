@@ -1,8 +1,7 @@
 ---
 title: Color in Atom
-module: topic-08
-permalink: /docs/topic-08/color-atom/
-redirect_from: /docs/topic-08/09-exploring/08-page.md
+module: topic-09
+permalink: /topic-09/color-atom/
 ---
 
 <div class="divider-heading"></div>

@@ -1,8 +1,7 @@
 ---
 title: The Style Element
-module: topic-08
-permalink: /docs/topic-08/style-element/
-redirect_from: /docs/topic-08/02-guide/01-page.md
+module: topic-09
+permalink: /topic-09/style-element/
 ---
 
 <div class="divider-heading"></div>

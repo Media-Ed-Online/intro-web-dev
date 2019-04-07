@@ -1,8 +1,7 @@
 ---
 title: Hex Codes
-module: topic-08
-permalink: /docs/topic-08/color-hex/
-redirect_from: /docs/topic-08/09-exploring/04-page.md
+module: topic-09
+permalink: /topic-09/color-hex/
 ---
 
 <div class="divider-heading"></div>
@@ -10,7 +9,9 @@ redirect_from: /docs/topic-08/09-exploring/04-page.md
 Hexadecimal (or hex) values, are written as a single string, prepended with a number sign, with digits for each color. `#RRGGBB`
 
 
-<div id="code-heading">CSS</div>
+<div class="code-heading">
+  <span class="css">CSS</span>
+</div>
 ```css
 /* Black as a hex code: */
 p {

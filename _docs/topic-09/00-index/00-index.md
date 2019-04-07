@@ -1,23 +1,16 @@
 ---
-title: Topic 08 Overview
-module: topic-08
-permalink: /docs/topic-08/overview/
-redirect_from: /docs/topic-08/
+title: Topic Overview
+module: topic-09
+permalink: /topic-09/overview/
+redirect_from: /topic-09/
+categories: uncategorized
+tags:
 ---
 
-<img src="../img/intro-img-color.svg" style="width: 200px; margin: auto;" >
-
-## 08: Intro to CSS
-
-So far this session, some of the things you have learned include:
-
-- A brief history of the internet and how the web and browsers work.
-- The difference between a text document and a binary document.
-- How to work with the git version control system (VCS), as well as utilize a remote repository.
-- 2 markup languages:
-    - markdown (`.md`)
-    - HTML (`.html`)
-- The necessary elements to create a basic web page that can be served to a browser.
+<div class="section-title">
+  <img src="../img/assignment-09.svg" alt="" title="Assignment 9: Color" />
+  <h2 style="text-align: center;">09://Color</h2>
+</div>
 
 While we've explored styling briefly in the previous topics, it's time to really dig into learning how to use CSS or <span style="font-weight: bolder; text-decoration: underline; color: #E95420;">C</span>ascading <span style="font-weight: bolder; text-decoration: underline; color: #E95420;">S</span>tyle <span style="font-weight: bolder; text-decoration: underline; color: #E95420;">S</span>heets.
 

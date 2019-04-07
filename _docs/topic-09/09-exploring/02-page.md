@@ -1,8 +1,7 @@
 ---
 title: Color Names
-module: topic-08
-permalink: /docs/topic-08/color-name/
-redirect_from: /docs/topic-08/09-exploring/01-page.md
+module: topic-09
+permalink: /topic-09/color-name/
 ---
 
 <div class="divider-heading"></div>
@@ -10,7 +9,9 @@ redirect_from: /docs/topic-08/09-exploring/01-page.md
 You are already familiar with using color names as the value of a color property, such as `background-color: white`. This is mostly useful in coding practice and learning activities, as color names are easy to remember when developing quickly. The descriptive property of this method is also useful, as color names are usually easy to picture when looking at raw code.
 
 
-<div id="code-heading">CSS</div>
+<div class="code-heading">
+  <span class="css">CSS</span>
+</div>
 ```css
 /* Black as a color name: */
 p {

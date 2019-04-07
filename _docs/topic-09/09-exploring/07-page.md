@@ -1,8 +1,7 @@
 ---
 title: Combining Colors
-module: topic-08
-permalink: /docs/topic-08/combining-color/
-redirect_from: /docs/topic-08/09-exploring/07-page.md
+module: topic-09
+permalink: /topic-09/combining-color/
 ---
 
 <div class="divider-heading"></div>

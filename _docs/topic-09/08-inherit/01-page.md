@@ -1,8 +1,7 @@
 ---
 title: Who Inherits
-module: topic-08
-permalink: /docs/topic-08/inherit-who/
-redirect_from: /docs/topic-08/08-inherit/01-page.md
+module: topic-09
+permalink: /topic-09/inherit-who/
 ---
 
 <div class="divider-heading"></div>

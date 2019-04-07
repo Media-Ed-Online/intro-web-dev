@@ -1,8 +1,7 @@
 ---
 title: The Anatomy of Style
-module: topic-08
-permalink: /docs/topic-08/knowing-css/
-redirect_from: /docs/topic-08/01-anatomy/03-page.md
+module: topic-09
+permalink: /topic-09/knowing-css/
 ---
 
 <div class="divider-heading"></div>
