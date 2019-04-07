@@ -8,12 +8,11 @@ tags: absolute, elements, link, url
 
 <div class="divider-heading"></div>
 
+Links that include the “<code>http/https</code>” as part of the entire URL are known as <b>absolute URLs</b>.</p>
 
-
-  Links that include the “<code>http/https</code>” as part of the entire URL are known as <b>absolute URLs</b>.</p>
-
-
-<div id="code-heading">HTML</div>
+<div class="code-heading">
+  <span class="html">HTML</span>
+</div>
 ```html
 <a href="https://example.com" target="_blank">Link to Example.com</a>
 ```

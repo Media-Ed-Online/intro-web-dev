@@ -11,7 +11,9 @@ tags: elements, strikethrough
 The **strikethrough** tag (`<s>`) specifies text that is no longer correct, accurate or relevant. <s>Before HTML5, this was done with <code>&lt;strike&gt;</code>.</s>
 
 
-<div id="code-heading">HTML</div>
+<div class="code-heading">
+  <span class="html">HTML</span>
+</div>
 ```html
 <p>Old information can be <s>crossed out</s> using the strikethrough tag.</p>
 ```

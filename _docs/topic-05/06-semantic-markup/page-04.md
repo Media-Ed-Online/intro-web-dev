@@ -15,7 +15,9 @@ The **quote** tag defines a short quotation. Browsers normally _insert quotation
 The **blockquote** tag specifies a section that is quoted from another source. Browsers usually _indent_ blockquote elements.
 
 
-<div id="code-heading">HTML</div>
+<div class="code-heading">
+  <span class="html">HTML</span>
+</div>
 ```html
 <q>This is an quote element, good for keeping quotes inline with other paragraph text.</q>
 

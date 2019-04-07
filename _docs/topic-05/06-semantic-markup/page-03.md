@@ -15,7 +15,9 @@ The superscript element is used to denote characters that should appear as 'supe
 The subscript element is commonly used with footnotes or chemical and mathematical formulas, especially regarding fractions such as <sup>1</sup>/<sub>3</sub>.
 
 
-<div id="code-heading">HTML</div>
+<div class="code-heading">
+  <span class="html">HTML</span>
+</div>
 ```html
 <p>This is a the 3<sup>rd</sup> element in this section.</p>
 

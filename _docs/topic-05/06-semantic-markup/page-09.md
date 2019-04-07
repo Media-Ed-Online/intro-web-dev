@@ -13,7 +13,9 @@ The **delete** tag (`<del>`) defines text that has been deleted from a document,
 Use `<del>` and `<ins>` to markup updates and modifications in a document. Browsers will normally strike a line through deleted text and underline inserted text.
 
 
-<div id="code-heading">HTML</div>
+<div class="code-heading">
+  <span class="html">HTML</span>
+</div>
 ```html
 <p>If elements are <del>deleted</del> <ins>inserted</ins>, they will have a line through or under them, respectively.</p>
 ```

@@ -11,7 +11,9 @@ permalink: /topic-06/input-element/
 An input element is a combination of type, name, and identification. The following code shows an "input" element, wrapped in a "form" element, along with the three _required_ attributes.
 
 
-<div id="code-heading">HTML</div>
+<div class="code-heading">
+  <span class="html">HTML</span>
+</div>
 ```html
 <form action="http://www.example.com/login.php" method="post" id="sign-in" class="basic-forms">
     <input type="text" name="username" id="username_input" />

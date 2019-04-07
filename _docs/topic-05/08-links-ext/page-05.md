@@ -11,7 +11,9 @@ tags: elements, email, link
 A very common type of hyperlinking is to create an **e-mail link** within a page. This is accomplished by prepending “`mailto:`” to the desired e-mail address.
 
 
-<div id="code-heading">HTML</div>
+<div class="code-heading">
+  <span class="html">HTML</span>
+</div>
 ```html
 <a href="malto:user@example.com">User's E-mail</a>
 ```

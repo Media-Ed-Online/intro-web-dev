@@ -11,7 +11,9 @@ The `autofocus` attribute is used to set the "focus" of a browser to the specifi
 Refresh the page. See how the cursor is blinking inside the first example input box? This means it is "focused," and can take input right away.
 
 
-<div id="code-heading">HTML</div>
+<div class="code-heading">
+  <span class="html">HTML</span>
+</div>
 ```html
 <p>
   Password:

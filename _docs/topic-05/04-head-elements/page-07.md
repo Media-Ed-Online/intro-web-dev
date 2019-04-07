@@ -11,7 +11,9 @@ tags: document, elements, head, page, structure
 This is the good head set-up for an HTML document.
 
 
-<div id="code-heading">HTML</div>
+<div class="code-heading">
+  <span class="html">HTML</span>
+</div>
 ```html
 <!DOCTYPE html>
 <html lang="en-US">

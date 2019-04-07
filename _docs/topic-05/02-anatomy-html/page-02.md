@@ -14,7 +14,9 @@ Attributes are always placed inside the opening tag for the element they refer t
 
 The value is always surrounded by double quotations. One reason for this is that it allows for spaces to be used within the value for an attribute. Furthermore, the attribute will have one space placed between the tag label and the attribute, as well as between any subsequent attributes.
 
-<div id="code-heading">HTML</div>
+<div class="code-heading">
+  <span class="html">HTML</span>
+</div>
 ```html
 <p align="left">This is a paragraph element, made with "<p>" tags.
 <br/>

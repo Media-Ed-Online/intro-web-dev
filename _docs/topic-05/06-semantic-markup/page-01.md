@@ -13,7 +13,9 @@ One of the most common types of semantic markup is to “bold” some text via t
 However, it is important to recognize that the use of bold text does not imply any extra meaning. For this reason, you are encouraged to use the **strong element**. The use of a strong element ( `<strong>...</strong>` ) indicates that its content has strong importance. By default, browsers will show the contents of strong elements in bold.
 
 
-<div id="code-heading">HTML</div>
+<div class="code-heading">
+  <span class="html">HTML</span>
+</div>
 ```html
 <p>This is a <b>bold</b> element.</p>
 

@@ -11,7 +11,9 @@ tags: attribute, document, page, structure
 This is one way we could improve our standard document structure:
 
 
-<div id="code-heading">HTML</div>
+<div class="code-heading">
+  <span class="html">HTML</span>
+</div>
 ```html
 <!DOCTYPE html>
 <html lang="en">

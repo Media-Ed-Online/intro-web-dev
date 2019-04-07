@@ -15,7 +15,9 @@ We can reference the individual elements of the table as a group for easier styl
 <span class="label label-info">NOTE:</span> Ideally, this is something you'll do in a stylesheet when we get to CSS.
 
 
-<div id="code-heading">HTML</div>
+<div class="code-heading">
+  <span class="html">HTML</span>
+</div>
 ```html
 <head>
   <style>

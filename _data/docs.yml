@@ -1,7 +1,6 @@
 # Page Listings for Modules
 
 examples:
-
   - title: Getting Started
     docs:
     - home
@@ -24,7 +23,6 @@ examples:
 ##################################################
 
 topic-00:
-
   - title: “Getting Started”
     docs:
     - overview
@@ -324,21 +322,21 @@ topic-05:
 
 # TOPIC 06
 topic-06:
-  - title: "\"Figures and Forms\""
+  - title: “Forms”
     docs:
     - overview
 
-  - title: Image Integration
-    docs:
-    - img-about
-    - img-save
-    - img-tag
-    - img-src
-    - img-alt
-    - img-title
-    - img-size
-    - img-element
-    - todo-img-int
+  #- title: Image Integration
+    #docs:
+    #- img-about
+    #- img-save
+    #- img-tag
+    #- img-src
+    #- img-alt
+    #- img-title
+    #- img-size
+    #- img-element
+    #- todo-img-int
 
   - title: Table Structure
     docs:
@@ -429,140 +427,133 @@ topic-06:
 
 # TOPIC 07
 topic-07:
-  - title: "\"Managing Media\""
+  - title: “Media”
     docs:
     - overview
 
-  - title: The id Attribute
+  - title: The Building Blocks of Pages
     docs:
-    - id-clarity
-    - id-style
-    - todo-id
-
-  - title: The Class Attribute
-    docs:
-    - class-clarity
-    - class-style
-    - todo-class
-
-  - title: The Div Element
-    docs:
-    - div-element
-    - div-style
-    - todo-div
-
-  - title: The Span Element
-    docs:
-    - span-element
-    - span-style
-    - todo-span
+    - extra-markup
+    - html-ids
+    - html-classes
+    - html-divs
+    - html-spans
+    - grouping-elements
+    - todo-blocks
 
   - title: Iframes
     docs:
-    - iframes-about
-    - iframes-tags
-    - iframes-src
-    - iframes-size
-    - iframes-element-sites
-    - iframes-element-maps
-    - iframes-element-media
+    - iframe-element-intro
+    - iframe-tags
+    - iframe-src
+    - iframe-size
+    - iframe-element-review
+    - iframe-element-websites
+    - iframe-element-maps
+    - iframe-element-media
     - todo-iframes
 
   - title: The Meta Element
     docs:
     - meta-about
-    - meta-names
     - meta-charset
     - meta-desc
-    - meta-auth
+    - meta-author
     - meta-keywords
-    - meta-robots
-    - meta-view
+    - meta-viewport
+    - meta-element-review
     - todo-meta
 
   - title: Escape Characters
     docs:
     - esc-about
-    - esc-codes
     - esc-names
+    - esc-codes
     - esc-common
     - todo-esc
 
   - title: Media Management
     docs:
     - media-about
-    - media-storage
+    - media-src-img
     - media-src-video
     - media-src-audio
-    - media-embedding
+    - media-optimizing
     - media-hosting
-    - media-decisions
     - todo-media-mgmnt
 
-  - title: Adding Video to Pages
+  - title: Images
     docs:
-    - video-HTML5
+    - img-about
+    - img-element-intro
+    - img-tag
+    - img-src
+    - img-alt
+    - img-title
+    - img-size
+    - img-element-review
+    - img-support
+    - todo-img
+
+  - title: Video
+    docs:
+    - video-hosting
+    - video-element-intro
     - video-tags
     - video-src
     - video-poster
     - video-size
     - video-other-att
+    - video-element-review
     - video-formats
-    - video-multi-tag
-    - video-multi-src
-    - video-multi-type
-    - video-element
-    - video-hosting
     - todo-video
 
 
-  - title: Adding Audio to Pages
+  - title: Audio
     docs:
-    - audio-HTML5
+    - audio-hosting
+    - audio-element-intro
     - audio-tags
     - audio-src
     - audio-other-att
+    - audio-element-review
     - audio-formats
-    - audio-multi-tag
-    - audio-multi-src
-    - audio-element
-    - audio-hosting
     - todo-audio
 
 
 # TOPIC 08
 topic-08:
-  - title: "\"Project 2: The Instructable\""
+  - title: “HTML Website”
     docs:
     - overview
 
-  - title: Review
+  - title: Content to Review
     docs:
-    - review
-    - todo-p2-review
+    - todo-project2-review
 
-  - title: Intro to Styling
+  - title: Adding Style
     docs:
-    - html-style
-    - html-style-declare
-    - html-style-bg
-    - html-style-text
-    - html-style-placement
-    - todo-html-style
+    - basic-styling-about
+    - basic-style-element
+    - basic-styling-divs
+    - basic-styling-backgrounds
+    - basic-styling-text
+    - basic-styling-images
+    - basic-styling-lists
+    - todo-basic-styling
 
-  - title: Adding Basic Navigation
+  - title: Adding Navigation
     docs:
-    - basic-nav
-    - basic-nav-declare
-    - basic-nav-li
-    - basic-nav-directing
-    - basic-nav-styling
+    - basic-nav-about
+    - basic-nav-element
+    - basic-nav-site
+    - basic-nav-section
     - todo-basic-nav
 
 
 # TOPIC 09
 topic-09:
-  - title: "\"Intro to CSS\""
+  - title: “Color”
     docs:
     - overview
 
@@ -655,7 +646,7 @@ topic-09:
 
 # TOPIC 10
 topic-10:
-  - title: "\"Typography\""
+  - title: “Typography”
     docs:
     - overview
 
@@ -744,7 +735,7 @@ topic-10:
 
 # TOPIC11
 topic-11:
-  - title: "\"The Box Model\""
+  - title: “Positioning”
     docs:
     - overview
 

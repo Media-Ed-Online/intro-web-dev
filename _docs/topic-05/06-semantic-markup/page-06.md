@@ -13,7 +13,9 @@ The **cite** element (`<cite>...</cite>`) defines the title of a work (e.g. a bo
 <span class="label label-info">Note</span> A person's name is not the title of a work.
 
 
-<div id="code-heading">HTML</div>
+<div class="code-heading">
+  <span class="html">HTML</span>
+</div>
 ```html
 <p>This is a <cite>cited</cite> element.</p>
 ```

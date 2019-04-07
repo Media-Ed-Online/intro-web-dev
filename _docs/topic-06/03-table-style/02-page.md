@@ -14,7 +14,9 @@ A `border=""` attribute is broken-up into 3 componets: width, style, and color. 
 
 This style element effectively states _"a border 1 pixel wide, drawn as a solid line, in black."_
 
-<div id="code-heading">HTML</div>
+<div class="code-heading">
+  <span class="html">HTML</span>
+</div>
 ```html
 <style>
     table, th, td {

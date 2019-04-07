@@ -15,7 +15,9 @@ We will not use this element for the first few weeks, but will rely upon it for 
 <span class="label label-info">Note</span> This element only requires an opening tag, as all information for the element is contained as attributes within the opening tag. This is another example of an **empty element.**
 
 
-<div id="code-heading">HTML</div>
+<div class="code-heading">
+  <span class="html">HTML</span>
+</div>
 ```html
 <!DOCTYPE html>
 <html>

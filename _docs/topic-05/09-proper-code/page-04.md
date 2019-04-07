@@ -13,7 +13,9 @@ There isn't total protocol for indent depth, although standard procedure is to i
 Indentation doesn't effect how the page renders, but makes a **huge** difference in the readability of the code.
 
 
-<div id="code-heading">HTML</div>
+<div class="code-heading">
+  <span class="html">HTML</span>
+</div>
 ```html
 <!DOCTYPE html>
 <html>

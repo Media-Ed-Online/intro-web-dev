@@ -19,7 +19,9 @@ You cannot have more than one title element. However, you _must_ have the title 
 <span class="label label-danger">Important</span> **This is the only required element in the head.**
 
 
-<div id="code-heading">HTML</div>
+<div class="code-heading">
+  <span class="html">HTML</span>
+</div>
 ```html
 <!DOCTYPE html>
 <html>

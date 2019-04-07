@@ -17,7 +17,9 @@ Other values include:
 - `"framename"` - Opens the linked document in a named frame
 
 
-<div id="code-heading">HTML</div>
+<div class="code-heading">
+  <span class="html">HTML</span>
+</div>
 ```html
 <a href="#" target="_blank">link text</a>
 ```

@@ -8,13 +8,13 @@ tags: elements, body
 
 <div class="divider-heading"></div>
 
-
-  <p><span class="remember-text">Remember?</span><br/>
-  The <b>body element</b> is where all of the “meat & potatoes” (if you will) of the site gets placed. This is the data that is rendered by the browser and displayed on the client's local computer.</p>
-
+<p><span class="remember-text">Remember?</span><br/>
+The <b>body element</b> is where all of the “meat & potatoes” (if you will) of the site gets placed. This is the data that is rendered by the browser and displayed on the client's local computer.</p>
 
 
-<div id="code-heading">HTML</div>
+<div class="code-heading">
+  <span class="html">HTML</span>
+</div>
 ```html
 <!DOCTYPE html>
 <html lang="en">

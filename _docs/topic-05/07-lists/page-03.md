@@ -44,7 +44,9 @@ To identify an unordered list, the content is contained within the unordered lis
 As with the ordered list, each list item is contained within a list item element ( `<li>...</li>` ).
 
 
-<div id="code-heading">HTML</div>
+<div class="code-heading">
+  <span class="html">HTML</span>
+</div>
 ```html
 <ul>
   <li>List Item</li>

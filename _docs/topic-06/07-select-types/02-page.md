@@ -26,7 +26,9 @@ Unlike text boxes, where the user enters unique data, radio buttons provide disc
 The `checked="checked"` attribute can be used with one of the radio button elements to 'pre-select' an option that will be displayed when the page loads.
 
 
-<div id="code-heading">HTML</div>
+<div class="code-heading">
+  <span class="html">HTML</span>
+</div>
 ```html
 <p>Admit Type:</p>
   <input type="radio" name="level" value="nondeg" /> Nondegree

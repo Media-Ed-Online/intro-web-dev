@@ -13,7 +13,9 @@ The **address** tag defines the contact information for the author/owner of a do
 The text in the `<address>` element usually renders in italic. Most browsers will add a line break before and after the address element.
 
 
-<div id="code-heading">HTML</div>
+<div class="code-heading">
+  <span class="html">HTML</span>
+</div>
 ```html
 <p>An address element can span multiple lines:</p>
 

@@ -17,7 +17,9 @@ The rise of mobile devices changed how we view and build for the web. HTML5 intr
 You should include the following `<meta>` viewport element in all your web pages:
 
 
-<div id="code-heading">HTML</div>
+<div class="code-heading">
+  <span class="html">HTML</span>
+</div>
 ```html
 <!DOCTYPE html>
 <html>

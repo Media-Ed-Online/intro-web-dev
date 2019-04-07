@@ -11,7 +11,9 @@ tags: doctype, html5
 You might expect the DOCTYPE declaring “this document is written in HTML5” would have the number five in it somewhere. It doesn’t. The doctype for HTML5 looks like this:
 
 
-<div id="code-heading">HTML</div>
+<div class="code-heading">
+  <span class="html">HTML</span>
+</div>
 ```html
 <!DOCTYPE html>
 

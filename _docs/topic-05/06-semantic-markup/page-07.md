@@ -13,7 +13,9 @@ The first use of a new term in a document usually warrants a **definition** tag,
 The nearest parent of the `<dfn>` tag must also contain the definition/explanation for the term inside the definition tag. Definition tags can also be linked to a related list of terms elsewhere on the page or site.
 
 
-<div id="code-heading">HTML</div>
+<div class="code-heading">
+  <span class="html">HTML</span>
+</div>
 ```html
 <p>The definition element <def title="definition of term">term</def> is a common way of defining terms.</p>
 ```

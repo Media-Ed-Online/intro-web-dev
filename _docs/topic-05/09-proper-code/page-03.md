@@ -14,7 +14,9 @@ We "wrap" elements in opening and closing tags, as you know. You're now familiar
 This basically looks like `<tag3><tag2><tag1>...</tag1></tag2></tag3>`
 
 
-<div id="code-heading">HTML</div>
+<div class="code-heading">
+  <span class="html">HTML</span>
+</div>
 ```html
 <!DOCTYPE html>
 

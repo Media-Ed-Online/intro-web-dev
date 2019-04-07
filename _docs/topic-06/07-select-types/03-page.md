@@ -24,7 +24,9 @@ Likewise, the `value=""` should be unique to each element.
 As with radio buttons, you can use the `checked` attrubite to pre-select checkboxes.
 
 
-<div id="code-heading">HTML</div>
+<div class="code-heading">
+  <span class="html">HTML</span>
+</div>
 ```html
 <p>Services Utilized:</p>
   <input type="checkbox" name="service" value="lab" /> Computer Lab

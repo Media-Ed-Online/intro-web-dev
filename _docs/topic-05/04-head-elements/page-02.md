@@ -28,7 +28,9 @@ We will look at the Meta element more later. For the time being however, you sho
 <span class="label label-info">Note</span> The _charset_ attribute is usually the first element in the head.
 
 
-<div id="code-heading">HTML</div>
+<div class="code-heading">
+  <span class="html">HTML</span>
+</div>
 ```html
 <!DOCTYPE html>
 <html>

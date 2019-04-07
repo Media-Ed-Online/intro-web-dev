@@ -13,7 +13,9 @@ Just like bold, another very common semantic alteration is the use of _italicize
 As with bold/strong, italicized text does not necessarily imply semantically different meaning. Instead, you are encouraged to use the _"emphasis"_ element instead ( `<em>...</em>` ). The **emphasis** element indicates subtle changes in the meaning of a sentence. By default the browser will show these elements in italic.
 
 
-<div id="code-heading">HTML</div>
+<div class="code-heading">
+  <span class="html">HTML</span>
+</div>
 ```html
 <p>This is an element is in <i>italics</i>, and will appear slanted.</p>
 

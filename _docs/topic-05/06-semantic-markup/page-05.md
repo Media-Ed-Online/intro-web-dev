@@ -15,7 +15,9 @@ Marking up abbreviations can give useful information to browsers, translation sy
 <span class="label label-info">Note</span> Previous to HTML5, there was an `<acronym>` tag that is no longer supported. Is it best practice to use `<abbr>` for both abbreviations and acronyms in HTML5.
 
 
-<div id="code-heading">HTML</div>
+<div class="code-heading">
+  <span class="html">HTML</span>
+</div>
 ```html
 <p>You can spell out acronyms using the <abbr title=""> tag.</p>
 

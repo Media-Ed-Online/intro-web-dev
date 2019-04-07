@@ -18,7 +18,9 @@ tags: markup, semantic
 <blockquote>“Known as <cite>Clue</cite> in North America, <cite>Cleudo</cite> is a murder-mystery game based on <b>strategy</b> and <b>deduction.</b> Players make arguments based on their questioning of the <u>perpetrator</u>, <u>location</u>, and <u>method</u> of the crime.”</blockquote>
 
 
-<div id="code-heading">HTML</div>
+<div class="code-heading">
+  <span class="html">HTML</span>
+</div>
 ```html
 <blockquote>“Known as <cite>Clue</cite> in North America, <cite>Cleudo</cite> is a murder-mystery game based on <b>strategy</b> and <b>deduction.</b> Players make arguments based on their questioning of the <u>perpetrator</u>, <u>location</u>, and <u>method</u> of the crime.”</blockquote>
 ```

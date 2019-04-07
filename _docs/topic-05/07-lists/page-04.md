@@ -17,7 +17,9 @@ The terms definition is then encapsulated in the "definition" tags (`<dd>...</dd
 <span class="label label-info">Note</span> Sometimes you might see a list where there are two terms used for the same definition or two different definitions for the same term. This is acceptable.
 
 
-<div id="code-heading">HTML</div>
+<div class="code-heading">
+  <span class="html">HTML</span>
+</div>
 ```html
 <dl>
   <dt>Term 1</dt>

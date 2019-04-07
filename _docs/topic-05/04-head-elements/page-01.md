@@ -10,12 +10,12 @@ tags: elements, head
 
 There are a number of elements which we can consider as required in the **head element**, and others that you are _encouraged_ to include. These elements tell the browser and processor information about the HTML document, such as the title, author, and publication date.
 
+The <code>&lt;head&gt;</code> element is a container for processing information and document metadata. The <code>&lt;head&gt;</code> contains high-level information about the site, and always comes first within the root element. In this sense, we can consider the <code>&lt;head&gt;</code> to contain the thoughts of the page.
 
 
-  The <code>&lt;head&gt;</code> element is a container for processing information and document metadata. The <code>&lt;head&gt;</code> contains high-level information about the site, and always comes first within the root element. In this sense, we can consider the <code>&lt;head&gt;</code> to contain the thoughts of the page.
-
-
-<div id="code-heading">HTML</div>
+<div class="code-heading">
+  <span class="html">HTML</span>
+</div>
 ```html
 <!DOCTYPE html>
 <html>

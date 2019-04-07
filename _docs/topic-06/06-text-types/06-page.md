@@ -12,7 +12,9 @@ You can specify the number of `cols` and `rows` through the appropriate attribut
 - `rows` is the number of visible lines.
 
 
-<div id="code-heading">HTML</div>
+<div class="code-heading">
+  <span class="html">HTML</span>
+</div>
 ```html
 <p>
   Comments or Concerns:

@@ -11,7 +11,9 @@ The `type="password"` for input elements creates a "password input box".
 This attribute creates a single line text entry field where the characters are hidden with `*`s.
 
 
-<div id="code-heading">HTML</div>
+<div class="code-heading">
+  <span class="html">HTML</span>
+</div>
 ```html
 <p>
   Password:

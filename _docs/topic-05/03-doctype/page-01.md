@@ -8,13 +8,12 @@ tags: doctype
 
 <div class="divider-heading"></div>
 
+The <b>DOCTYPE declaration</b> simply tells a browser what type of HTML specification your site was written with.
 
 
-  The <b>DOCTYPE declaration</b> simply tells a browser what type of HTML specification your site was written with.
-
-
-
-<div id="code-heading">HTML</div>
+<div class="code-heading">
+  <span class="html">HTML</span>
+</div>
 ```html
 <!DOCTYPE html>
 

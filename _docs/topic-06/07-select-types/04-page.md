@@ -29,7 +29,9 @@ As with other form types, the `value=""` attribute should be unique for each opt
 The `selected` attribute can be used to pre-select an option. If this attribute is omitted then the first option will be pre-selected.
 
 
-<div id="code-heading">HTML</div>
+<div class="code-heading">
+  <span class="html">HTML</span>
+</div>
 ```html
 <p>Home State (US Residents):</p>
   <select name="home_state">

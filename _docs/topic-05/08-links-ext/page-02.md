@@ -15,7 +15,9 @@ In order to link to another document, the author must include a **hyper-referenc
 <span class="label label-info">Note</span> `#` is a URL placeholder.
 
 
-<div id="code-heading">HTML</div>
+<div class="code-heading">
+  <span class="html">HTML</span>
+</div>
 ```html
 <a href="#">link text</a>
 ```

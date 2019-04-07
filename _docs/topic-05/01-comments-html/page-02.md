@@ -13,7 +13,9 @@ Comments are designated slightly different in every language. In HTML however, a
 <span class="label label-info">Note</span> Comments are not hidden from _other people_. Comments, if included in your deployment code, will be available for the whole world to see.
 
 
-<div id="code-heading">HTML</div>
+<div class="code-heading">
+  <span class="html">HTML</span>
+</div>
 ```html
 <!-- This is an HTML comment. -->
 

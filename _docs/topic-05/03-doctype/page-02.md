@@ -11,7 +11,9 @@ tags: doctype, history
 In older versions of HTML and XHTML, the DOCTYPE included additional information on the page, as well as a reference link to the specification.
 
 
-<div id="code-heading">HTML</div>
+<div class="code-heading">
+  <span class="html">HTML</span>
+</div>
 ```html
 <!-- The DOCTYPE for HTML 4.01 looks like this: -->
 <!DOCTYPE HTML PUBLIC"-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">

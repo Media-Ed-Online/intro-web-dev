@@ -43,7 +43,9 @@ To identify a list, the content must be surrounded by the ordered list tags. ( `
 Each “list item” must be surrounded by the list item tags. ( `<li>...</li>` ).
 
 
-<div id="code-heading">HTML</div>
+<div class="code-heading">
+  <span class="html">HTML</span>
+</div>
 ```html
 <ol>
   <li>List Item</li>

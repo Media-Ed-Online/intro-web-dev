@@ -9,7 +9,9 @@ permalink: /topic-06/text-plain/
 This following code demonstrates how to create an input element of `type="text"`. Please notice the use of the `<p>...</p>` element to display information text in front of the text box.
 
 
-<div id="code-heading">HTML</div>
+<div class="code-heading">
+  <span class="html">HTML</span>
+</div>
 ```html
 <p>
   Net ID:

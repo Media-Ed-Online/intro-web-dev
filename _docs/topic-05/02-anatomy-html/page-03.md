@@ -13,7 +13,9 @@ A very common first attribute **value** located on a webpage is in the _root ele
 For example, I may want my site indexed as containing content written in "US-style English:"
 
 
-<div id="code-heading">HTML</div>
+<div class="code-heading">
+  <span class="html">HTML</span>
+</div>
 ```html
 <html lang="en-US">
   <p>The root element is made with "<html>" tags, with the key="value" pair of lang="en-US".

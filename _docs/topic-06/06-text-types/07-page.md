@@ -11,7 +11,9 @@ The `placeholder` attribute can be used to place grey text in a text field. This
 This text can be used to offer hints about the _type of text that is expected_ or to _encourage the user to type in the field_.
 
 
-<div id="code-heading">HTML</div>
+<div class="code-heading">
+  <span class="html">HTML</span>
+</div>
 ```html
 <p>
   Net ID:

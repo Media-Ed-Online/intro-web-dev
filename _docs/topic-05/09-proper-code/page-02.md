@@ -11,7 +11,9 @@ tags: best-practice, code, organize
 Most languages read and process top-to-bottom, so its important to list these elements linearly and/or logically down the page.
 
 
-<div id="code-heading">HTML</div>
+<div class="code-heading">
+  <span class="html">HTML</span>
+</div>
 ```html
 <!DOCTYPE html>
 

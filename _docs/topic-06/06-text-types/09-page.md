@@ -9,7 +9,9 @@ permalink: /topic-06/text-value/
 The `value` attribute can be used to "pre-fill" a text box. Unlike `placeholder`, when you click in the text box, the "pre-filled" text is not replaced. Instead, the user can edit it freely, remove it, or keep it.
 
 
-<div id="code-heading">HTML</div>
+<div class="code-heading">
+  <span class="html">HTML</span>
+</div>
 ```html
 <p>
   Birth Year:

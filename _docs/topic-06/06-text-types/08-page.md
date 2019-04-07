@@ -9,7 +9,9 @@ permalink: /topic-06/text-size/
 You can use the `size` attribute to set the display (in character widths) for the text input box. For example, the "birth year" input is set to only allow 4 characters, so why not limit the size of the box to 4 characters as a visual indicator?
 
 
-<div id="code-heading">HTML</div>
+<div class="code-heading">
+  <span class="html">HTML</span>
+</div>
 ```html
 <p>
   Birth Year:
