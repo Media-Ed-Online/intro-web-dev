@@ -1,8 +1,7 @@
 ---
 title: Sourcing Fonts
-module: topic-09
-permalink: /docs/topic-09/sourcing-fonts/
-redirect_from: /docs/topic-09/10-src-fonts/01-page.md
+module: topic-10
+permalink: /topic-10/sourcing-fonts/
 ---
 
 <div class="divider-heading"></div>

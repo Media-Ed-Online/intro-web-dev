@@ -1,8 +1,7 @@
 ---
 title: Indentation
-module: topic-09
-permalink: /docs/topic-09/text-indent/
-redirect_from: /docs/topic-09/07-alignment/03-page.md
+module: topic-10
+permalink: /topic-10/text-indent/
 ---
 
 <div class="divider-heading"></div>
@@ -11,7 +10,9 @@ redirect_from: /docs/topic-09/07-alignment/03-page.md
 
 This property controls how much the first line of a paragraph is indented.
 
-<div id="code-heading">CSS</div>
+<div class="code-heading">
+  <span class="css">CSS</span>
+</div>
 ```css
 * {
   text-indent: 0;

@@ -1,8 +1,7 @@
 ---
 title: Font Categories
-module: topic-09
-permalink: /docs/topic-09/font-categories/
-redirect_from: /docs/topic-09/01-typography/03-page.md
+module: topic-10
+permalink: /topic-10/font-categories/
 ---
 
 <div class="divider-heading"></div>

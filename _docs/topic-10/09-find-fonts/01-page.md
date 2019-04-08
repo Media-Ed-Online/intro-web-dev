@@ -1,8 +1,7 @@
 ---
 title: Including Fonts
-module: topic-09
-permalink: /docs/topic-09/including-fonts/
-redirect_from: /docs/topic-09/09-find-fonts/01-page.md
+module: topic-10
+permalink: /topic-10/including-fonts/
 ---
 
 <div class="divider-heading"></div>

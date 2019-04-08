@@ -1,8 +1,7 @@
 ---
 title: Fixed Size
-module: topic-09
-permalink: /docs/topic-09/fixed-size/
-redirect_from: /docs/topic-09/03-sizing/02-page.md
+module: topic-10
+permalink: /topic-10/fixed-size/
 ---
 
 <div class="divider-heading"></div>

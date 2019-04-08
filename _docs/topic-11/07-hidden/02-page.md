@@ -1,8 +1,7 @@
 ---
 title: Hiding in Practice
-module: topic-10
-permalink: /docs/topic-10/hidden-example/
-redirect_from: /docs/topic-10/07-hidden/02-page.md
+module: topic-11
+permalink: /topic-11/hidden-example/
 ---
 
 <div class="divider-heading"></div>

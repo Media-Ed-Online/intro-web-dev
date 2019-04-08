@@ -1,8 +1,7 @@
 ---
 title: Overflow in Practice
-module: topic-10
-permalink: /docs/topic-10/overflow-example/
-redirect_from: /docs/topic-10/02-overflow/01-page.md
+module: topic-11
+permalink: /topic-11/overflow-example/
 ---
 
 <div class="divider-heading"></div>

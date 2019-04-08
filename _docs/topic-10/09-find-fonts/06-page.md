@@ -1,8 +1,7 @@
 ---
 title: The @font-face Rule
-module: topic-09
-permalink: /docs/topic-09/font-face-rule/
-redirect_from: /docs/topic-09/09-find-fonts/06-page.md
+module: topic-10
+permalink: /topic-10/font-face-rule/
 ---
 
 <div class="divider-heading"></div>

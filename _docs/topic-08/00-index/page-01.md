@@ -26,6 +26,8 @@ Think of a topic you know a lot about - an academic study, craft, or favorite re
 
 
 By the end of this Topic, we hope you:
-- Have a self-made 3+ page site.
-- Showcase an understanding of HTML as markup language.
-- Present a cohesive, linear, and complete set of instructions, directions, or other how-to guide through basic structure and styling.
+<ul class="pros-and-cons">
+  <li class="icon-pro">Have a self-made 3+ page site.</li>
+  <li class="icon-pro">Showcase an understanding of HTML as markup language.</li>
+  <li class="icon-pro">Present a cohesive, linear, and complete set of instructions, directions, or other how-to guide through basic structure and styling.</li>
+</ul>

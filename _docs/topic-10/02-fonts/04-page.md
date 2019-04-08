@@ -1,8 +1,7 @@
 ---
 title: Font Licensing
-module: topic-09
-permalink: /docs/topic-09/font-licensing/
-redirect_from: /docs/topic-09/02-fonts/04-page.md
+module: topic-10
+permalink: /topic-10/font-licensing/
 ---
 
 <div class="divider-heading"></div>

@@ -1,8 +1,7 @@
 ---
 title: Float in Practice
-module: topic-10
-permalink: /docs/topic-10/float-example/
-redirect_from: /docs/topic-10/10-float/03-page.md
+module: topic-11
+permalink: /topic-11/float-example/
 ---
 
 <div class="divider-heading"></div>

@@ -1,15 +1,16 @@
 ---
 title: Word Spacing
-module: topic-09
-permalink: /docs/topic-09/word-spacing/
-redirect_from: /docs/topic-09/06-spacing/05-page.md
+module: topic-10
+permalink: /topic-10/word-spacing/
 ---
 
 <div class="divider-heading"></div>
 
 In addition to being able to adjust the space between characters, developers can adjust the amount of space between words only, using the `word-spacing: ` property.
 
-<div id="code-heading">CSS</div>
+<div class="code-heading">
+  <span class="css">CSS</span>
+</div>
 ```css
 * {
   word-spacing: normal;

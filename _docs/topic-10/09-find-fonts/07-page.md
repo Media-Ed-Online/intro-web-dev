@@ -1,8 +1,7 @@
 ---
 title: Fonts Directory
-module: topic-09
-permalink: /docs/topic-09/font-directory/
-redirect_from: /docs/topic-09/09-find-fonts/07-page.md
+module: topic-10
+permalink: /topic-10/font-directory/
 ---
 
 <div class="divider-heading"></div>

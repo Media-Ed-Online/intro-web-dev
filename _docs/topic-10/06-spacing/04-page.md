@@ -1,8 +1,7 @@
 ---
 title: Tracking
-module: topic-09
-permalink: /docs/topic-09/tracking/
-redirect_from: /docs/topic-09/06-spacing/04-page.md
+module: topic-10
+permalink: /topic-10/tracking/
 ---
 
 <div class="divider-heading"></div>
@@ -13,7 +12,9 @@ redirect_from: /docs/topic-09/06-spacing/04-page.md
 
 To adjust the amount of space between characters in CSS, use the `letter-spacing: ` property.
 
-<div id="code-heading">CSS</div>
+<div class="code-heading">
+  <span class="css">CSS</span>
+</div>
 ```css
 * {
   letter-spacing: normal;

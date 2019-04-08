@@ -1,8 +1,7 @@
 ---
 title: Typography
-module: topic-09
-permalink: /docs/topic-09/intro-typography/
-redirect_from: /docs/topic-09/01-typography/01-page.md
+module: topic-10
+permalink: /topic-10/intro-typography/
 ---
 
 <div class="divider-heading"></div>

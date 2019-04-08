@@ -1,8 +1,7 @@
 ---
-title: The <code>font-family</code> Property
-module: topic-09
-permalink: /docs/topic-09/font-family/
-redirect_from: /docs/topic-09/02-fonts/01-page.md
+title: The font-family Property
+module: topic-10
+permalink: /topic-10/font-family/
 ---
 
 <div class="divider-heading"></div>

@@ -1,8 +1,7 @@
 ---
 title: The Box Model
-module: topic-10
-permalink: /docs/topic-10/box-model/
-redirect_from: /docs/topic-10/01-box-size/02-page.md
+module: topic-11
+permalink: /topic-11/box-model/
 ---
 
 <div class="divider-heading"></div>

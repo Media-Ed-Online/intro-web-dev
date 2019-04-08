@@ -1,8 +1,7 @@
 ---
 title: Properties
-module: topic-10
-permalink: /docs/topic-10/display-properties/
-redirect_from: /docs/topic-10/06-display/02-page.md
+module: topic-11
+permalink: /topic-11/display-properties/
 ---
 
 <div class="divider-heading"></div>

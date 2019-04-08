@@ -1,8 +1,7 @@
 ---
 title: The @font-face Selector
-module: topic-09
-permalink: /docs/topic-09/font-face-selector/
-redirect_from: /docs/topic-09/09-find-fonts/02-page.md
+module: topic-10
+permalink: /topic-10/font-face-selector/
 ---
 
 <div class="divider-heading"></div>

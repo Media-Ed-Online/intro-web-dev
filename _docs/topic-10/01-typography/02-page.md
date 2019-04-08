@@ -1,8 +1,7 @@
 ---
 title: Typefaces
-module: topic-09
-permalink: /docs/topic-09/font-typefaces/
-redirect_from: /docs/topic-09/01-typography/02-page.md
+module: topic-10
+permalink: /topic-10/font-typefaces/
 ---
 <style>
   pre {

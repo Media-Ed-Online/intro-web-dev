@@ -1,8 +1,7 @@
 ---
 title: Making Font Choices
-module: topic-09
-permalink: /docs/topic-09/using-fonts/
-redirect_from: /docs/topic-09/02-fonts/03-page.md
+module: topic-10
+permalink: /topic-10/using-fonts/
 ---
 
 <div class="divider-heading"></div>

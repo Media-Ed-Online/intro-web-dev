@@ -1,8 +1,7 @@
 ---
 title: Boxing Sizing
-module: topic-10
-permalink: /docs/topic-10/box-sizing/
-redirect_from: /docs/topic-10/01-box-size/03-page.md
+module: topic-11
+permalink: /topic-11/box-sizing/
 ---
 
 <div class="divider-heading"></div>

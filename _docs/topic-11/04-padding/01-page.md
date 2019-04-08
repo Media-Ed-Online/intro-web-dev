@@ -1,8 +1,7 @@
 ---
 title: Giving Some Cushion
-module: topic-10
-permalink: /docs/topic-10/padding-intro/
-redirect_from: /docs/topic-10/04-padding/01-page.md
+module: topic-11
+permalink: /topic-11/padding-intro/
 ---
 
 <div class="divider-heading"></div>

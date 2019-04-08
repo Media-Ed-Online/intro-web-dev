@@ -1,8 +1,7 @@
 ---
 title: What You See...
-module: topic-10
-permalink: /docs/topic-10/display-intro/
-redirect_from: /docs/topic-10/06-display/01-page.md
+module: topic-11
+permalink: /topic-11/display-intro/
 ---
 
 <div class="divider-heading"></div>

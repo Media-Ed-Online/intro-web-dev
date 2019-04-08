@@ -1,8 +1,7 @@
 ---
 title: Leading
-module: topic-09
-permalink: /docs/topic-09/leading/
-redirect_from: /docs/topic-09/06-spacing/02-page.md
+module: topic-10
+permalink: /topic-10/leading/
 ---
 
 <div class="divider-heading"></div>
@@ -13,7 +12,9 @@ The first in question is known as **leading** (pronounced “ledding”) in typo
 
 We will refer to this more simply as _line-height_, as that is the css property which sets it (`line-height: `). The line hight property in CSS sets the vertical spacing between the lines of text.
 
-<div id="code-heading">CSS</div>
+<div class="code-heading">
+  <span class="css">CSS</span>
+</div>
 ```css
 * {
   line-height: normal;
@@ -33,16 +34,18 @@ As with font size, you can set the line height through a number of units, includ
 
 <span class="label label-info">NOTE:</span> When you include a number, without any unit attached, the browser multiplies the current font size to set the line height. This is equivalent to calling a percentage or em. So, the following are all the same:
 
-<div id="code-heading">CSS</div>
+<div class="code-heading">
+  <span class="css">CSS</span>
+</div>
 ```css
 * {
-line-height: 2;
+  line-height: 2;
 }
 * {
-line-height: 200%;
+  line-height: 200%;
 }
 * {
-line-height: 2em;
+  line-height: 2em;
 }
 ```
 

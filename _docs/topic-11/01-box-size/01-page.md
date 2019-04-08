@@ -1,8 +1,7 @@
 ---
 title: Basic Layout
-module: topic-10
-permalink: /docs/topic-10/box-intro/
-redirect_from: /docs/topic-10/01-box-size/01-page.md
+module: topic-11
+permalink: /topic-11/box-intro/
 ---
 
 <div class="divider-heading"></div>

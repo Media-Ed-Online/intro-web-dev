@@ -1,8 +1,7 @@
 ---
 title: Clearing Float
-module: topic-10
-permalink: /docs/topic-10/float-clear/
-redirect_from: /docs/topic-10/10-float/02-page.md
+module: topic-11
+permalink: /topic-11/float-clear/
 ---
 
 <div class="divider-heading"></div>

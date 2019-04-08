@@ -1,8 +1,7 @@
 ---
 title: Normal Position
-module: topic-10
-permalink: /docs/topic-10/position-normal/
-redirect_from: /docs/topic-10/08-position/02-page.md
+module: topic-11
+permalink: /topic-11/position-normal/
 ---
 
 <div class="divider-heading"></div>

@@ -1,8 +1,7 @@
 ---
 title: Absolute Position
-module: topic-10
-permalink: /docs/topic-10/position-absolute/
-redirect_from: /docs/topic-10/08-position/04-page.md
+module: topic-11
+permalink: /topic-11/position-absolute/
 ---
 
 <div class="divider-heading"></div>

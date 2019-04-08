@@ -1,8 +1,7 @@
 ---
 title: Pseudo-Selectors
-module: topic-09
-permalink: /docs/topic-09/pseudo-selectors/
-redirect_from: /docs/topic-09/08-pseudos/01-page.md
+module: topic-10
+permalink: /topic-10/pseudo-selectors/
 ---
 
 <div class="divider-heading"></div>
@@ -15,7 +14,9 @@ There are two main types of pseudo-selectors:
 - pseudo-elements (`selector::keyword`)
 - pseudo-classes (`selector:keyword`)
 
-<div id="code-heading">CSS</div>
+<div class="code-heading">
+  <span class="css">CSS</span>
+</div>
 ```css
 /* Pseudo-element selector example: */
 p::first-letter {}

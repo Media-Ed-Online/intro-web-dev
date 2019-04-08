@@ -1,8 +1,7 @@
 ---
 title: Adding Separation
-module: topic-10
-permalink: /docs/topic-10/margin-intro/
-redirect_from: /docs/topic-10/05-margin/01-page.md
+module: topic-11
+permalink: /topic-11/margin-intro/
 ---
 
 <div class="divider-heading"></div>

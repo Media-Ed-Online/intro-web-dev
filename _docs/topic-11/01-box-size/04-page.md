@@ -1,8 +1,7 @@
 ---
 title: Min and Max Values
-module: topic-10
-permalink: /docs/topic-10/box-sizing-min-max/
-redirect_from: /docs/topic-10/01-box-size/04-page.md
+module: topic-11
+permalink: /topic-11/box-sizing-min-max/
 ---
 
 <div class="divider-heading"></div>

@@ -1,8 +1,7 @@
 ---
 title: Pseudo-Elements
-module: topic-09
-permalink: /docs/topic-09/pseudo-elements/
-redirect_from: /docs/topic-09/08-pseudos/02-page.md
+module: topic-10
+permalink: /topic-10/pseudo-elements/
 ---
 
 <div class="divider-heading"></div>
@@ -15,7 +14,9 @@ There are two types of pseudo-elements:
 
 Respectively, these allow for the selection of the first letter or first line in an element's text. This selection can then be used to alter the appearance or display of _just_ the first letter or line.
 
-<div id="code-heading">CSS</div>
+<div class="code-heading">
+  <span class="css">CSS</span>
+</div>
 ```css
 selector::first-letter {}
 selector::first-line {}

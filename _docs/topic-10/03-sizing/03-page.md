@@ -1,8 +1,7 @@
 ---
 title: Relative Size
-module: topic-09
-permalink: /docs/topic-09/relative-size/
-redirect_from: /docs/topic-09/03-sizing/03-page.md
+module: topic-10
+permalink: /topic-10/relative-size/
 ---
 
 <div class="divider-heading"></div>

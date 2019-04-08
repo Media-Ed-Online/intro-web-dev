@@ -1,8 +1,7 @@
 ---
 title: Kerning
-module: topic-09
-permalink: /docs/topic-09/kerning/
-redirect_from: /docs/topic-09/06-spacing/03-page.md
+module: topic-10
+permalink: /topic-10/kerning/
 ---
 
 <div class="divider-heading"></div>
@@ -13,7 +12,9 @@ redirect_from: /docs/topic-09/06-spacing/03-page.md
 
 To adjust how glyphs are spaced, use the `font-kerning: ` property.
 
-<div id="code-heading">CSS</div>
+<div class="code-heading">
+  <span class="css">CSS</span>
+</div>
 ```css
 * {
   font-kerning: auto;

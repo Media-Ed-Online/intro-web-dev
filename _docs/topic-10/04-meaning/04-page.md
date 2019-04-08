@@ -1,8 +1,7 @@
 ---
 title: Using Weights and Styles
-module: topic-09
-permalink: /docs/topic-09/using-weight-style/
-redirect_from: /docs/topic-09/04-meaning/04-page.md
+module: topic-10
+permalink: /topic-10/using-weight-style/
 ---
 
 <div class="divider-heading"></div>
@@ -19,8 +18,10 @@ For many of these values to work, the equivalent font-family for each font weigh
 
 When we wrap words with the `<strong>...</strong>` element, the browser is trying to find a "bold" version of the font. If none exists for the specified font, then they browser _may try_ to bold the selected words on its own (this assumes we have not overwritten the strong elements rules in our CSS).
 
-<div class="codepen-embed">
-  <div id="code-heading">RENDER</div>
+<div class="code-heading">
+  <span class="preview">Preview</span>
+</div>
+<div class="preview">
   <div class="ex-display">
     <h1 class="weight heading-1">I am "normal" weight, using no tags.</h1>
     <h1 class="weight heading-2">My weight is "bold", made with <code>&lt;b&gt;</code> tags.</h1>
@@ -39,8 +40,10 @@ Notice the difference between the second and third elements. Depending on the br
 
 But the third includes unique serifs (look at the capital 'T's) that are part of the italic version of the font.
 
-<div class="codepen-embed">
-  <div id="code-heading">RENDER</div>
+<div class="code-heading">
+  <span class="preview">Preview</span>
+</div>
+<div class="preview">
   <div class="ex-display">
     <h1 class="style heading-1">I am "normal" style, using “<a href="http://allfont.net/download/playfair-display/" target="_blank">Playfair Display Regular</a>.”</h1>
     <h1 class="style heading-2">I am fake ITALIC, made with <span style="font-style: normal;"><code>&lt;i&gt;</code></span> tags. I am "oblique", if at all...</h1>

@@ -1,8 +1,7 @@
 ---
 title: Option B - Standard Embeds
-module: topic-09
-permalink: /docs/topic-09/google-fonts-part-3/
-redirect_from: /docs/topic-09/10-src-fonts/04-page.md
+module: topic-10
+permalink: /topic-10/google-fonts-part-3/
 ---
 
 <div class="divider-heading"></div>

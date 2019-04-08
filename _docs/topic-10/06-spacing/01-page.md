@@ -1,8 +1,7 @@
 ---
 title: "\"Space: The Final Font-tier...\""
-module: topic-09
-permalink: /docs/topic-09/intro-spacing/
-redirect_from: /docs/topic-09/06-spacing/01-page.md
+module: topic-10
+permalink: /topic-10/intro-spacing/
 ---
 
 <div class="divider-heading"></div>

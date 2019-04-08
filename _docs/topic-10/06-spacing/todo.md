@@ -1,9 +1,9 @@
 ---
 title: TODO
-todo: <i class="fa fa-check-square-o" aria-hidden="true"></i>
-module: topic-09
-permalink: /docs/topic-09/todo-spacing/
-redirect_from: /docs/topic-09/06-spacing/todo.md
+module: topic-10
+todo: <i class="fas fa-check-square" aria-hidden="true"></i>
+permalink: /topic-10/todo-spacing/
+categories: uncategorized
 ---
 
 <div class="row text-center">

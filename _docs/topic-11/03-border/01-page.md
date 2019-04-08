@@ -1,8 +1,7 @@
 ---
 title: Drawing Edges
-module: topic-10
-permalink: /docs/topic-10/border-intro/
-redirect_from: /docs/topic-10/03-border/01-page.md
+module: topic-11
+permalink: /topic-11/border-intro/
 ---
 
 <div class="divider-heading"></div>

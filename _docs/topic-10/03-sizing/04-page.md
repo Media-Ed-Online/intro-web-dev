@@ -1,8 +1,7 @@
 ---
 title: Using Sizes
-module: topic-09
-permalink: /docs/topic-09/using-size/
-redirect_from: /docs/topic-09/03-sizing/04-page.md
+module: topic-10
+permalink: /topic-10/using-size/
 ---
 
 <div class="divider-heading"></div>

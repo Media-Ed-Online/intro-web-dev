@@ -1,8 +1,7 @@
 ---
 title: Positioning in Practice
-module: topic-10
-permalink: /docs/topic-10/position-example/
-redirect_from: /docs/topic-10/08-position/06-page.md
+module: topic-11
+permalink: /topic-11/position-example/
 ---
 
 <div class="divider-heading"></div>

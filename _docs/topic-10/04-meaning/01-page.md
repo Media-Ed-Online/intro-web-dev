@@ -1,8 +1,7 @@
 ---
 title: Setting Bold and Italic
-module: topic-09
-permalink: /docs/topic-09/bold-italic/
-redirect_from: /docs/topic-09/04-meaning/01-page.md
+module: topic-10
+permalink: /topic-10/bold-italic/
 ---
 
 <div class="divider-heading"></div>
@@ -12,8 +11,10 @@ redirect_from: /docs/topic-09/04-meaning/01-page.md
 
 Before we look at how to include external fonts, let's discuss font weight and font style. These are used to determine if a font is **bold** and/or _italic_.
 
-<div class="codepen-embed">
-  <div id="code-heading">RENDER</div>
+<div class="code-heading">
+  <span class="preview">Preview</span>
+</div>
+<div class="preview">
   <div class="ex-display">
     <h1 class="weight heading-1">I am "normal" text, made without any CSS properties.</h1>
     <h1 class="weight heading-2">I am "bold" text, made with the <span style="font-weight: normal;"><code>font-weight</code></span> property.</h1>
@@ -23,7 +24,9 @@ Before we look at how to include external fonts, let's discuss font weight and f
 
 <span class="label label-danger">IMPORTANT:</span> Please note that I explicitly stated these appearances are a result of CSS properties, _not_ HTML tags.
 
-<div id="code-heading">CSS</div>
+<div class="code-heading">
+  <span class="css">CSS</span>
+</div>
 ```css
 #line-one {
   /* No rules. */

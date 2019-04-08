@@ -1,8 +1,7 @@
 ---
 title: Setting States
-module: topic-09
-permalink: /docs/topic-09/pseudo-states/
-redirect_from: /docs/topic-09/08-pseudos/04-page.md
+module: topic-10
+permalink: /topic-10/pseudo-states/
 ---
 
 <div class="divider-heading"></div>
@@ -15,7 +14,9 @@ The most common pseudo-class states:
 - `:hover` (event is triggered when mouse hovers over)
 - `:active` (event is triggered while element is selected)
 
-<div id="code-heading">CSS</div>
+<div class="code-heading">
+  <span class="css">CSS</span>
+</div>
 ```css
 selector:hover {}
 selector:active {}

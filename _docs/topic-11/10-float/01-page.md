@@ -1,8 +1,7 @@
 ---
 title: Floating
-module: topic-10
-permalink: /docs/topic-10/float-intro/
-redirect_from: /docs/topic-10/10-float/01-page.md
+module: topic-11
+permalink: /topic-11/float-intro/
 ---
 
 <div class="divider-heading"></div>

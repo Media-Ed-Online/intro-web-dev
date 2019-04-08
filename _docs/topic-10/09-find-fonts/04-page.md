@@ -1,8 +1,7 @@
 ---
 title: Source
-module: topic-09
-permalink: /docs/topic-09/font-face-src/
-redirect_from: /docs/topic-09/09-find-fonts/04-page.md
+module: topic-10
+permalink: /topic-10/font-face-src/
 ---
 
 <div class="divider-heading"></div>

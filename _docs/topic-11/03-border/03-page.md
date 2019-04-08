@@ -1,8 +1,7 @@
 ---
 title: Radius
-module: topic-10
-permalink: /docs/topic-10/border-radius/
-redirect_from: /docs/topic-10/03-border/03-page.md
+module: topic-11
+permalink: /topic-11/border-radius/
 ---
 
 <div class="divider-heading"></div>

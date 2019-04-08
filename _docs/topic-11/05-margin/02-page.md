@@ -1,8 +1,7 @@
 ---
 title: Margins in Practice
-module: topic-10
-permalink: /docs/topic-10/margin-example/
-redirect_from: /docs/topic-10/05-margin/02-page.md
+module: topic-11
+permalink: /topic-11/margin-example/
 ---
 
 <div class="divider-heading"></div>

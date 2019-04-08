@@ -1,8 +1,7 @@
 ---
 title: Setting Size
-module: topic-09
-permalink: /docs/topic-09/font-size/
-redirect_from: /docs/topic-09/03-sizing/01-page.md
+module: topic-10
+permalink: /topic-10/font-size/
 ---
 
 <div class="divider-heading"></div>

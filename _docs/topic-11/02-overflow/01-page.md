@@ -1,8 +1,7 @@
 ---
 title: Dealing with Spills
-module: topic-10
-permalink: /docs/topic-10/overflow-intro/
-redirect_from: /docs/topic-10/02-overflow/01-page.md
+module: topic-11
+permalink: /topic-11/overflow-intro/
 ---
 
 <div class="divider-heading"></div>

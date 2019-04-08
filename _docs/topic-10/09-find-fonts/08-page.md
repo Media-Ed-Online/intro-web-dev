@@ -1,8 +1,7 @@
 ---
 title: Fonts Stylesheet
-module: topic-09
-permalink: /docs/topic-09/font-stylesheet/
-redirect_from: /docs/topic-09/09-find-fonts/08-page.md
+module: topic-10
+permalink: /topic-10/font-stylesheet/
 ---
 
 <div class="divider-heading"></div>
@@ -15,7 +14,9 @@ Many developers will move the font import statements into their own CSS file, `f
 
 <span class="label label-danger">IMPORTANT:</span> The `fonts.css` file should be linked **before** the `style.css` file in `<head>` of any HTML page. This is important in allowing the latter file to 'see' the fonts.
 
-<div id="code-heading">CSS</div>
+<div class="code-heading">
+  <span class="css">CSS</span>
+</div>
 ```css
 <head>
   <title>...</title>

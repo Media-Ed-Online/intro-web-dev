@@ -1,8 +1,7 @@
 ---
 title: The Z-Index and Layering
-module: topic-10
-permalink: /docs/topic-10/z-index-intro/
-redirect_from: /docs/topic-10/09-z-index/01-page.md
+module: topic-11
+permalink: /topic-11/z-index-intro/
 ---
 
 <div class="divider-heading"></div>

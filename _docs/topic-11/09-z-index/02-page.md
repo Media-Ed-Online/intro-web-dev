@@ -1,8 +1,7 @@
 ---
 title: Z-Index in Practice
-module: topic-10
-permalink: /docs/topic-10/z-index-example/
-redirect_from: /docs/topic-10/09-z-index/02-page.md
+module: topic-11
+permalink: /topic-11/z-index-example/
 ---
 
 <div class="divider-heading"></div>

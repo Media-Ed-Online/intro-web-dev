@@ -1,8 +1,7 @@
 ---
 title: Navigating Google Fonts
-module: topic-09
-permalink: /docs/topic-09/google-fonts-part-1/
-redirect_from: /docs/topic-09/10-src-fonts/02-page.md
+module: topic-10
+permalink: /topic-10/google-fonts-part-1/
 ---
 
 <div class="divider-heading"></div>

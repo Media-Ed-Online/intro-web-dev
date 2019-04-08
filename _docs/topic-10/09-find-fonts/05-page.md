@@ -1,8 +1,7 @@
 ---
 title: Other Properties
-module: topic-09
-permalink: /docs/topic-09/font-face-other/
-redirect_from: /docs/topic-09/09-find-fonts/05-page.md
+module: topic-10
+permalink: /topic-10/font-face-other/
 ---
 
 <div class="divider-heading"></div>

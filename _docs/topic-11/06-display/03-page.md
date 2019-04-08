@@ -1,8 +1,7 @@
 ---
 title: Display In Practice
-module: topic-10
-permalink: /docs/topic-10/display-example/
-redirect_from: /docs/topic-10/06-display/03-page.md
+module: topic-11
+permalink: /topic-11/display-example/
 ---
 
 <div class="divider-heading"></div>

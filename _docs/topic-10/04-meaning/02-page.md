@@ -1,8 +1,7 @@
 ---
 title: Font Weight
-module: topic-09
-permalink: /docs/topic-09/font-weight/
-redirect_from: /docs/topic-09/04-meaning/02-page.md
+module: topic-10
+permalink: /topic-10/font-weight/
 ---
 
 <div class="divider-heading"></div>

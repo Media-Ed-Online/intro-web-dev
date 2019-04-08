@@ -1,8 +1,7 @@
 ---
 title: Fixed Position
-module: topic-10
-permalink: /docs/topic-10/position-fixed/
-redirect_from: /docs/topic-10/08-position/05-page.md
+module: topic-11
+permalink: /topic-11/position-fixed/
 ---
 
 <div class="divider-heading"></div>

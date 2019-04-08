@@ -1,8 +1,7 @@
 ---
 title: Placement on the Page
-module: topic-10
-permalink: /docs/topic-10/position-intro/
-redirect_from: /docs/topic-10/08-position/01-page.md
+module: topic-11
+permalink: /topic-11/position-intro/
 ---
 
 <div class="divider-heading"></div>

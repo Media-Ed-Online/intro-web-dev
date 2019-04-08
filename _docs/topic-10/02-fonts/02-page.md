@@ -1,8 +1,7 @@
 ---
 title: Fallback Fonts and Stacks
-module: topic-09
-permalink: /docs/topic-09/font-fallbacks/
-redirect_from: /docs/topic-09/02-fonts/02-page.md
+module: topic-10
+permalink: /topic-10/font-fallbacks/
 ---
 
 <div class="divider-heading"></div>

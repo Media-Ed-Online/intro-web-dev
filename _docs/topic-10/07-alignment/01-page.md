@@ -1,8 +1,7 @@
 ---
 title: Horizontal Alignment
-module: topic-09
-permalink: /docs/topic-09/hori-align/
-redirect_from: /docs/topic-09/07-alignment/01-page.md
+module: topic-10
+permalink: /topic-10/hori-align/
 ---
 
 <div class="divider-heading"></div>
@@ -11,7 +10,9 @@ Alignment properties allows developers to specify how text should be positioned 
 
 The **text alignment** property (`text-align: `) specifies horizontal placement of text in an element.
 
-<div id="code-heading">CSS</div>
+<div class="code-heading">
+  <span class="css">CSS</span>
+</div>
 ```css
 * {
   text-align: left;

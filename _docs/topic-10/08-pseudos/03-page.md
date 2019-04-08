@@ -1,8 +1,7 @@
 ---
 title: Pseudo-Classes
-module: topic-09
-permalink: /docs/topic-09/pseudo-classes/
-redirect_from: /docs/topic-09/08-pseudos/03-page.md
+module: topic-10
+permalink: /topic-10/pseudo-classes/
 ---
 
 <div class="divider-heading"></div>
@@ -17,7 +16,9 @@ The pseudo-classes usually attached to links are:
 
 Like pseudo-elements, pseudo-classes are appended after a CSS selector.
 
-<div id="code-heading">CSS</div>
+<div class="code-heading">
+  <span class="css">CSS</span>
+</div>
 ```css
 a:link {}
 a:visited {}

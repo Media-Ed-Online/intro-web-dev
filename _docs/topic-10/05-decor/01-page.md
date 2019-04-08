@@ -1,15 +1,16 @@
 ---
 title: Font Variant
-module: topic-09
-permalink: /docs/topic-09/font-variant/
-redirect_from: /docs/topic-09/05-decor/01-page.md
+module: topic-10
+permalink: /topic-10/font-variant/
 ---
 
 <div class="divider-heading"></div>
 
 There are two properties that allow developers to set the capitalization of text. The first is **font-variant**. This property allows developers to specify whether text should appear in all caps, with 'non-capitalized' letters being displayed as small caps.
 
-<div id="code-heading">CSS</div>
+<div class="code-heading">
+  <span class="css">CSS</span>
+</div>
 ```css
 * {
   font-variant: normal;

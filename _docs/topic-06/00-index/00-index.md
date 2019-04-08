@@ -19,5 +19,7 @@ Although they appear antiquated by today's visual standards, HTML tables are sti
 
 
 By the end of this Topic, we hope you:
-- Understand how elements can be stringed together to better describe, present, and gather information.
-- Played around with form elements, and explored how data is presented and collected on websites.
+<ul class="pros-and-cons">
+  <li class="icon-pro">Understand how elements can be stringed together to better describe, present, and gather information</li>
+  <li class="icon-pro">Played around with form elements, and explored how data is presented and collected on websites.</li>
+</ul>

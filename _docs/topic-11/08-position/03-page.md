@@ -1,8 +1,7 @@
 ---
 title: Relative Position
-module: topic-10
-permalink: /docs/topic-10/position-relative/
-redirect_from: /docs/topic-10/08-position/03-page.md
+module: topic-11
+permalink: /topic-11/position-relative/
 ---
 
 <div class="divider-heading"></div>

@@ -1,8 +1,7 @@
 ---
 title: Font Style
-module: topic-09
-permalink: /docs/topic-09/font-style/
-redirect_from: /docs/topic-09/04-meaning/03-page.md
+module: topic-10
+permalink: /topic-10/font-style/
 ---
 
 <div class="divider-heading"></div>

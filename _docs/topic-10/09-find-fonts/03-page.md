@@ -1,8 +1,7 @@
 ---
 title: Family
-module: topic-09
-permalink: /docs/topic-09/font-face-family/
-redirect_from: /docs/topic-09/09-find-fonts/03-page.md
+module: topic-10
+permalink: /topic-10/font-face-family/
 ---
 
 <div class="divider-heading"></div>
