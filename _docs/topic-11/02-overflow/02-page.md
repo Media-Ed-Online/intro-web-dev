@@ -6,7 +6,9 @@ permalink: /topic-11/overflow-example/
 
 <div class="divider-heading"></div>
 
-<div id="code-heading">CSS</div>
+<div class="code-heading">
+  <span class="css">CSS</span>
+</div>
 ```css
 .my-box {
   overflow: ;

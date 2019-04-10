@@ -15,7 +15,9 @@ As with properties affecting typography, there are ways of setting the size of b
 
 <h3>Absolute Sizes</h3>
 
-<div id="code-heading">CSS</div>
+<div class="code-heading">
+  <span class="css">CSS</span>
+</div>
 ```css
 .my-box {
   width: 100px;
@@ -35,7 +37,9 @@ That being said, there are times when using pixels is appropriate.
 
 <h3>Relative Sizes</h3>
 
-<div id="code-heading">CSS</div>
+<div class="code-heading">
+  <span class="css">CSS</span>
+</div>
 ```css
 .my-box {
   width: 100%;
@@ -58,7 +62,9 @@ The 'inner-box' is set to be 75% of the width, and 50% of the height of the 'par
 
 <h3 id="combine-size">Combining Size Types</h3>
 
-<div id="code-heading">CSS</div>
+<div class="code-heading">
+  <span class="css">CSS</span>
+</div>
 ```css
 .my-box {
   width: 100%;

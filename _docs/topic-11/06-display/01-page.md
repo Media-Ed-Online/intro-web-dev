@@ -12,7 +12,9 @@ Up until this point, we have relied upon an element's default value of being _in
 
 When not addressed, the default behavior of block-level elements (like `<div>`, `<p>`, `<li>`, etc) is for them to generate as chunks of content linearly down the page. This is what keeps two paragraphs from running into each other, for example. However, there are many times we may _want_ elements to relate differently. We can change this with the **display** property.
 
-<div id="code-heading">CSS</div>
+<div class="code-heading">
+  <span class="css">CSS</span>
+</div>
 ```css
 div {
   display: ;

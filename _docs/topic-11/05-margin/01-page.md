@@ -15,7 +15,9 @@ As with padding, margin accepts both absolute and relative size units.
 ### Margin Shorthand Property
 Margin also allows has a shorthand property. Likewise with padding, a single value will define all margins, or a trail of values can be used to set the top, right, bottom, and left margins in a single rule.
 
-<div id="code-heading">CSS</div>
+<div class="code-heading">
+  <span class="css">CSS</span>
+</div>
 ```css
 /* ALL edges with have a margin of 1em: */
 .my-box {
@@ -39,7 +41,9 @@ Margin also allows has a shorthand property. Likewise with padding, a single val
 
 You can also control the margin of individual edges by setting them individually:
 
-<div id="code-heading">CSS</div>
+<div class="code-heading">
+  <span class="css">CSS</span>
+</div>
 ```css
 .my-box {
   margin-top: ;

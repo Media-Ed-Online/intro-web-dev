@@ -15,7 +15,9 @@ Another technique for changing the size of individual boxes (as well as controll
 ### Padding Shorthand Property
 As with borders, you can use shorthand to set the padding of an element. A single value will define all padding, or you can use some nifty trailing tricks to set all four cushions:
 
-<div id="code-heading">CSS</div>
+<div class="code-heading">
+  <span class="css">CSS</span>
+</div>
 ```css
 /* ALL sides with have a padding of 1em: */
 .my-box {
@@ -39,7 +41,9 @@ As with borders, you can use shorthand to set the padding of an element. A singl
 
 You can also control the padding of individual sides by setting them individually:
 
-<div id="code-heading">CSS</div>
+<div class="code-heading">
+  <span class="css">CSS</span>
+</div>
 ```css
 .my-box {
   padding-top: ;

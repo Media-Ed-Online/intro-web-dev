@@ -12,7 +12,9 @@ To begin, we create "boxes" by setting a specified width and height. But setting
 
 Luckily, there's pretty standard CSS template for getting started:
 
-<div id="code-heading">CSS</div>
+<div class="code-heading">
+  <span class="css">CSS</span>
+</div>
 ```css
 .my-box {
   width: ;

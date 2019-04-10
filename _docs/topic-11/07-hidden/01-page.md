@@ -10,7 +10,9 @@ The display property can also be used to 'hide' elements. At first, it may seem 
 
 To hide an element, set the `display` properties value to `none`. To get it to appear, you create a selector made up of the parent container and element in question, with the `:hover` pseudo-class added to the parent.
 
-<div id="code-heading">CSS</div>
+<div class="code-heading">
+  <span class="css">CSS</span>
+</div>
 ```css
 .child-class-to-unhide {
     display: none;

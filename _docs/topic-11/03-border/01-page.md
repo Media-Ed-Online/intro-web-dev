@@ -16,8 +16,9 @@ You can create a border in one lump property (known as the "shorthand"), or each
 
 For borders, the property to define the entire border is simply `border: `. As its declaration, it expects three values, in order: width, style, color.
 
-<div id="code-heading">CSS</div>
-
+<div class="code-heading">
+  <span class="css">CSS</span>
+</div>
 ```css
 div {
     border: 2px solid #623529;
@@ -28,8 +29,9 @@ div {
 
 You may also define each side of a box individually for each partial border property or for the single border property. Simply add the side in question:
 
-<div id="code-heading">CSS</div>
-
+<div class="code-heading">
+  <span class="css">CSS</span>
+</div>
 ```css
 div {
     border: ;
