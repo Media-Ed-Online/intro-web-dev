@@ -808,3 +808,29 @@ topic-11:
     - float-clear
     - float-example
     - todo-float
+
+
+# TOPIC 12
+topic-12:
+  - title: “CSS Website”
+    docs:
+    - overview
+
+  - title: Content to Review
+    docs:
+    - todo-project3-review
+
+  - title: Placeholder Resources
+    docs:
+    - placeholder-text
+    - placeholder-images
+    - placeholder-icons
+    - todo-placeholder
+
+  - title: Interactive Navigation
+    docs:
+    - nav-menu-about
+    - nav-menu-bar
+    - nav-menu-dropdown
+    - nav-menu-sticky
+    - todo-nav-menu
