@@ -15,9 +15,7 @@ tags:
 
 Now that you've had some practice with using CSS, let's apply it to building sites filled with pages that look and fuction with a cohesive theme.
 
-For this site, use your knowledge of CSS to create a 4-page magazine, newspaper, or blog layout. These are sites that showcase time-dependent written content first-and-foremost, and are one of the most utilized site types on the web.
-
-Think of a written material you read on a regular basis - a newspaper, tech blog, recipe repository, or entertainment magazine for example - and begin brainstorming how you could translate it to you own site. This site should showcase:
+For this site, use your knowledge of CSS to create a standard 4-page site for an imaginary client. You'll be introduced to placeholder content and using filler content while prototyping, as well as standard navigation and placement. This site should showcase:
 1. Your understanding of color.
 2. Well-selected and well-paired fonts.
 2. Creative use of typography principles.
