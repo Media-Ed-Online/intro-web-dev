@@ -2,8 +2,8 @@
 
 
 # Intro-Web-Dev Site Repo
-Instructor: Justine Evans
+Instructor: Justine Evans ([justine.evans@umontana.edu](mailto:justine.evans@umontana.edu))
 
 
 ### License
-Released under [the MIT license](LICENSE). 
+Released under [the MIT license](LICENSE).
