@@ -10,7 +10,7 @@ categories: uncategorized
   <div class="col-lg-4">
     <div class="bs-component">
       <div class="list-group">
-        <a href="http://www.20thingsilearned.com/en-US/old-vs-new-browsers/1" target="_blank" class="list-group-item hw-item">
+        <a href="https://media-ed-online.github.io/intro-web-dev-resources/readings/20-things-learned-about-browsers-and-web.pdf#page=20" target="_blank" class="list-group-item hw-item">
           <img class="icon-hw" src="../img/hw-icon-browser-versions.png" />
           <h4 class="list-group-item-heading">Old vs. Modern Browsers</h4>
           <div class="divider-hw"></div>
@@ -22,7 +22,7 @@ categories: uncategorized
   <div class="col-lg-4">
     <div class="bs-component">
       <div class="list-group">
-        <a href="http://www.20thingsilearned.com/en-US/browser-extensions/1" target="_blank" class="list-group-item hw-item">
+        <a href="https://media-ed-online.github.io/intro-web-dev-resources/readings/20-things-learned-about-browsers-and-web.pdf#page=26" target="_blank" class="list-group-item hw-item">
           <img class="icon-hw" src="../img/hw-icon-browser-extensions.png" />
           <h4 class="list-group-item-heading">Browser<br />Extensions</h4>
           <div class="divider-hw"></div>
@@ -34,7 +34,7 @@ categories: uncategorized
   <div class="col-lg-4">
     <div class="bs-component">
       <div class="list-group">
-        <a href="http://www.20thingsilearned.com/en-US/malware/1" target="_blank" class="list-group-item hw-item">
+        <a href="https://media-ed-online.github.io/intro-web-dev-resources/readings/20-things-learned-about-browsers-and-web.pdf#page=37" target="_blank" class="list-group-item hw-item">
           <img class="icon-hw" src="../img/hw-icon-browser-malware.png" />
           <h4 class="list-group-item-heading">Malware, Phishing, and Security Risks</h4>
           <div class="divider-hw"></div>

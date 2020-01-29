@@ -10,7 +10,7 @@ categories: uncategorized
   <div class="col-lg-4">
     <div class="bs-component">
       <div class="list-group">
-        <a href="../going-live/" target="_blank" class="list-group-item">
+        <a href="../gh-pages-live/" class="list-group-item">
           <i class="icon-hw fab fa-github" aria-hidden="true"></i>
           <h4 class="list-group-item-heading">Get Your Site Live on GitHub</h4>
           <div class="divider-hw"></div>
