@@ -315,9 +315,6 @@ topic-05:
 
 ##################################################
 
-
-
-
 # This is a copy:
 
 # TOPIC 06
@@ -424,6 +421,7 @@ topic-06:
     - html5-img
     - todo-html5
 
+##################################################
 
 # TOPIC 07
 topic-07:
@@ -520,6 +518,7 @@ topic-07:
     - audio-formats
     - todo-audio
 
+##################################################
 
 # TOPIC 08
 topic-08:
@@ -550,6 +549,7 @@ topic-08:
     - basic-nav-section
     - todo-basic-nav
 
+##################################################
 
 # TOPIC 09
 topic-09:
@@ -643,6 +643,7 @@ topic-09:
     - more-color
     - todo-using
 
+##################################################
 
 # TOPIC 10
 topic-10:
@@ -732,8 +733,9 @@ topic-10:
     - google-fonts-part-4
     - todo-src-fonts
 
+##################################################
 
-# TOPIC11
+# TOPIC 11
 topic-11:
   - title: “Positioning”
     docs:
@@ -809,6 +811,7 @@ topic-11:
     - float-example
     - todo-float
 
+##################################################
 
 # TOPIC 12
 topic-12:
@@ -834,3 +837,11 @@ topic-12:
     - nav-menu-dropdown
     - nav-menu-sticky
     - todo-nav-menu
+
+##################################################
+
+# TOPIC 13
+topic-13:
+  - title: “Responsiveness”
+    docs:
+    - overview
