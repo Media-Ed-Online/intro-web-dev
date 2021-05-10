@@ -6,6 +6,9 @@ syllabus:   https://moodle.umt.edu/mod/page/view.php?id=1891957
 schedule:   https://moodle.umt.edu/mod/page/view.php?id=1891958
 contact:    https://moodle.umt.edu/mod/page/view.php?id=1891959
 
+# Student contract, usually under topic-00
+contract:   https://moodle.umt.edu/mod/questionnaire/view.php?id=1891956
+
 # Note: topic-00 is usually called "introduction" on the shell.
 topic-00: '#section-1'
 topic-01: '#section-2'
