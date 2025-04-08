@@ -11,7 +11,9 @@ author:
   email: justine.evans@umontana.edu
   slack: https://ummediaarts.slack.com/team/U6T476W7Q
 
-baseurl: ""
+# 2025 update to urls - removed media-ed-online domain to go back to GH pages URL
+# baseurl: ""
+baseurl: https://media-ed-online.github.io/intro-web-dev/
 # url: https://intro-web-dev.media-ed-online.com
 url: https://media-ed-online.github.io/intro-web-dev/
 git_address: https://github.com/media-ed-online/intro-web-dev
